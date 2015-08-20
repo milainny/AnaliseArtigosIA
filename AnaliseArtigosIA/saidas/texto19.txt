@@ -1,0 +1,1406 @@
+British Food Journal
+Plural forms of governance in the beef industry: a case study in Brazil
+Marcelo José Carrer Hildo Meirelles de Souza Filho Marcela de Melo Brandão Vinholis
+Article information:
+To cite this document:
+Marcelo José Carrer Hildo Meirelles de Souza Filho Marcela de Melo Brandão Vinholis , (2014),"Plural forms of
+governance in the beef industry: a case study in Brazil", British Food Journal, Vol. 116 Iss 4 pp. 643 - 661
+Permanent link to this document:
+http://dx.doi.org/10.1108/BFJ-04-2012-0089
+Downloaded on: 15 June 2015, At: 12:20 (PT)
+References: this document contains references to 31 other documents.
+To copy this document: permissions@emeraldinsight.com
+The fulltext of this document has been downloaded 172 times since 2014*
+Users who downloaded this article also downloaded:
+Ilias P. Vlachos, (2014),"The impact of private label foods on supply chain governance", British Food Journal, Vol. 116 Iss 7
+pp. 1106-1127 http://dx.doi.org/10.1108/BFJ-09-2012-0228
+Decio Zylbersztajn, Cláudio A. Pinheiro Machado Filho, (2003),"Competitiveness of meat agri-food chain in Brazil", Supply
+Chain Management: An International Journal, Vol. 8 Iss 2 pp. 155-165 http://dx.doi.org/10.1108/13598540310468751
+Access to this document was granted through an Emerald subscription provided by emerald-srm:478474 []
+For Authors
+If you would like to write for this, or any other Emerald publication, then please use our Emerald for Authors service
+information about how to choose which publication to write for and submission guidelines are available for all. Please
+visit www.emeraldinsight.com/authors for more information.
+About Emerald www.emeraldinsight.com
+Emerald is a global publisher linking research and practice to the benefit of society. The company manages a portfolio of
+more than 290 journals and over 2,350 books and book series volumes, as well as providing an extensive range of online
+products and additional customer resources and services.
+Emerald is both COUNTER 4 and TRANSFER compliant. The organization is a partner of the Committee on Publication
+Ethics (COPE) and also works with Portico and the LOCKSS initiative for digital archive preservation.
+*Related content and download information correct at time of download.
+D
+ow
+nl
+oa
+de
+d 
+by
+ U
+EM
+ A
+t 1
+2:
+20
+ 1
+5 
+Ju
+ne
+ 2
+01
+5 
+(P
+T)
+Plural forms of governance in the
+beef industry: a case study in
+Brazil
+Marcelo Jose´ Carrer and Hildo Meirelles de Souza Filho
+Department of Production Engineering, Federal University of Sa˜o Carlos,
+Sa˜o Carlos, Brazil, and
+Marcela de Melo Branda˜o Vinholis
+Department of Research,
+Brazilian Agricultural Research Corporation (EMBRAPA), Sa˜o Carlos, Brazil
+Abstract
+Purpose – The purpose of this paper is to describe the forms of coordinating transactions used by a
+large beef slaughterhouse and processing companies and their suppliers of beef cattle, and to identify
+the reasons for the adoption of plural forms of governance for their transactions with cattle suppliers.
+Design/methodology/approach – A case study format was selected for this investigation. The
+focal company selected offers a large number of products derived from beef for different
+commercialisation channels in the domestic and foreign market. A non-probability sample of 30
+suppliers (cattle farmers) of the focal company provided data on finished steers sold in 2010, according
+to the three types of governance used in the transactions (spot market, forward contracts and
+long-term contracts).
+Findings – The simultaneous use of more than one type of governance structure to coordinate
+similar transactions has been termed plural forms of governance in the literature. In Brazil, new forms
+of governance, such as formal and informal contracts, have been adopted for transactions between beef
+processing companies and cattle farmers, in addition to the use of spot market and vertical integration.
+It has been shown that the adoption of plural forms reduces the risk of complex transactions; and is a
+strategy to deal with unpredictable institutional environments and high heterogeneity of both
+suppliers and distribution channels.
+Research limitations/implications – The research provides empirical evidence of plural forms of
+governance, as well as the reasons for the adoption of this strategy by firms, which contributes to the
+ongoing theoretical discussion on this subject.
+Practical implications – The paper has implications for company supply chain management.
+Originality/value – This paper presents theoretical review on plural forms of governance, new
+empirical evidence and determinant factors for their adoption.
+Keywords Supply chain, Brazil, Vertical coordination, Beef industry, Buyer-supplier relations,
+Governance structure
+Paper type Case study
+1. Introduction
+The growing pressure for higher quality and improved food safety, as well as the
+environmental sustainability of production processes, has impacted the institutional
+setting in which agro-industrial supply chains are found (Lindgreen and Hingley,
+The current issue and full text archive of this journal is available at
+www.emeraldinsight.com/0007-070X.htm
+The authors would like to thank FAPESP - Sa˜o Paulo Research Foundation for financial support.
+Plural forms of
+governance in
+the beef industry
+643
+Received 16 April 2012
+Revised 30 November 2012
+Accepted 18 December 2012
+British Food Journal
+Vol. 116 No. 4, 2014
+pp. 643-661
+q Emerald Group Publishing Limited
+0007-070X
+DOI 10.1108/BFJ-04-2012-0089
+D
+ow
+nl
+oa
+de
+d 
+by
+ U
+EM
+ A
+t 1
+2:
+20
+ 1
+5 
+Ju
+ne
+ 2
+01
+5 
+(P
+T)
+2003). A new list of policies, laws and control systems has been adopted in an effort to
+meet these new market demands. The agents of the supply chains, especially the rural
+producers and processors, have reacted by changing production systems,
+incorporating innovations and modifying market relations.
+In the beef supply chain, it was necessary to introduce traceability mechanisms,
+launch initiatives to standardise products, react more quickly to changes in
+consumption habits, differentiate products and reduce seasonality in the supply of raw
+material (Souza Filho et al., 2010). The beef industry in Brazil is no longer a traditional
+supplier of beef carcass, as a commodity, and has transformed itself into a supplier of
+specialised products, such as cuts with different quality requirements for a broader set
+of distribution channels. In the domestic market, some commercialisation channels are
+very demanding, such as boutique butchers and sophisticated restaurants, in which
+quality is the determining factor in the customer’s decision to purchase. However, for
+the majority of customers in the low-income bracket, who purchase beef in
+supermarkets, butcher shops and open-air markets, price is much more important than
+quality in determining the decision to purchase. The foreign market, although more
+demanding in terms of quality, is also segmented. While the European Union (EU)
+requires high quality control standards, including a traceability system, and pays a
+higher price for this, other regions are less demanding in terms of control and demand
+products with lower prices.
+This new market configuration and the rising importance of Brazil in the
+international beef market were followed by significant changes in market relations
+between beef processing companies and cattle farmers. Closer ties between rural
+producers and processing companies have been observed, formally through contracts
+or informally, with the aim of raising the efficiency of the production systems and
+reacting to these new circumstances (Vieira and Traill, 2008). In addition to the
+traditional spot market, recent studies have identified the adoption of new forms of
+governance, such as formal and informal contracts, for transactions between beef
+processing companies and cattle farmers, as well as growth in vertical integration
+(Zylbersztajn and Machado Filho, 2003; Caleman et al., 2008).
+The adoption of new forms of governance for the transactions between beef
+processing companies and farmers is related to the changes observed in the demand for
+beef. However, one cannot ignore that the factors associated with beef cattle production
+systems adopted in Brazil also play a role. In Brazil, various livestock production
+systems coexist, for which different standards of technology and administration are
+adopted, as well as different breeds of beef cattle. As a result, the supply of cattle for
+the slaughterhouse units presents great diversity in terms of quality and standards.
+Thus, a great deal of coordination is necessary to match the heterogeneity of the
+consumer beef market with the heterogeneity of the supply sources for beef cattle. In
+this context, the adoption of more than one governance structure by the beef industry
+can be justified.
+The simultaneous adoption of more than one type of governance structure by the
+same company or within the same production chain to coordinate similar transactions
+was classified in the literature as plural forms of governance (Bradach and Eccles,
+1989). Studies have been carried out to analyse the adoption of plural forms and
+identify their main determinants and potential advantages (Bradach, 1997; Mols, 2000;
+Affuso, 2002; Zylbersztajn and Nogueira, 2002; Heide, 2003; Parmigiani, 2007; Silva
+BFJ
+116,4
+644
+D
+ow
+nl
+oa
+de
+d 
+by
+ U
+EM
+ A
+t 1
+2:
+20
+ 1
+5 
+Ju
+ne
+ 2
+01
+5 
+(P
+T)
+and Azevedo, 2007; Dant et al., 2008; Gellynck and Molna´r, 2009; Perrigot et al., 2009;
+Mello and Paulillo, 2010; Schnaider and Saes, 2011; Menard, 2011; Brookes and Roper,
+2012). According to the literature the main advantages of the use of plural forms are:
+lower transaction costs (Mols, 2000; Affuso, 2002; Mello and Paulillo, 2010; Schnaider
+and Saes, 2011); the potential synergies that the different forms of governance can
+provide (Bradach and Eccles, 1989; Bradach, 1997; Brousseau and Codron, 1997;
+Schnaider and Saes, 2011; Menard, 2011); better planning and control of production
+capacity, supply and distribution, resulting in higher production efficiency (Parmigiani,
+2007; Perrigot et al., 2009); more effective monitoring of external suppliers with a
+resulting reduction in asymmetric information in the transactions (Mols, 2000; Heide,
+2003; Menard, 2011); and greater flexibility for the firms to meet their needs (Brousseau
+and Codron, 1997; Silva and Azevedo, 2007; Perrigot et al., 2009).
+Against this backdrop, the main objective of the present work was to describe the
+forms of coordinating transactions used by a large beef slaughterhouse and processing
+company and its suppliers of beef cattle, as well as to identify the causes of different
+governance strategies the firm is following. Section 2 presents a review of the literature
+on plural forms of governance, allowing the identification of potential determinants
+and advantages of this strategy. The methodology for empirical analysis is based on a
+case study of a large Brazilian beef processing company, as presented in section 3. The
+results are presented in section 4, followed by final remarks in section 5.
+2. Plural forms of governance
+The analysis carried out in this article employs the theoretical frameworks of New
+Institutional Economics (NIE) and Transaction Costs Economics (TCE). NIE
+challenges neoclassical microeconomic theory by contesting the automatic
+functioning of the market solely through price mechanisms (Coase, 1937). According
+to NIE, transactions occur in an institutional environment, which determines their rules
+of operation. In this way, the objective of NIE is to identify which is the best form of
+organisation for economic transactions, since different configurations change the rules
+for resource allocation. TCE is based on the assumption that the issue of economic
+organisation is, above all, a matter of governance. In this sense, it endeavours to
+explain the different organisational forms that exist in the market and their contractual
+arrangements, highlighting the institutional environment and its interaction with
+organisations. According to TCE, there are different possible governance structures
+and the agents must work to discover governance structures that enable lower
+transaction costs. In a broader definition, transaction costs can be described as the
+“costs of running the economic system” (Arrow, 1969, p. 48) or the “equivalent of
+friction in physical systems” (Williamson, 1985, p. 19). There are ex ante and ex post
+transaction costs. The first are the costs of drafting, negotiating, and safeguarding an
+agreement, while the second are costs incurred when transactions drift out of
+alignment.
+Williamson (1985) identifies three basic forms of coordinating transactions, also
+called governance structures:
+(1) Spot market – adapted form of non-specific transaction, where there is no effort
+made to repeat the relationship. In this format, the evaluation of the relationship
+by the parties is based on experience. It is the case that best approximates the
+neoclassical theoretical framework of pure competition.
+Plural forms of
+governance in
+the beef industry
+645
+D
+ow
+nl
+oa
+de
+d 
+by
+ U
+EM
+ A
+t 1
+2:
+20
+ 1
+5 
+Ju
+ne
+ 2
+01
+5 
+(P
+T)
+(2) Hybrid forms – given the specificity of the assets and the recurrence of the
+transactions, relationships of trust can be built. In this case, incentives sufficient
+to bring the transaction between the agents into the firm (vertical integration)
+were not found. Formal and informal contracts can be established, since the
+agents are inclined to establish and comply with their clauses.
+(3) Vertical integration or hierarchy – coordination necessary for regular
+transactions and in the presence of highly specific assets. In this case, the
+transactions between agents are brought into the hierarchy of the firm.
+The emphasis placed by Williamson (1985) on the analysis of arrangements uncovered
+hybrid structures, which lie somewhere between the market and the hierarchy. Me´nard
+(2004) stressed the need to build a theory that explains these structures, in which the
+agents are completely independent of each other, but work together in some type of
+business. In arrangements of this type, the agents share technological knowledge,
+capital, products or services, without, however, becoming a part of activities within a
+single firm. The influence of price mechanisms is lower than in the spot market.
+Regardless of its format, the coordination of activities is based on cooperation between
+the parties and in the sharing of important decisions, such as investment decisions.
+This union creates a culture that encourages the joint pursuit of better performance
+and greater profitability for the whole. However, a poor distribution of tasks and gains
+can easily generate conflict, which can destabilise the arrangement.
+Various studies have used TCE with the aim of identifying existing governance
+structures. In sectors focusing on the production of agri-food products, the emphasis
+has been on agricultural food chains, allowing the identification of the three basic
+forms, as defined by Williamson (1985). Although Williamson (1985) did not directly
+touch on the the possibility of companies using more than one structure of governance
+simultaneously, Bradach and Eccles (1989) found that this did in fact occur in the real
+world. The authors have termed this as plural forms, in which “[. . .] distinct
+organisational control mechanisms operate simultaneously for the same function by
+the same firm.” (Bradach and Eccles, 1989, p. 112). Following them, many studies have
+identified the coexistence of more than one form of governance within the same supply
+chain to govern similar transactions (Bradach, 1997; Mols, 2000; Affuso, 2002;
+Zylbersztajn and Nogueira, 2002; Heide, 2003; Parmigiani, 2007; Silva and Azevedo,
+2007; Dant et al., 2008; Gellynck and Molna´r, 2009; Mello and Paulillo, 2010; Schnaider
+and Saes, 2011; Menard, 2011; Brookes and Roper, 2012). Most of these studies address
+the adoption of plural forms in downstream transactions. Few studies have sought to
+identify the adoption of more than one form of governance in upstream transactions; as
+did Heide (2003), on purchasing relationships between original equipment
+manufacturers and component suppliers, and Parmigiani (2007) on sourcing model
+decisions by manufacturing firms in the tooling industry. Also, a few of them have
+adopted a single firm approach, as in section 4 of this article.
+The literature that addresses the coexistence of various forms of governance in a
+single market, or by a single firm, presents various explanations for the phenomena.
+These explanations can be classified into three groups, which will be analysed below:
+different features of the transactions; plural forms as a transitional situation; and stable
+plural forms as a strategy to coordinate the transactions over time. According to the
+authors of the first group, organisational forms can be plural, or in other words use
+BFJ
+116,4
+646
+D
+ow
+nl
+oa
+de
+d 
+by
+ U
+EM
+ A
+t 1
+2:
+20
+ 1
+5 
+Ju
+ne
+ 2
+01
+5 
+(P
+T)
+more than one type of governance structure, if the transactions are different,
+distinguishing themselves in at least one of their classic features: specificity of assets,
+uncertainty and frequency. This explanation for the use of plural forms is in line with
+the model by Williamson (1991), which states that different mechanisms actually
+govern different transactions in at least one feature. For Minkler and Park (1994), the
+different levels of specificity of assets involved in the transactions established by the
+firm are what justify the simultaneous presence of different governance mechanisms.
+The theoretical framework proposed by Menard (2011) added the attribute ambiguity,
+which arises out of a difficulty to analyse the specificity of the assets at the time the
+transaction is conducted, and the complexity of the transactions in the analysis of the
+adoption of plural forms. In this sense, Mols (2000), Heide (2003), Parmigiani (2007) and
+Mello and Paulillo (2010) found empirical evidence that the adoption of plural forms is
+explained by differences in transaction-specific investments, uncertainty and
+transaction frequency.
+The second and third group of authors use the same arguments as the first group to
+justify the existence of plural forms. However, they add to the discussion on the
+stability and advantages of plural forms. The author of the second group considers the
+use of more than one form of governance as transitional, where one or another
+governance structure should prevail as adjustments occur. Within the scope of the
+agro-industrial systems, the issue of plural forms was addressed by Zylbersztajn and
+Nogueira (2002), who assumed that the most efficient arrangement would be gradually
+adopted by the agents, in other words, alternative types of governance could coexist as
+points of disequilibrium in an adjustment process. For the authors, the plurality of
+arrangements could be explained by: situations of disequilibrium, in which the
+presence of plural forms could represent a situation of adjustment between the current
+and future forms, driven by modifications in the features of the transactions; barriers to
+the adoption of a new improved governance due to the existence of specific
+non-transferrable routines; and effects of the institutional environment in which
+governance occurs as an event generating multiple alignments.
+The authors of the third group argue that plural forms are stable and are part of the
+strategy for coordinating transactions by firms. The justification for this is found in the
+complementarity of the mechanisms of governance (Bradach and Eccles, 1989;
+Brousseau and Codron, 1997; Bradach, 1997; Heide, 2003; Parmigiani, 2007; Schnaider
+and Saes, 2011; Menard, 2011). In other words, this stability in the mix of governances
+occurs due to the possibility of exploring some synergy between complementary
+mechanisms of governance. In this case, there are situations in which part of the
+function of the contract would contribute to the efficiency of another contractual form,
+revealing that, in addition to being alternatives, the mechanisms of coordination can be
+complementary. The pioneering study by Bradach and Eccles (1989) posited that the
+adoption of plural forms of governance is related to the use of one form of governance
+to manage the other. For example, the companies can adopt vertical integration to
+acquire knowledge about a production process of its raw material and, based on this
+knowledge, begin to demand better results from their suppliers in terms of the quality
+or price of the product supplied. Porter (1980) had already noted some of the
+advantages that partially integrated companies obtain in relationships with their
+suppliers on the spot market. Although the author did not expressly use the term plural
+forms, he did perceive that by adopting more than one form of governance (vertical
+Plural forms of
+governance in
+the beef industry
+647
+D
+ow
+nl
+oa
+de
+d 
+by
+ U
+EM
+ A
+t 1
+2:
+20
+ 1
+5 
+Ju
+ne
+ 2
+01
+5 
+(P
+T)
+integration and spot market) in upstream transactions, the companies were able to
+exercise greater bargaining power in the purchase of raw materials from external
+suppliers on the spot market. Brousseau and Codron (1997), upon analysing the supply
+of fruit in French supermarkets, discovered that the coexistence of plural forms
+promotes complementarity for the firm, allowing the distributor to: match price and
+quality strategies; ensure flexibility to face uncertainties about the quantity and
+quality of production; and enable the learning of a governance to be used in the
+management of the other, resulting in a cross-learning effect.
+According to the literature of TCE, transactions made purely on the spot market are
+subject to the problems of adverse selection and moral hazard. Heide (2003) proposes
+that a plural forms approach involves using a particular type of agent (i.e. an internal
+one) to reduce the problems of information asymmetry (adverse selection and moral
+hazard) in relation to another type of agent (i.e. the external one) due to the nature of the
+information that becomes available through vertical integration or partnership
+contracts. Information on the production and process technology used by suppliers
+outside the company is not always visible, and can result in adverse selection. Moral
+risk occurs when suppliers selected by the company act in an opportunistic manner,
+altering, for example, the quality of the input pre-established between the parties. This
+behaviour harms the competitiveness of the firm. The author, using primary data on
+purchasing relationships between original equipment manufacturers and component
+suppliers, and a logit model approach, found that the higher the asymmetry of
+information present the transactions, the higher the chance that the companies would
+use plural forms with their suppliers. In this case, plurality is understood to mean the
+adoption of hierarchy to partially meet the supply needs of the companies. The
+remainder of this supply would be met by a third party. The adoption of plural forms
+enables a reduction of information asymmetry in the transactions with suppliers,
+without having to internalise all production. By internalising part of production, the
+firms are able to impose elements of a hierarchical transaction in their transactions in
+the spot market, which, in turn, reduces the possibility of exposure to moral risk or
+adverse selection in transactions (Heide, 2003).
+Parmigiani (2007), when analysing sourcing model decisions from 193
+manufacturing firms, found evidence that the adoption of plural forms is stable in
+the long term. Using qualitative choice statistical models, the author identified that the
+adoption of plural forms is determined by transaction attributes (asset specificity and
+uncertainty), as well as by proxy variables for allocative efficiency and firm
+capabilities. The finding that all three theories (TCE, neoclassical economics and firm
+capabilities) contribute to the choice of sourcing mode illustrates the firm’s desire to
+simultaneously monitor suppliers, produce efficiently and improve processes
+(Parmigiani, 2007). Schnaider and Saes (2011) also argue that plural forms are stable
+in the long term, since they allow companies to take advantage of market incentives,
+increase the level of monitoring and coordination of transactions and production
+activities. Hybrid forms, vertical integration and the spot market can be
+simultaneously adopted to reduce both transaction and production costs.
+Menard (2011) developed a theoretical framework that aligns most of the arguments
+presented in the literature to explain the existence of plural forms of governance.
+According to the author, three determinants play a major role: “ambiguity surrounding
+the fitness of a mode of organisation for the transaction in question; complexity of a
+BFJ
+116,4
+648
+D
+ow
+nl
+oa
+de
+d 
+by
+ U
+EM
+ A
+t 1
+2:
+20
+ 1
+5 
+Ju
+ne
+ 2
+01
+5 
+(P
+T)
+transaction or a set of transactions; and strategic behaviour”. There will be ambiguity
+about the choice of the governance because the degree of specificity of assets involved
+cannot be assessed precisely. In these cases, the expected benefits from one type of
+governance or another cannot be precisely evaluated. It is almost impossible to assess
+the marginal advantages of one mode of organisation over another, so plural forms are
+adopted.
+The second determinant is the complexity of some transactions, which can generate
+uncertainties about the appropriate manner to monitor the transaction. In this case, the
+problem is not one of evaluating the specificities of the assets, but rather the problem of
+finding an appropriate manner of monitoring the transactions. In highly complex
+transactions, the risk of adopting only one form of governance can be quite high,
+increasing transactions costs and generating inefficiencies for the firms. The solution
+would be to adopt plural forms to mitigate the risk generated by the complexity. The
+third determinant for adoption of plural forms is the strategic behaviour in the
+organisation of certain transactions. This happens “when a party intends to take the
+lead of the relationship by determining the governance structure of the arrangement
+but faces problems of coordination or control that could challenge his capacity to reap
+the benefits.” The use of different organisational forms can facilitate monitoring and
+control, so that a more significant part of the rent can be captured. Menard (2011)
+concluded that the firms could find different solutions to govern similar transactions,
+adopting plural forms and generating multiple equilibria, unlike the single equilibrium
+(resulting from the adoption of the form of governance that minimises transaction
+costs) proposed by Williamson (1991).
+In summary, the body of studies reviewed establishes the following explanations
+and advantages for the adoption of plural forms: transaction characteristics (asset
+specificity, uncertainty, frequency, ambiguity and complexity); effects of the
+institutional environment; complementarity of the forms (generation of synergies,
+cross-learning effects); ensuring flexibility when faced with the
+uncertainties/complexities of the transactions and variations in demand; resolving
+the problem of information asymmetry to avoid adverse selection and moral risk.
+3. Methodology
+A case study format was selected for this investigation. The focal company selected
+offers a large number of products derived from beef for different commercialisation
+channels in the domestic and foreign market. The company has therefore adopted a
+wide range of commercialisation strategies to both sell beef products and buy cattle.
+However, data on the quantity of cattle it buys, according to each type of governance
+was not provided them, because it was considered strategic information.
+Notwithstanding, a non-probability sample of 30 suppliers (cattle farmers) of the
+focal company provided data on finished steers sold in 2010, according to the three
+types of governance used in the transactions (spot market, forward contracts and
+long-term contracts). Out of a total of 74,301 cattle, 31,818 (43 per cent) were
+commercialised using a forward contract, 24,000 cattle (32 per cent) were
+commercialised using a long-term contract established with the owner of the
+integrated cattle farm that is certified to export to the EU, and 18,483 cattle (25 per cent)
+were commercialised through the spot market. These data corroborate the qualitative
+Plural forms of
+governance in
+the beef industry
+649
+D
+ow
+nl
+oa
+de
+d 
+by
+ U
+EM
+ A
+t 1
+2:
+20
+ 1
+5 
+Ju
+ne
+ 2
+01
+5 
+(P
+T)
+information obtained through interviews with the manager of market operations of the
+focal company regarding the use of plural forms of governance for purchase of cattle.
+The company has six slaughterhouses located in different Brazilian states, two
+slaughterhouses abroad, 11 distribution centres in Brazil and offices in the main
+countries to which it exports its products. In 2010, 192,900 tons of in natura beef was
+sold on the international market and 121,600 tons in the domestic market. The main
+destinations of beef exported were the Middle East (26.1 per cent of the volume
+exported), followed by Russia and other states of the former Soviet Union (25.8 per
+cent), the Americas (19 per cent), Africa (14.9 per cent), Europe (8.7 per cent) and Asia
+(5.3 per cent). The company was responsible for 20.2 per cent of the total revenue from
+Brazilian exports of beef for the year 2010.
+Interviews were carried out with the manager of market operations for the focal
+company, a specialist in the finished cattle market and a certification specialist. For
+these interviews a semi-structured questionnaire was used to obtain information that
+enabled: the mapping of the supply chain of the focal company, covering the different
+distribution channels and types of suppliers; identification of the product attributes
+valued in the distribution channels; identification of the features of the transactions
+with the suppliers and the forms of governance being used; and identification of major
+determinants of governance strategies that the focal firm is following. A previous
+version of the results was submitted to the manager of market operations of the focal
+company for validation of the results.
+4. Results and discussion
+Figure 1 shows a diagram of the supply chain of the focal company, which is located at
+the centre of the figure. Its transactions with different distribution channels and
+suppliers are represented by solid lines and identified by Tn. Two main distribution
+channels were identified for the domestic market and two for the foreign market. In the
+domestic market, the meat processing plant serves the meat demand for barbecue
+houses (T1) and retailers (T2). In the foreign market, there are clients from the EU (T4)
+and other countries (T3). Each one of these distribution channels has its own
+characteristics and values different attributes of the beef.
+Figure 1.
+Diagram of the supply
+chain of the focal company
+BFJ
+116,4
+650
+D
+ow
+nl
+oa
+de
+d 
+by
+ U
+EM
+ A
+t 1
+2:
+20
+ 1
+5 
+Ju
+ne
+ 2
+01
+5 
+(P
+T)
+To meet this demand, the focal company obtains beef cattle through transactions with
+independent cattle farmers (spot market, T6; forward contract, T7), independent cattle
+farmers certified to export to the EU (forward contracts, T8; and spot market, T9), an
+integrated farm using a partnership model (T10) and intermediaries (T12), as well as
+from production on their own farms (T5). The intermediaries also obtain beef cattle
+through transactions with other cattle farmers, but this is outside the scope of the
+analysis of this study and is not represented in Figure 1. It is important to note that
+transaction T11, the only transaction represented by a dotted line, is carried out
+between the focal company and cattle farmers who raise backgrounding steers. This
+transaction does not involve direct physical flow of animals between these farmers and
+the focal company, and is part of a wider arrangement of partnerships coordinated by
+the focal company, which will be further explained later.
+Table I shows a summary of the transactions established by the focal company with
+the different commercialisation channels (downstream) and level 1 cattle farms
+(upstream). The transactions with cattle farmers are further classified according to
+their priority (priority and marginal). The priority transactions for the purchase of
+cattle are those that occur more frequently and with higher volume. They serve the
+demands of the respective commercialisation channel more efficiently. The marginal
+transactions are those that occur sporadically.
+Note that to serve the barbecue houses (T1), only one type of transaction was used
+(T5). However, to serve the remaining commercialisation channels, two or more
+transaction types are always used. The most extreme case is serving the demands of
+the domestic retail market, which can be carried out using four types of coordination.
+The following sections describe the relationship between the beef attributes desired
+by the main distribution channels and the governance structure established in each
+transaction for the acquisition of cattle.
+4.1 Barbecue houses
+The focal company uses a T1 transaction to serve barbecue houses. These
+establishments value organoleptic characteristics, such as tenderness and flavour.
+These characteristics, as described by Azevedo (2000), are experiential, meaning that
+they are only observable during consumption. The presence of these organoleptic
+characteristics in the final product depends on a set of factors (animal genetics, animal
+nutrition, production system and industrial processes) that are not visible to the end
+consumer, and are also many times not visible to the focal company.
+To resolve the problems of measuring the quality of the raw material and the final
+product, Azevedo (2000) proposed the use of long-term contractual arrangements with
+Upstream transactions
+Downstream transactions Priority Marginal
+Domestic market
+Barbecue Houses T1 T5 –
+Retailers T2 T6 and T7 T5 and T12
+Foreign market
+Other countries T3 T8 and T10 T9
+EU T4 T5, T6 and T7 –
+Table I.
+Upstream and
+downstream transactions
+established by the focal
+company
+Plural forms of
+governance in
+the beef industry
+651
+D
+ow
+nl
+oa
+de
+d 
+by
+ U
+EM
+ A
+t 1
+2:
+20
+ 1
+5 
+Ju
+ne
+ 2
+01
+5 
+(P
+T)
+the suppliers or the vertical integration of production. These two forms of
+commercialisation have the potential to minimise the problems of measuring
+characteristics of the raw material, increasing control over the process of raw material
+production and, consequently, increasing the quality of the final product. In fact, to
+serve the distribution channel represented by the barbecue houses/grills, the focal
+company generally uses vertical integration (transaction T5). On its own farms
+animals are produced that meet the organoleptic characteristics of flavour and
+tenderness that are valued by this distribution channel. According to the interview
+with the manager of market operations, by internalising part of the production, the
+company reduces information problems and costs associated with measuring
+characteristics of experiential goods, in addition to considerably increasing control
+over the quality of the raw material, therefore reducing transaction costs. However, by
+internalising part of the production of raw material, the company increases its
+production costs, which is compensated by higher prices paid by agents of this
+distribution channel.
+4.2 Retailers
+The distribution channel represented by the retailers (small, medium and large retail
+chains) is served by the focal company using the T2 transaction. In this type of
+transaction, the cuts of beef are standardised and sold under the focal company’s own
+brand. This distribution channel is less demanding than barbecue houses with regard
+to organoleptic characteristics. In this case, the attributes most valued by the consumer
+at the time of purchase are price and quantity. However, the increase in per capita
+income and purchasing power of the Brazilians has changed food consumption habits
+and made the Brazilian consumer increasingly demanding, mainly with regard to meat
+quality and food safety. The persistence of this increase in income points to continued
+changes in attributes valued in this distribution channel and includes the emergence of
+more demanding market niches.
+To serve the distribution channel represented by the small, medium and large retail
+chains (transaction T2), the focal company acquires raw material from independent
+cattle farmers. These transactions occur predominantly through the spot market
+(transaction T6) and through forward contracts (transaction T7). To a much lesser
+extent, the focal company also uses animals from its own farms (transaction T5) to
+serve this distribution channel.
+In the transactions formalised by means of a forward contract, clauses concerning
+the future delivery date of the animals, quantity, weight, age and sex of the animals, in
+addition to price, are pre-established. The price is calculated based on the indicator
+ESALQ/BM&F[1], with the addition or not of a premium. This premium is determined
+by the supply and demand conditions of the market and by the quality of the animal.
+For the cattle farmer, the forward contract allows the technical and financial
+scheduling of production and reduces the risk due to greater specificity of the asset and
+uncertainty of the institutional environment, ensuring the future sale of the product at
+a pre-determined price and encouraging investment in improvements to the production
+processes with possible gains in quality and productivity. For the focal company, it
+ensures the supply of raw material with pre-specified standards of quality and allows
+better planning and control of supply and production with consequent gains in
+coordination and competitiveness.
+BFJ
+116,4
+652
+D
+ow
+nl
+oa
+de
+d 
+by
+ U
+EM
+ A
+t 1
+2:
+20
+ 1
+5 
+Ju
+ne
+ 2
+01
+5 
+(P
+T)
+With a more comfortable position from which to plan its operations, including a
+lower risk of raw material shortages, the company increases its bargaining power in
+transactions with cattle farmers on the spot market. In other words, the more secure
+availability of animals purchased through forward contracts reduces dependence on
+the spot market and, in this way, the company can obtain lower prices than the average
+observed in this market. This strategy corroborates the idea that the use of plural
+forms of governance enables gains from synergies (Brousseau and Codron, 1997;
+Parmigiani, 2007; Schnaider and Saes, 2011; Menard, 2011). In the case of the present
+study, the focal company takes advantage of the potential for financial planning, scale
+and quality that the forward contract can offer and, as a result, obtains lower prices on
+the spot market. This supply strategy adopted by the focal firm corroborates the
+pioneering vision of Bradach and Eccles (1989) that the adoption of plural forms of
+governance is related to the use of one form of governance to manage the other.
+It is also important to note that in some regions of Brazil, the focal company
+conducts transactions with intermediaries, carried out through the spot market
+(transaction T12) to acquire finished steers that will be used in the production of beef
+for the retail market. These intermediaries purchase animals from various small
+producers and resell them, with gains from scale, to the focal company. However, these
+transactions are marginal and tend to shrink as the market evolves and as the
+company reduces transaction costs and increases control over the quality of the raw
+material.
+4.3 EU
+The EU market (transaction T4) is demanding with regard to organoleptic
+characteristics of the beef and food safety. This distribution channel also requires
+the traceability of the animals, from rural production until slaughter. The traceability
+system used in Brazil, known as SISBOV[2], is supervised by the Ministry of
+Agriculture, Livestock and Supply (MAPA), which is responsible for certifying the
+farms where cattle are obtained for meat production and exported to the EU[3].
+The rural producer who wants to raise animals that can be used in the production of
+beef for export to the EU must meet the following requirements: SISBOV enrolment,
+producer registration, farm registration, basic production protocol, record of inputs
+used at the farm, individual identification of all of the cattle on the farm, control of
+animal transfer and monitoring by a single certification agency. The certification
+process is relatively slow and must be audited on a bi-annual basis by MAPA.
+Certification for export to the EU is also used as a benchmark for other countries, such
+as Russia and the Middle East (Vinholis and Souza, 2010).
+The set of requirements imposed by the EU increases the specificity of the raw
+material, pointing to a need to build a relationship that is closer and more coordinated
+between the focal company and its suppliers. In this way, to purchase animals that will
+meet the requirements of this commercialisation channel, the focal company uses T8,
+T9 and T10 transactions, detailed as follows.
+To obtain finished steers using the T10 transaction, the company coordinates
+partnerships with two types of animal suppliers: a large cattle farmer (owner of a farm
+certified for export to the EU) and a group of cattle farmers supplying backgrounding
+steers (raised on uncertified farms) (Figure 1). The focal company purchases
+backgrounding steers from the uncertified farms (T11) to then supply the certified
+Plural forms of
+governance in
+the beef industry
+653
+D
+ow
+nl
+oa
+de
+d 
+by
+ U
+EM
+ A
+t 1
+2:
+20
+ 1
+5 
+Ju
+ne
+ 2
+01
+5 
+(P
+T)
+finishing farm[4, 5]. The T11 transaction does not involve the direct flow of animals,
+but the negotiation of backgrounding steers that will be fattened and confined on the
+certified farm, and then later slaughtered by the focal company. Payment for these
+backgrounding steers to the cattle farmers will be made by the focal company only
+after the finishing stage on the certified farm, in other words, at slaughter, with the
+price determined at time of purchase or set on the date of slaughter using that day’s
+market price. The integrated confinement farm has the capacity to fatten 24,000 head
+of cattle a year, and is dedicated exclusively to the final production phase of the
+animals, which consists of a 90-day confinement. The focal company formalises a
+long-term partnership contract with the owner of the cattle farm in which he pledges to
+supply backgrounding steers and technical assistance, as well as the predetermined
+amount of R$ 0.50 per 15 kg of fattened animal. The monetary value of the weight gain
+obtained by the cattle on the farm (the difference in weight upon entering and leaving
+confinement) is paid by the focal company. With this governance structure, the focal
+company ensures a supply of high-quality cattle that it needs to serve the EU. The
+following list presents the advantages that the governance structure developed and
+coordinated by the focal company for transaction T10 can provide to the three agents
+involved:
+(1) Advantages for the livestock suppliers of backgrounding steers:
+. the ability to export to the EU and receive half the Europe premium without
+being on the TRACES list and without having to pay the costs of
+traceability;
+. the ability to establish a forward contract with the meat processing plant,
+protecting itself from price variations in cattle and ensuring its sale; and
+. resting of pasture during the dry season, when animals go to the finishing
+farm, providing increased capacity during the rainy season and increased
+productivity.
+(2) Advantages for the focal company:
+. the company maintains a safe stock of 24,000 head of cattle per year through
+a long-term contract with the owner of the finishing farm;
+. despite having to pay for part of the production costs (animal nutrition and
+consulting), the company can focus on its core activity by outsourcing the
+raising and fattening of animals; and
+. control over the quality of raw material through incentives for use of
+management and nutrition techniques.
+(3) Advantages for the owner of the finishing farm:
+. receives a set price per head and pays no transaction costs, since the focal
+company negotiates the purchase of the animals for finishing on the certified
+farm and all the animals are slaughtered at the focal company itself;
+. receives the necessary technical assistance for production, reducing
+production costs; and
+. the opportunity to focus solely on production with resulting gains in
+productivity and increases in remuneration.
+BFJ
+116,4
+654
+D
+ow
+nl
+oa
+de
+d 
+by
+ U
+EM
+ A
+t 1
+2:
+20
+ 1
+5 
+Ju
+ne
+ 2
+01
+5 
+(P
+T)
+Following the proposal developed by Lazzarini et al. (2001), the partnership model
+coordinated by the focal company establishes three types of interdependence between
+the agents: the first is group interdependence between the farmers raising the
+backgrounding steers and the owner of the certified farm; the second is the sequential
+interdependence between the farmers raising the backgrounding steers and the focal
+company; and the third is the reciprocal interdependence between the owner of the
+certified farm and the focal company.
+The partnership model identified in this work points to a trend in the development
+of new coordination arrangements in the production chain of Brazilian beef. The
+partnership/structure model of governance analysed is designed to reduce both the
+costs of obtaining information on raw material through traceability and also other
+transaction costs through contracts used between the focal company and the owner of
+the farm and between the focal company and the cattle farmers. The partnership
+arrangement also has the objective of encouraging investments in quality in cattle
+raising and ensuring the supply of quality cattle for the focal company, in addition to
+potentially increasing the profitability of all agents involved. It is important to stress
+that no similar partnership arrangements were found in the literature for the beef
+production chain in Brazil, indicating that it is an innovation in relations between meat
+processing plants and cattle farmers.
+The governance established above was not sufficient to meet the demand of the
+focal company for certified animals. To do so, the company had to establish a second
+type of governance for transactions (transaction T8) with other cattle farmers, whose
+farms were also certified. This governance is characterised by the use of forward
+contracts, whose advantages and design have already been explained. However, in the
+case of purchasing cattle to meet EU demand, there are two basic conditions in the
+design of these contracts. The first condition is that the cattle raising farm must be
+listed on TRACES, in other words, it must be duly certified for export; and the second
+refers to the price for fattening, which could be defined as a bonus, and is known as the
+Europe premium.
+Marginally, the focal company can also purchase animals from certified farms
+through the spot market (transaction T9) to serve the EU. This governance mechanism
+would not be the most suitable in this case, given the high specificity of the asset
+traded. However, these transactions become feasible when the focal company conducts
+a large number or high frequency of transactions with certain cattle farmers, thus
+creating an environment of trust, and making forward contracts unnecessary.
+Although these transactions are carried out on the spot market, the Europe premium is
+also paid.
+The strategy of adopting plural forms for the supply of animals enabled the focal
+firm to obtain greater flexibility and reduce the risks associated with meeting EU
+demand. In fact, the demand from the EU for traceable beef in Brazil has been unstable,
+whether due to factors related to changes in the income of the European consumer or
+embargos associated with technical barriers to trade. Faced with a sudden fall in
+demand for Brazilian beef, the focal firm ends their purchase operations for traceable
+finished steers on the spot market, or removes the Europe premium offered on these
+operations. In this way, the firm avoids the costs associated with ex post changes in the
+institutional environment. However, it is not able to avoid these costs in operations
+involving partnerships or forward contracts for traceable cattle. Even if the firm is able
+Plural forms of
+governance in
+the beef industry
+655
+D
+ow
+nl
+oa
+de
+d 
+by
+ U
+EM
+ A
+t 1
+2:
+20
+ 1
+5 
+Ju
+ne
+ 2
+01
+5 
+(P
+T)
+to redirect the surplus to other commercialisation channels, it is unlikely to obtain
+premium prices that justify the adoption of such forms of governance. Against a
+backdrop of rising European demand for Brazilian beef, the opposite occurs. The focal
+company sustains its purchase operations using the partnership model and forward
+contracts, and can also expand its purchases using the spot market. In this case, the
+Europe premium tends to rise until the supply of traceable cattle adjusts to the new
+demand. The adoption of plural forms of governance allows the focal company to meet
+the requirements of the EU in terms of beef quality attributes, without having to
+internalise production, bear the burden of all the production costs or lose the incentives
+offered by the market upstream.
+4.4 Other countries
+The distribution channels of foreign markets that do not require a traceability system
+like the European one are served using T3 transactions. In these transactions,
+guarantees are offered by the Official Veterinary Services, by means of a declaration
+from the producer attesting to the rural property origin of the animals and supervised
+by the Official Veterinary Service. The principal demands are limited to requirements
+of the Export Health Certificate, which includes, for example, that the animals must be
+less than 30 months old (Vinholis and Souza, 2010).
+To serve the foreign market distribution channels regarding T3, the focal company
+purchases animals through the spot market (T6) and forward contracts (T7), and from
+their own farms (T5). Since these distribution channels do not require EU standard
+traceability, the asset is much less specific than the asset for that market. However,
+efforts are made by the focal company to obtain the highest quality raw material to
+serve these channels, given its strategy to increase competitiveness in the foreign
+market. In transactions using forward contracts and vertical integration, as just
+mentioned, there is the possibility of reducing transaction and measuring costs and
+encouraging investment in the quality of raw material through the promise of future
+transactions and payment of premiums, in the case of high quality cattle. In the
+transactions carried out on the spot market, quality control and incentives for
+investment in quality are reduced.
+The supply strategy to serve the distribution channel represented by other countries
+(transaction T3) is very similar to the strategy for serving domestic market retail
+chains (transaction T2). In both cases the focal firm uses the spot market in conjunction
+with other forward contracts and, sporadically, vertical integration. As already
+emphasised, there are three advantages derived from the use of this supply strategy
+that became evident in the present study: i) greater flexibility in adjusting to changes in
+demand; ii) ability to take advantage of synergies, making use of the pre-determined
+scale contained in the forward contract to increase bargaining power and pay lower
+prices on the spot market; iii) a decrease in information asymmetry in the transactions
+using vertical integration, enabling the acquisition of more knowledge about the
+production of the raw material, and consequently more control over the suppliers of
+raw material.
+4.5 Complexity and strategy
+The classification established by Menard (2011) allows us to conclude that the plural
+forms adopted for the upstream transactions were determined by the complexity of
+BFJ
+116,4
+656
+D
+ow
+nl
+oa
+de
+d 
+by
+ U
+EM
+ A
+t 1
+2:
+20
+ 1
+5 
+Ju
+ne
+ 2
+01
+5 
+(P
+T)
+transactions in certain commercialisation channels, as well as the strategic behaviour
+of the focal firm. Table II presents the role of each of the determinants established by
+Menard (2011).
+To meet the demand of barbecue houses, the focal firm does not adopt plural forms
+of governance for the supply of raw material. In the case of retailers in the domestic
+market, the adoption of plural forms upstream is determined by the supply strategy of
+the firm. These transactions present neither ambiguity nor complexity. The use of
+plural forms is a strategy for securing in advance a part of the supply of animals, by
+adopting forward contracts, and, simultaneously, reaping the benefits of the spot
+market. Cross-learning effects are also an advantage of this strategy.
+To meet the strict requirements of the EU, the adoption of plural forms is mainly the
+result of the complexity of the transactions upstream. The inherent uncertainties of the
+institutional environment and the need to obtain traceable animals of high quality
+make these transactions complex and risky. The focal firm uses plural forms as a way
+to keep these factors under control. In the case of other countries, the adoption of plural
+forms is determined by the strategy of the firm. In this case, the supply strategy is
+similar to the strategy adopted to serve retailers in the domestic market.
+5. Final considerations
+The present case study showed that the governance structures in the transactions
+between cattle farmers and meat processing plants change according to consumer
+demands and institutional environment. Plural forms of governance were adopted as a
+strategy for coordinating transactions and because of the complexity of some
+transactions. The focal company uses different forms of governance with their
+suppliers to serve different distribution channels in an effort to take advantage of the
+synergies that the different forms provide and to keep uncertainties about the quality
+and quantity of raw materials under control. The company uses the spot market,
+hybrid forms and vertical integration to purchase cattle. This strategy provides a
+competitive advantage, since it allows the company to serve different distribution
+channels, with different levels of requirements in terms of quality and other product
+attributes. It reduces the risk of depending on just a few suppliers by diversifying
+supply strategies. It also reduces the risk that comes from complexity and
+unpredictable institutional environment in the international market.
+Determinants of plural forms in upstream transactions
+Distributions channels Ambiguity Complexity Strategy
+Domestic market
+Barbecue houses 0 0 0
+Retailers 0 0 þþ
+Foreign market
+EU 0 þþ þ
+Other countries 0 0 þþ
+Notes: In this table, 0 means that the relevant variable does not seem to play a significant role in the
+choice of the plural forms of governance, + signals that the related variable has a moderate influence,
+++ indicates a major determinant
+Table II.
+Determinants of plural
+forms in upstream
+transactions
+Plural forms of
+governance in
+the beef industry
+657
+D
+ow
+nl
+oa
+de
+d 
+by
+ U
+EM
+ A
+t 1
+2:
+20
+ 1
+5 
+Ju
+ne
+ 2
+01
+5 
+(P
+T)
+The adoption of plural forms allows the company to improve its planning and control
+of supply, with consequent gains in the use of installed capacity. The strategy of
+adopting plural forms also appears to be gaining ground in other companies and in
+other sectors, and deserves further in-depth study. This study is novel in pointing out
+the advantages that this strategy can provide based on a case study carried out at a
+large company of the beef industry that serves different distribution channels with
+differentiated products (in terms of quality and packaging/cuts).
+Most empirical studies on plural forms evaluate their existence within a sector or
+production chain, without wondering whether plural forms exist within a single
+company. Furthermore, most of these studies do not take into consideration the impact
+that the differentiation of product and distribution channels can have on the adoption
+of plural forms of governance when make their evaluations. In fact, the analytical
+model used in these studies implicitly presumes that the companies offer a single
+homogeneous product and must decide on the form of governance to be adopted for the
+supply of the most important input (upstream transactions) (Heide, 2003; Parmigiani,
+2007; Mello and Paulillo, 2010). This simplification of the real world leads these studies
+to disregard the effect of differentiation of product and distribution channels on the
+supply strategy that the company is following. Also, these studies do not take into
+account the role played by a given and pre-existing heterogeneity of input suppliers. In
+the present study it was found that both the specificity of the final product, as well as
+the availability of a wide range of suppliers of raw material, employing different
+production technologies, are determinant factors for the focal company adopting plural
+forms.
+The case study presented here corroborates the vision that plural forms of
+governance are aligned with the model provided by Menard (2011). In the case
+presented, plurality is more efficient than the adoption of only one form of governance.
+This can be explained by the complexity of some transactions, by the different
+characteristics of the assets involved and by the supply strategy of the company.
+Plurality is not a situation of disequilibrium, but rather a question of multiple
+equilibria found to efficiently serve the diversity of existing distribution channels. It is
+possible to set price and quality strategies, and ensure the flexibility needed to face
+uncertainties about the quantity and quality of production, as suggested by Brousseau
+and Codron (1997), Silva and Azevedo (2007), Perrigot et al. (2009) and Menard (2011).
+The adoption of plural forms of governance allowed the Brazilian beef export
+industry to match the heterogeneity in the supply of beef cattle in Brazil with the
+heterogeneity of the beef market in both domestic and foreign markets. This strategy
+has provided competitive advantages for the Brazilian beef chain in the international
+market.
+Notes
+1. The ESALQ/BM&F indicator is a price indicator calculated by the Center for Advanced
+Studies on Applied Economics (CEPEA) of the University of Sa˜o Paulo (USP) and the
+Mercantile & Futures Exchange (BM&F).
+2. Brazilian Tracing Service for the Cattle and Buffalo Production Chain.
+3. These farms, in addition to tracing all animals, must also be audited and certified by the
+Ministry of Agriculture, and listed on TRACES.
+BFJ
+116,4
+658
+D
+ow
+nl
+oa
+de
+d 
+by
+ U
+EM
+ A
+t 1
+2:
+20
+ 1
+5 
+Ju
+ne
+ 2
+01
+5 
+(P
+T)
+4. The animals that will be slaughtered and sent to the EU must remain on a certified farm
+(Rural Establishment Approved in the SISBOV – ERAS) for a period of 90 days before being
+shipped to the meat processing plant. Before this 90-day period, the animals can be raised on
+uncertified farms.
+5. In Brazil, the cattle production cycle is traditionally composed of three production phases:
+pre-weaning, post-weaning and finishing. These phases can be carried out separately on
+different farms or on the same farm. The pre-weaning phase requires the largest amount of
+land per animal. Therefore, this phase is normally carried out in regions where the land cost
+is lower. The finishing phase, on the other hand, can be more capital intensive and requires
+less area per animal, therefore, it is economically viable in regions where the cost of land is
+higher.
+References
+Affuso, L. (2002), “An empirical study on contractual heterogeneity within the firm: the ‘vertical
+integration-franchise contracts’ mix”, Applied Economics, Vol. 34 No. 8, pp. 931-944.
+Arrow, K.J. (1969), “The organization of economic activity: issues pertinent to the choice of
+market versus non-market allocation”, The Analysis and Evaluation of Public
+Expenditures: The PBB System, Government Printing Office, Washington, DC.
+Azevedo, P.F. (2000), “Nova Economia Institucional: referencial geral e aplicac¸o˜es para a
+agricultura”, Agricultura em Sa˜o Paulo, Vol. 47 No. 1, pp. 33-52.
+Bradach, J.L. (1997), “Using the plural form in the management of restaurant chains”,
+Administrative Science Quarterly, Vol. 42 No. 2, pp. 276-303.
+Bradach, J.L. and Eccles, R.G. (1989), “Price, authority, and trust: from ideal types to plural
+forms”, Annual Review of Sociology, Vol. 15, pp. 97-118.
+Brookes, M. and Roper, A. (2012), “Realising plural-form benefits in international hotel chains”,
+Tourism Management, Vol. 33, pp. 580-591.
+Brousseau, E. and Codron, J.M. (1997), The Hybridization of Governance Structures: Supplying
+French Supermarkets With Off-Season Fruit, mimeo, Montpellier.
+Caleman, S.M.Q., Sproesser, R.L. and Zylbersztajn, D. (2008), “Custos de mensurac¸a˜o e
+governanc¸a no agronego´cio: um estudo de casos mu´ltiplos no Sistema Agroindustrial da
+carne bovina”, Organizac¸o˜es Rurais e Agroindustriais, Vol. 10 No. 3, pp. 359-375.
+Coase, R.H. (1937), “The Nature of the Firm”, Economica, Vol. 4 No. 16, pp. 386-405.
+Dant, R.P., Perrigot, R. and Cliquet, G. (2008), “A cross-cultural comparison of the plural forms in
+franchise networks: United States, France, and Brazil”, Journal of Small Business
+Management, Vol. 46 No. 2, pp. 286-311.
+Gellynck, X. and Molna´r, A. (2009), “Chain governance structures: the European traditional food
+sector”, British Food Journal, Vol. 111 No. 8, pp. 762-775.
+Heide, J.B. (2003), “Plural governance in industrial purchasing”, Journal of Marketing, Vol. 67,
+pp. 18-29.
+Lazzarini, S.G., Chaddad, F.R. and Cook, M.L. (2001), “Integrating supply chain and network
+analyses: the study of net chains”, Journal of Chain and Network Science, Vol. 1 No. 1,
+pp. 7-22.
+Lindgreen, A. and Hingley, M. (2003), “The impact of food safety and animal welfare policies on
+supply chain management: the case of the Tesco meat supply chain”, British Food Journal,
+Vol. 105 No. 6, pp. 328-349.
+Plural forms of
+governance in
+the beef industry
+659
+D
+ow
+nl
+oa
+de
+d 
+by
+ U
+EM
+ A
+t 1
+2:
+20
+ 1
+5 
+Ju
+ne
+ 2
+01
+5 
+(P
+T)
+Mello, F.O.T. and Paulillo, L.F.O. (2010), “Formas plurais de governanc¸a no sistema
+agroindustrial citrı´cola paulista”, Revista de Economia e Sociologia Rural, Vol. 48 No. 1,
+pp. 135-139.
+Menard, C. (2004), “The economics of hybrid organizations”, Journal of Institutional and
+Theoretical Economics, Vol. 160 No. 3, pp. 345-376.
+Menard, C. (2011), “Plural forms of organization: where do we stand”, paper presented at
+Conference on Institutions and Organizations, 21 December, Rio de Janeiro.
+Minkler, A. and Park, T.A. (1994), “Asset specificity and vertical integration in franchising”,
+Review of Industrial Organization, Vol. 9 No. 7, pp. 409-423.
+Mols, N.P. (2000), “Dual channels of distribution: a transaction cost analysis and propositions”,
+The International Review of Retail, Distribution and Consumer Research, Vol. 10 No. 3,
+pp. 227-246.
+Parmigiani, A. (2007), “Why do firms both make and buy? An investigation of concurrent
+sourcing”, Strategic Management Journal, Vol. 28 No. 3, pp. 285-311.
+Perrigot, R., Cliquet, G. and Piot-Lepetit, I. (2009), “Plural form chain and efficiency: insights from
+the French hotel chains and the DEA methodology”, European Management Journal,
+Vol. 27, pp. 268-280.
+Porter, M.R. (1980), Competitive Strategy: Techniques for Analysing Industries and Competitors,
+The Free Press, New York, NY.
+Schnaider, P.S.B. and Saes, M.S.M. (2011), “Plural forms and information asymmetry: an analytic
+proposal”, paper presented at Conference on Institutions and Organizations, 21 December,
+Rio de Janeiro.
+Silva, V.L.S. and Azevedo, P.F. (2007), “Formas plurais no franchising de alimentos: evideˆncias
+de estudos de caso na Franc¸a e no Brasil”, Revista de Administrac¸a˜o Contemporaˆnea,
+Vol. 11, pp. 129-152.
+Souza Filho, H.M., Rosa, F.T. and Vinholis, M.M.B. (2010), “Ana´lise da competitividade da cadeia
+produtiva da carne bovina do Estado de Sa˜o Paulo”, Informac¸o˜es Econoˆmicas, Vol. 40
+No. 3, pp. 16-28.
+Vieira, L.M. and Traill, W.B. (2008), “Trust and governance of global value chains: the case of a
+Brazilian beef processor”, British Food Journal, Vol. 110 Nos 4/5, pp. 460-473.
+Vinholis, M.M.B., Souza, J.D.F. and Souza Filho, H.M. (2010), “Estruturas de governanc¸a na
+cadeia de suprimentos da carne bovina: um caso brasileiro”, XXX Encontro Nacional de
+Engenharia de Produc¸a˜o, Brazil, p. 2010.
+Williamson, O.E. (1985), The Economic Institutions of Capitalism: Firms, Markets, Relational
+Contracting, The Free Press, New York, NY.
+Williamson, O.E. (1991), “Comparative economic organization: the analysis of discrete structural
+alternatives”, Administrative Science Quarterly, Vol. 36, pp. 269-296.
+Zylbersztajn, D. and Machado Filho, C.P. (2003), “Competitiveness of meat agri-food chain in
+Brazil”, Supply Chain Management: An International Journal, Vol. 8 No. 2, pp. 155-165.
+Zylbersztajn, D. and Nogueira, A.C.L. (2002), “Estabilidade e difusa˜o de arranjos verticais de
+produc¸a˜o: uma contribuic¸a˜o teo´rica”, Economia e Sociedade, Vol. 11 No. 2, pp. 329-346.
+About the authors
+Marcelo Jose´ Carrer is an Economist. He graduated from State University of Maringa, Brazil, in
+2009. He gained his BSc degree from the Federal University of Sa˜o Carlos, Brazil, in 2012. He
+joined the Department of Production Engineering of Federal University of Sa˜o Carlos in 2012. He
+teaches courses in Economics, Agribusiness and International Finance at Foundation Herminio
+BFJ
+116,4
+660
+D
+ow
+nl
+oa
+de
+d 
+by
+ U
+EM
+ A
+t 1
+2:
+20
+ 1
+5 
+Ju
+ne
+ 2
+01
+5 
+(P
+T)
+Ometto, Araras, Brazil. His academic interests include agricultural economics, agricultural
+management and rural development; with scientific work developed in these areas.
+Dr Hildo Meirelles de Souza Filho gained his BSc degree from Campinas State University,
+Brazil, in 1990; and his PhD from the University of Manchester, in 1996; both in Economics. He
+joined the Federal University of Espı´rito Santo in 1986, where he was Lecturer in Economics. He
+is presently a Senior Lecturer of Economics in the Department of Production Engineering of
+Federal University of Sa˜o Carlos, Sa˜o Paulo, Brazil. His academic interests include
+competitiveness of agri-systems, agricultural economics and rural development; with scientific
+work developed in these areas for Brazilian government organisations and international
+organisations, such as FAO, IICA, FIDA, European Commission Directorate-General, and World
+Bank. Hildo Meirelles de Souza Filho is the corresponding author and can be contacted at:
+hildo@dep.ufscar.br
+Marcela de Melo Branda˜o Vinholis graduated in Agronomy from University of Sao Paulo, Sa˜o
+Paulo, Brazil, in 1995. In 2001, she gained her Ms. degree in Production Engineering from the
+Federal University of Sa˜o Carlos, Sa˜o Paulo, Brazil. From 2000 to 2005 she worked as a Quality
+Assurance Manager at Syngenta. In 2005 she joined the Brazilian Agricultural Research
+Corporation (EMBRAPA, Ministry of Agriculture, Livestock and Food Supply), Southeast Cattle
+Unit. Currently, she is a PhD student in Production Engineering at the Federal University of Sa˜o
+Carlos, Brazil. Her research interests include agrifood chain management and technology
+adoption.
+Plural forms of
+governance in
+the beef industry
+661
+To purchase reprints of this article please e-mail: reprints@emeraldinsight.com
+Or visit our web site for further details: www.emeraldinsight.com/reprints
+D
+ow
+nl
+oa
+de
+d 
+by
+ U
+EM
+ A
+t 1
+2:
+20
+ 1
+5 
+Ju
+ne
+ 2
+01
+5 
+(P
+T)
+This article has been cited by:
+1. M. de Mello Brandão Vinholis, H. Meirelles de Souza Filho, M.J. Carrer, F.R. Chaddad. 2014.
+Transaction attributes and adoption of hybrid governance in the Brazilian cattle market. Journal on Chain
+and Network Science 14, 189-199. [CrossRef]
+D
+ow
+nl
+oa
+de
+d 
+by
+ U
+EM
+ A
+t 1
+2:
+20
+ 1
+5 
+Ju
+ne
+ 2
+01
+5 
+(P
+T)
+

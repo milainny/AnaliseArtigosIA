@@ -31,11 +31,8 @@ public class AnaliseArtigosIA {
     /**
      * @param args the command line arguments
      */
-    static String titulo;
-    static String autor;
-
     public static void main(String[] args) throws IOException {
-        String caminhoEntrada = "arquivos/12.pdf";
+        String caminhoEntrada = "arquivos/4.pdf";
         String identificador = caminhoEntrada.substring(caminhoEntrada.lastIndexOf("/") + 1, caminhoEntrada.lastIndexOf("."));
         String caminhoArquivoStopWords = "stop_words/lista_stop_words.txt";
         String caminhoSaidaSemStopWords = "saidas/" + identificador + ".txt";
@@ -43,7 +40,7 @@ public class AnaliseArtigosIA {
         String textoSemStopWords = extraiStopWords(textoCompleto, caminhoArquivoStopWords);
         gravaTextoSemStopWords(caminhoSaidaSemStopWords, textoSemStopWords);
         exibeTermosMaisCitados(textoSemStopWords);
-        identificaInstituicoes(textoSemStopWords, caminhoArquivoStopWords);
+        identificaInstituicoes(textoCompleto);
     }
 
     public static String extraiTextoDoPDF(String caminho) throws IOException {
@@ -51,8 +48,11 @@ public class AnaliseArtigosIA {
         pdfDocument = PDDocument.load(caminho);
         PDFTextStripper stripper = new PDFTextStripper();
         String texto = stripper.getText(pdfDocument);
-        titulo = pdfDocument.getDocumentInformation().getTitle();
-        autor = pdfDocument.getDocumentInformation().getAuthor();
+        PrintStream saidaPadrao = System.out;
+        PrintStream saida = new PrintStream(new FileOutputStream(new File("saidas/texto" + 19 + ".txt")));
+        System.setOut(saida);
+        System.out.println(texto);
+        System.setOut(saidaPadrao);
         pdfDocument.close();
         return texto;
     }
@@ -84,7 +84,7 @@ public class AnaliseArtigosIA {
     }
 
     public static void exibeTermosMaisCitados(String textoSemStopWords) {
-        int indexReferencia = textoSemStopWords.lastIndexOf(" references ") != -1 ? textoSemStopWords.lastIndexOf(" reference ") : textoSemStopWords.lastIndexOf(" reference ");
+        int indexReferencia = textoSemStopWords.lastIndexOf(" reference ") != -1 ? textoSemStopWords.lastIndexOf(" reference ") : textoSemStopWords.lastIndexOf(" references ");
         String textoSemReferencias = textoSemStopWords.substring(0, indexReferencia);
         String todosTermos[] = textoSemReferencias.split(" ");
         Map<String, Integer> termos = new HashMap();
@@ -112,16 +112,40 @@ public class AnaliseArtigosIA {
         }
     }
 
-    private static void identificaInstituicoes(String textoSemStopWords, String caminhoArquivoStopWords) throws FileNotFoundException {
-        System.out.println(titulo);
-        System.out.println(autor);
-        titulo = extraiStopWords(titulo, caminhoArquivoStopWords);
-        autor = extraiStopWords(autor, caminhoArquivoStopWords);
-        System.out.println(titulo);
-        System.out.println(autor);
-        System.out.println(textoSemStopWords.indexOf(" " + titulo + " " + autor + " "));
-        String instituicoes = textoSemStopWords.substring(textoSemStopWords.lastIndexOf(" " + titulo + " " + autor + " "), textoSemStopWords.indexOf(" abstract "));
-        instituicoes = instituicoes.replace(" " + titulo + " " + autor + " ", "");
+    private static void identificaInstituicoes(String textoCompleto) {
+        String instituicoes = "";
+        int posicaoAbs = textoCompleto.lastIndexOf("Abstract");
+        String textoBusca = textoCompleto;
+        if (posicaoAbs != -1) {
+            textoBusca = textoCompleto.substring(0, textoCompleto.lastIndexOf("Abstract"));
+        }
+        int posicao = textoBusca.indexOf("Department");
+        if (posicao == -1) {
+            if (instituicoes.equals("")) {
+                textoBusca = textoCompleto;
+                posicao = textoBusca.indexOf("Department");
+            }
+        }
+        while (posicao != -1) {
+            while (true) {
+                if ("\n".equals(textoBusca.substring(posicao, posicao + 1))) {
+                    break;
+                }
+                posicao--;
+            }
+            posicao++;
+            int posInicio = posicao;
+            while (true) {
+                if ("\n".equals(textoBusca.substring(posicao, posicao + 1))) {
+                    break;
+                }
+                posicao++;
+            }
+            instituicoes = instituicoes + textoBusca.substring(posInicio, posicao) + "\n ";
+            textoBusca = textoBusca.substring(posicao, textoBusca.length());
+            posicao = textoBusca.indexOf("Department");
+        }
+        System.out.println("\n--- Listando as instituições dos autores ---");
         System.out.println(instituicoes);
     }
 
