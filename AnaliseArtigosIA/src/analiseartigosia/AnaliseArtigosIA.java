@@ -19,6 +19,8 @@ import java.util.Scanner;
 import java.util.Set;
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.util.PDFTextStripper;
+import org.apache.pdfbox.util.TextPosition;
+import sun.awt.FontDescriptor;
 
 /**
  *
@@ -29,9 +31,11 @@ public class AnaliseArtigosIA {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) throws IOException {
+    static String titulo;
+    static String autor;
 
-        String caminhoEntrada = "arquivos/1.pdf";
+    public static void main(String[] args) throws IOException {
+        String caminhoEntrada = "arquivos/12.pdf";
         String identificador = caminhoEntrada.substring(caminhoEntrada.lastIndexOf("/") + 1, caminhoEntrada.lastIndexOf("."));
         String caminhoArquivoStopWords = "stop_words/lista_stop_words.txt";
         String caminhoSaidaSemStopWords = "saidas/" + identificador + ".txt";
@@ -39,6 +43,7 @@ public class AnaliseArtigosIA {
         String textoSemStopWords = extraiStopWords(textoCompleto, caminhoArquivoStopWords);
         gravaTextoSemStopWords(caminhoSaidaSemStopWords, textoSemStopWords);
         exibeTermosMaisCitados(textoSemStopWords);
+        identificaInstituicoes(textoSemStopWords, caminhoArquivoStopWords);
     }
 
     public static String extraiTextoDoPDF(String caminho) throws IOException {
@@ -46,6 +51,8 @@ public class AnaliseArtigosIA {
         pdfDocument = PDDocument.load(caminho);
         PDFTextStripper stripper = new PDFTextStripper();
         String texto = stripper.getText(pdfDocument);
+        titulo = pdfDocument.getDocumentInformation().getTitle();
+        autor = pdfDocument.getDocumentInformation().getAuthor();
         pdfDocument.close();
         return texto;
     }
@@ -77,7 +84,8 @@ public class AnaliseArtigosIA {
     }
 
     public static void exibeTermosMaisCitados(String textoSemStopWords) {
-        String textoSemReferencias = textoSemStopWords.substring(0, textoSemStopWords.lastIndexOf(" references "));
+        int indexReferencia = textoSemStopWords.lastIndexOf(" references ") != -1 ? textoSemStopWords.lastIndexOf(" reference ") : textoSemStopWords.lastIndexOf(" reference ");
+        String textoSemReferencias = textoSemStopWords.substring(0, indexReferencia);
         String todosTermos[] = textoSemReferencias.split(" ");
         Map<String, Integer> termos = new HashMap();
         for (String termo : todosTermos) {
@@ -102,6 +110,19 @@ public class AnaliseArtigosIA {
                 i++;
             }
         }
+    }
+
+    private static void identificaInstituicoes(String textoSemStopWords, String caminhoArquivoStopWords) throws FileNotFoundException {
+        System.out.println(titulo);
+        System.out.println(autor);
+        titulo = extraiStopWords(titulo, caminhoArquivoStopWords);
+        autor = extraiStopWords(autor, caminhoArquivoStopWords);
+        System.out.println(titulo);
+        System.out.println(autor);
+        System.out.println(textoSemStopWords.indexOf(" " + titulo + " " + autor + " "));
+        String instituicoes = textoSemStopWords.substring(textoSemStopWords.lastIndexOf(" " + titulo + " " + autor + " "), textoSemStopWords.indexOf(" abstract "));
+        instituicoes = instituicoes.replace(" " + titulo + " " + autor + " ", "");
+        System.out.println(instituicoes);
     }
 
 }
