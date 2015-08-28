@@ -1,32 +1,28 @@
 British Food Journal
-Plural forms of governance in the beef industry: a case study in Brazil
-Marcelo José Carrer Hildo Meirelles de Souza Filho Marcela de Melo Brandão Vinholis
+Pork quality and the role of marketing contracts: a case study of the US pork industry
+Steve W. Martinez
 Article information:
 To cite this document:
-Marcelo José Carrer Hildo Meirelles de Souza Filho Marcela de Melo Brandão Vinholis , (2014),"Plural forms of
-governance in the beef industry: a case study in Brazil", British Food Journal, Vol. 116 Iss 4 pp. 643 - 661
+Steve W. Martinez, (2012),"Pork quality and the role of marketing contracts: a case study of the US pork
+industry", British Food Journal, Vol. 114 Iss 3 pp. 302 - 317
 Permanent link to this document:
-http://dx.doi.org/10.1108/BFJ-04-2012-0089
-Downloaded on: 15 June 2015, At: 12:20 (PT)
-References: this document contains references to 31 other documents.
+http://dx.doi.org/10.1108/00070701211213438
+Downloaded on: 15 June 2015, At: 05:38 (PT)
+References: this document contains references to 52 other documents.
 To copy this document: permissions@emeraldinsight.com
-The fulltext of this document has been downloaded 172 times since 2014*
-Users who downloaded this article also downloaded:
-Ilias P. Vlachos, (2014),"The impact of private label foods on supply chain governance", British Food Journal, Vol. 116 Iss 7
-pp. 1106-1127 http://dx.doi.org/10.1108/BFJ-09-2012-0228
-Decio Zylbersztajn, Cláudio A. Pinheiro Machado Filho, (2003),"Competitiveness of meat agri-food chain in Brazil", Supply
-Chain Management: An International Journal, Vol. 8 Iss 2 pp. 155-165 http://dx.doi.org/10.1108/13598540310468751
+The fulltext of this document has been downloaded 322 times since 2012*
 Access to this document was granted through an Emerald subscription provided by emerald-srm:478474 []
 For Authors
-If you would like to write for this, or any other Emerald publication, then please use our Emerald for Authors service
-information about how to choose which publication to write for and submission guidelines are available for all. Please
-visit www.emeraldinsight.com/authors for more information.
+If you would like to write for this, or any other Emerald publication, then please use our Emerald for
+Authors service information about how to choose which publication to write for and submission guidelines
+are available for all. Please visit www.emeraldinsight.com/authors for more information.
 About Emerald www.emeraldinsight.com
-Emerald is a global publisher linking research and practice to the benefit of society. The company manages a portfolio of
-more than 290 journals and over 2,350 books and book series volumes, as well as providing an extensive range of online
-products and additional customer resources and services.
-Emerald is both COUNTER 4 and TRANSFER compliant. The organization is a partner of the Committee on Publication
-Ethics (COPE) and also works with Portico and the LOCKSS initiative for digital archive preservation.
+Emerald is a global publisher linking research and practice to the benefit of society. The company
+manages a portfolio of more than 290 journals and over 2,350 books and book series volumes, as well as
+providing an extensive range of online products and additional customer resources and services.
+Emerald is both COUNTER 4 and TRANSFER compliant. The organization is a partner of the Committee
+on Publication Ethics (COPE) and also works with Portico and the LOCKSS initiative for digital archive
+preservation.
 *Related content and download information correct at time of download.
 D
 ow
@@ -38,9 +34,9 @@ by
  U
 EM
  A
-t 1
-2:
-20
+t 0
+5:
+38
  1
 5 
 Ju
@@ -50,61 +46,62 @@ ne
 5 
 (P
 T)
-Plural forms of governance in the
-beef industry: a case study in
-Brazil
-Marcelo Jose´ Carrer and Hildo Meirelles de Souza Filho
-Department of Production Engineering, Federal University of Sa˜o Carlos,
-Sa˜o Carlos, Brazil, and
-Marcela de Melo Branda˜o Vinholis
-Department of Research,
-Brazilian Agricultural Research Corporation (EMBRAPA), Sa˜o Carlos, Brazil
+Pork quality and the role of
+marketing contracts: a case study
+of the US pork industry
+Steve W. Martinez
+Economic Research Service, US Department of Agriculture,
+Washington, DC, USA
 Abstract
-Purpose – The purpose of this paper is to describe the forms of coordinating transactions used by a
-large beef slaughterhouse and processing companies and their suppliers of beef cattle, and to identify
-the reasons for the adoption of plural forms of governance for their transactions with cattle suppliers.
-Design/methodology/approach – A case study format was selected for this investigation. The
-focal company selected offers a large number of products derived from beef for different
-commercialisation channels in the domestic and foreign market. A non-probability sample of 30
-suppliers (cattle farmers) of the focal company provided data on finished steers sold in 2010, according
-to the three types of governance used in the transactions (spot market, forward contracts and
-long-term contracts).
-Findings – The simultaneous use of more than one type of governance structure to coordinate
-similar transactions has been termed plural forms of governance in the literature. In Brazil, new forms
-of governance, such as formal and informal contracts, have been adopted for transactions between beef
-processing companies and cattle farmers, in addition to the use of spot market and vertical integration.
-It has been shown that the adoption of plural forms reduces the risk of complex transactions; and is a
-strategy to deal with unpredictable institutional environments and high heterogeneity of both
-suppliers and distribution channels.
-Research limitations/implications – The research provides empirical evidence of plural forms of
-governance, as well as the reasons for the adoption of this strategy by firms, which contributes to the
-ongoing theoretical discussion on this subject.
-Practical implications – The paper has implications for company supply chain management.
-Originality/value – This paper presents theoretical review on plural forms of governance, new
-empirical evidence and determinant factors for their adoption.
-Keywords Supply chain, Brazil, Vertical coordination, Beef industry, Buyer-supplier relations,
-Governance structure
+Purpose – This paper aims to provide an assessment of the growth in marketing contracts in the US
+pork industry as an efficient means to control pork quality and reduce transaction costs.
+Design/methodology/approach – Information collected from pork quality and safety summits
+sponsored by the National Pork Producers Council in cooperation with the National Pork Board,
+published surveys of large packers related to contract use, and 15 contracts submitted by producers to
+the Iowa Attorney General’s Office from 1996 to 2001 were examined. The theoretical framework used
+combines branches of the industrial organization literature.
+Findings – The paper provides information documenting the growing importance of addressing
+pork quality problems in the 1990s and how marketing contracts between packers and producers can
+help address these problems. Recognizes their role in reducing transaction costs associated with
+carcass pricing programs, reducing pork quality measuring costs, providing quality control, and
+reducing costs of adapting to quality uncertainty.
+Research limitations/implications – The list of contracts examined is a small collection of
+contracts voluntarily submitted by producers, and pertains to a specific geographic section of the USA.
+Thus, they may not be representative of the entire industry.
+Practical implications – The paper provides background information on quality issues faced by
+the US pork industry and a framework for better understanding the potential role of marketing
+contracts in addressing these issues.
+Originality/value – This paper provides rather unique institutional background information on
+important changes occurring in the US pork industry in the 1990s and the role of the growth in
+marketing contracts in addressing related pork quality issues over time. Given the proprietary nature
+of specific contract terms, a small sample of long-term marketing contracts is analyzed to better
+understand contract design.
+Keywords Contracts, Transaction costs, Measuring costs, Pork, Quality, Carcass pricing,
+United States of America, Food industry, Animal products
 Paper type Case study
-1. Introduction
-The growing pressure for higher quality and improved food safety, as well as the
-environmental sustainability of production processes, has impacted the institutional
-setting in which agro-industrial supply chains are found (Lindgreen and Hingley,
+Introduction
+In the US pork industry, the pace of recent organizational changes has been especially
+dramatic. Contracting between pork packers and producers has increased considerably
+in the 1990s, which resulted in fewer hog sales on the spot market. Marketing contracts
+offered by pork processing companies typically specify the quantity of slaughter hogs
+to be purchased on specified dates and places. Marketing contracts provide hog
+producers a secure outlet for their hogs and specific pricing terms. Producers are
 The current issue and full text archive of this journal is available at
 www.emeraldinsight.com/0007-070X.htm
-The authors would like to thank FAPESP - Sa˜o Paulo Research Foundation for financial support.
-Plural forms of
-governance in
-the beef industry
-643
-Received 16 April 2012
-Revised 30 November 2012
-Accepted 18 December 2012
+The views expressed here are those of the author and cannot be attributed to the Economic
+Research Service or the US Department of Agriculture.
+BFJ
+114,3
+302
+Received 30 April 2010
+Revised 12 August 2010
+Accepted 19 August 2010
 British Food Journal
-Vol. 116 No. 4, 2014
-pp. 643-661
+Vol. 114 No. 3, 2012
+pp. 302-317
 q Emerald Group Publishing Limited
 0007-070X
-DOI 10.1108/BFJ-04-2012-0089
+DOI 10.1108/00070701211213438
 D
 ow
 nl
@@ -115,9 +112,9 @@ by
  U
 EM
  A
-t 1
-2:
-20
+t 0
+5:
+38
  1
 5 
 Ju
@@ -127,56 +124,126 @@ ne
 5 
 (P
 T)
-2003). A new list of policies, laws and control systems has been adopted in an effort to
-meet these new market demands. The agents of the supply chains, especially the rural
-producers and processors, have reacted by changing production systems,
-incorporating innovations and modifying market relations.
-In the beef supply chain, it was necessary to introduce traceability mechanisms,
-launch initiatives to standardise products, react more quickly to changes in
-consumption habits, differentiate products and reduce seasonality in the supply of raw
-material (Souza Filho et al., 2010). The beef industry in Brazil is no longer a traditional
-supplier of beef carcass, as a commodity, and has transformed itself into a supplier of
-specialised products, such as cuts with different quality requirements for a broader set
-of distribution channels. In the domestic market, some commercialisation channels are
-very demanding, such as boutique butchers and sophisticated restaurants, in which
-quality is the determining factor in the customer’s decision to purchase. However, for
-the majority of customers in the low-income bracket, who purchase beef in
-supermarkets, butcher shops and open-air markets, price is much more important than
-quality in determining the decision to purchase. The foreign market, although more
-demanding in terms of quality, is also segmented. While the European Union (EU)
-requires high quality control standards, including a traceability system, and pays a
-higher price for this, other regions are less demanding in terms of control and demand
-products with lower prices.
-This new market configuration and the rising importance of Brazil in the
-international beef market were followed by significant changes in market relations
-between beef processing companies and cattle farmers. Closer ties between rural
-producers and processing companies have been observed, formally through contracts
-or informally, with the aim of raising the efficiency of the production systems and
-reacting to these new circumstances (Vieira and Traill, 2008). In addition to the
-traditional spot market, recent studies have identified the adoption of new forms of
-governance, such as formal and informal contracts, for transactions between beef
-processing companies and cattle farmers, as well as growth in vertical integration
-(Zylbersztajn and Machado Filho, 2003; Caleman et al., 2008).
-The adoption of new forms of governance for the transactions between beef
-processing companies and farmers is related to the changes observed in the demand for
-beef. However, one cannot ignore that the factors associated with beef cattle production
-systems adopted in Brazil also play a role. In Brazil, various livestock production
-systems coexist, for which different standards of technology and administration are
-adopted, as well as different breeds of beef cattle. As a result, the supply of cattle for
-the slaughterhouse units presents great diversity in terms of quality and standards.
-Thus, a great deal of coordination is necessary to match the heterogeneity of the
-consumer beef market with the heterogeneity of the supply sources for beef cattle. In
-this context, the adoption of more than one governance structure by the beef industry
-can be justified.
-The simultaneous adoption of more than one type of governance structure by the
-same company or within the same production chain to coordinate similar transactions
-was classified in the literature as plural forms of governance (Bradach and Eccles,
-1989). Studies have been carried out to analyse the adoption of plural forms and
-identify their main determinants and potential advantages (Bradach, 1997; Mols, 2000;
-Affuso, 2002; Zylbersztajn and Nogueira, 2002; Heide, 2003; Parmigiani, 2007; Silva
+explicitly compensated for hog carcass weight and leanness. These arrangements
+accounted for approximately 69 percent of hogs sold in 2004, compared to 11 percent in
+1993, and less than 2 percent in 1980 (Grimes and Plain, 2009; Hayenga et al., 1996;
+Marion, 1985).
+The rapid increase in marketing contracts has been a concern of policymakers. As
+marketing contracts replace hog sales on the spot market, spot prices are based on
+fewer sales. Consequently, these markets may become highly volatile, subject to
+manipulation, and less representative of a competitive market equilibrium. This may
+lead to misallocated resources and lower social welfare because marketing contract
+prices are typically tied to a spot price. Moreover, smaller independent producers
+complain that packers prefer to contract only with larger producers and price
+premiums paid are not made publicly available. In response to producer concerns
+about price transparency, beginning in April 2001, the US Department of Agriculture
+(USDA) implemented the Livestock Mandatory Price Reporting Program to provide all
+segments of the livestock and meat industries with information on which to base
+market decisions.
+On the other hand, survey evidence suggests that long-term marketing agreements
+play an important role in addressing pork quality problems. For example, Lawrence
+et al. (2001) surveyed 11 of the largest US pork packers, representing 77 percent of total
+hog slaughter, to determine the reasons for entering into formal marketing agreements.
+Primary reasons included: to obtain a consistent supply of high quality hogs, to obtain
+higher quality hogs, and to improve food safety. Market intervention policies that
+restrict changes in the organization of pork markets could reduce social welfare if these
+changes are efficient responses to the marketing environment. This case study
+explores how the shift to marketing contracts could facilitate pork quality
+improvements in the US pork industry using a small sample of hog marketing
+contracts from 1996 to 2001.
+Marketing contracts and product quality
+Marketing contracts can facilitate improvements in product quality in several ways.
+First, they can reduce measurement, or information, costs, which include costs of
+searching for information about buyers or sellers in the market, inspecting goods prior
+to purchase, and assigning a price (Hallwood, 1990; Hobbs, 1996). Measuring costs may
+be especially significant when transactions are heterogeneous (e.g., vary in premiums
+placed on quality characteristics across transactions and over time), or characterized
+by asymmetric information (Lafontaine and Masten, 2002; Williamson, 1985). Two
+types of asymmetric information can be distinguished. The seller may have more
+information than the buyer about a difficult-to-measure quality attribute, or an
+individual’s contribution to the quality outcome cannot be determined by measuring
+the finished product. Marketing contracts may reduce costs that are associated with
+assuring a closer correspondence between product value and price, or actions and
+rewards (Barzel, 1982; Williamson, 1985).
+Measuring difficulties associated with overcoming asymmetric quality information
+may also be viewed as an “exchange hazard” (Williamson, 2000; Poppo and Zenger,
+2002). When hog quality attributes are difficult to measure the producer may engage in
+opportunistic behavior to exploit private information by failing to perform as agreed,
+such as shirking or cutting corners on quality, also referred to as moral hazard. This is
+Pork quality and
+marketing
+contracts
+303
+D
+ow
+nl
+oa
+de
+d 
+by
+ U
+EM
+ A
+t 0
+5:
+38
+ 1
+5 
+Ju
+ne
+ 2
+01
+5 
+(P
+T)
+expected to lead to contracts with added security features to mitigate the hazard, such
+as provisions for third party monitoring of sellers, documents to justify activities
+performed, and other means of increasing information disclosure.
+Second, marketing contracts can facilitate adaptations to uncertainties in the
+marketplace (Masten, 1996; Ryall and Sampson, 2003). Matching producers’ hogs to the
+quality needs of packers may require continual revision in light of changing customer
+demands and quality standards. As market uncertainty increases, it becomes more
+costly to write enforceable, complete contracts that detail behavior contingent on future
+outcomes. This leaves opportunities for parties to engage in opportunistic behavior to
+avoid compliance or increases the likelihood that parties will fail to optimally adapt to
+changing conditions. Consequently, contracts are likely to become more “relational” in
+nature. That is, rather than laying out detailed terms of cooperation, contracts are
+likely to specify the process by which terms will be established. By making contract
+terms less explicit, transaction costs associated with renegotiating and revising
+contract terms are reduced in light of uncertain future demand and quality needs.
+Third, in cases where the packer is unaware of actions by the producer, two options
+are available to limit moral hazard (Eisenhardt, 1989). Contracts may reward producers
+based, at least partially, on outcomes of their behavior (outcome-oriented contract), or
+the packer may invest in information about producer behavior (behavior-oriented
+contract). The optimal performance evaluation strategy (behavior-oriented versus
+outcome-oriented) will depend on the ability to measure quality outcomes and related
+inputs. When quality outcomes are difficult to measure or difficult to measure in a
+reasonable amount of time, behavior-oriented contracts will become more attractive.
+Behavior-based contracts are more likely if producer activities can be easily defined
+and evaluated, or the production process is highly task programmable, which makes it
+easier to specify appropriate producer behavior in advance (Eisenhardt, 1989).
+When producers are involved in several valuable activities that affect multiple,
+important quality attributes, and the measurability of these attributes vary, explicit
+incentives for those that are easily measured will be reduced (Holmstrom and Milgrom,
+1991). This is because compensation based solely on a measurable outcome, such as
+volume supplied, may lead to poor performance in an immeasurable outcome, such as
+some dimension of pork quality. Similarly, explicit incentives for an individual
+producer’s contribution to an easily assessed activity would lead the producer to
+neglect other team production activities. The presence of incentive clauses for easily
+measured quality outcomes will be influenced by the ability to identify producer
+activities that affect the immeasurable attributes.
+Increasing emphasis on pork quality
+Pork quality is the characteristics that make meat desirable. For consumers, quality
+may be determined by aesthetics (taste, smell, texture, color); nutrition (vitamins,
+proteins, minerals, energy, type and proportion of fat); safety (absence of pathogens,
+toxins); intangible qualities (organic, meat produced under high standards of animal
+welfare); and characteristics such as convenience and reliability. Pork processors
+identify several other determinants of pork quality: low “drip loss,” or fluid lost from
+fresh, uncooked pork; color and color consistency; limited external fat; and absence of
+defects (Morgan et al., 1994).
 BFJ
-116,4
-644
+114,3
+304
 D
 ow
 nl
@@ -187,9 +254,9 @@ by
  U
 EM
  A
-t 1
-2:
-20
+t 0
+5:
+38
  1
 5 
 Ju
@@ -199,476 +266,57 @@ ne
 5 
 (P
 T)
-and Azevedo, 2007; Dant et al., 2008; Gellynck and Molna´r, 2009; Perrigot et al., 2009;
-Mello and Paulillo, 2010; Schnaider and Saes, 2011; Menard, 2011; Brookes and Roper,
-2012). According to the literature the main advantages of the use of plural forms are:
-lower transaction costs (Mols, 2000; Affuso, 2002; Mello and Paulillo, 2010; Schnaider
-and Saes, 2011); the potential synergies that the different forms of governance can
-provide (Bradach and Eccles, 1989; Bradach, 1997; Brousseau and Codron, 1997;
-Schnaider and Saes, 2011; Menard, 2011); better planning and control of production
-capacity, supply and distribution, resulting in higher production efficiency (Parmigiani,
-2007; Perrigot et al., 2009); more effective monitoring of external suppliers with a
-resulting reduction in asymmetric information in the transactions (Mols, 2000; Heide,
-2003; Menard, 2011); and greater flexibility for the firms to meet their needs (Brousseau
-and Codron, 1997; Silva and Azevedo, 2007; Perrigot et al., 2009).
-Against this backdrop, the main objective of the present work was to describe the
-forms of coordinating transactions used by a large beef slaughterhouse and processing
-company and its suppliers of beef cattle, as well as to identify the causes of different
-governance strategies the firm is following. Section 2 presents a review of the literature
-on plural forms of governance, allowing the identification of potential determinants
-and advantages of this strategy. The methodology for empirical analysis is based on a
-case study of a large Brazilian beef processing company, as presented in section 3. The
-results are presented in section 4, followed by final remarks in section 5.
-2. Plural forms of governance
-The analysis carried out in this article employs the theoretical frameworks of New
-Institutional Economics (NIE) and Transaction Costs Economics (TCE). NIE
-challenges neoclassical microeconomic theory by contesting the automatic
-functioning of the market solely through price mechanisms (Coase, 1937). According
-to NIE, transactions occur in an institutional environment, which determines their rules
-of operation. In this way, the objective of NIE is to identify which is the best form of
-organisation for economic transactions, since different configurations change the rules
-for resource allocation. TCE is based on the assumption that the issue of economic
-organisation is, above all, a matter of governance. In this sense, it endeavours to
-explain the different organisational forms that exist in the market and their contractual
-arrangements, highlighting the institutional environment and its interaction with
-organisations. According to TCE, there are different possible governance structures
-and the agents must work to discover governance structures that enable lower
-transaction costs. In a broader definition, transaction costs can be described as the
-“costs of running the economic system” (Arrow, 1969, p. 48) or the “equivalent of
-friction in physical systems” (Williamson, 1985, p. 19). There are ex ante and ex post
-transaction costs. The first are the costs of drafting, negotiating, and safeguarding an
-agreement, while the second are costs incurred when transactions drift out of
-alignment.
-Williamson (1985) identifies three basic forms of coordinating transactions, also
-called governance structures:
-(1) Spot market – adapted form of non-specific transaction, where there is no effort
-made to repeat the relationship. In this format, the evaluation of the relationship
-by the parties is based on experience. It is the case that best approximates the
-neoclassical theoretical framework of pure competition.
-Plural forms of
-governance in
-the beef industry
-645
-D
-ow
-nl
-oa
-de
-d 
-by
- U
-EM
- A
-t 1
-2:
-20
- 1
-5 
-Ju
-ne
- 2
-01
-5 
-(P
-T)
-(2) Hybrid forms – given the specificity of the assets and the recurrence of the
-transactions, relationships of trust can be built. In this case, incentives sufficient
-to bring the transaction between the agents into the firm (vertical integration)
-were not found. Formal and informal contracts can be established, since the
-agents are inclined to establish and comply with their clauses.
-(3) Vertical integration or hierarchy – coordination necessary for regular
-transactions and in the presence of highly specific assets. In this case, the
-transactions between agents are brought into the hierarchy of the firm.
-The emphasis placed by Williamson (1985) on the analysis of arrangements uncovered
-hybrid structures, which lie somewhere between the market and the hierarchy. Me´nard
-(2004) stressed the need to build a theory that explains these structures, in which the
-agents are completely independent of each other, but work together in some type of
-business. In arrangements of this type, the agents share technological knowledge,
-capital, products or services, without, however, becoming a part of activities within a
-single firm. The influence of price mechanisms is lower than in the spot market.
-Regardless of its format, the coordination of activities is based on cooperation between
-the parties and in the sharing of important decisions, such as investment decisions.
-This union creates a culture that encourages the joint pursuit of better performance
-and greater profitability for the whole. However, a poor distribution of tasks and gains
-can easily generate conflict, which can destabilise the arrangement.
-Various studies have used TCE with the aim of identifying existing governance
-structures. In sectors focusing on the production of agri-food products, the emphasis
-has been on agricultural food chains, allowing the identification of the three basic
-forms, as defined by Williamson (1985). Although Williamson (1985) did not directly
-touch on the the possibility of companies using more than one structure of governance
-simultaneously, Bradach and Eccles (1989) found that this did in fact occur in the real
-world. The authors have termed this as plural forms, in which “[. . .] distinct
-organisational control mechanisms operate simultaneously for the same function by
-the same firm.” (Bradach and Eccles, 1989, p. 112). Following them, many studies have
-identified the coexistence of more than one form of governance within the same supply
-chain to govern similar transactions (Bradach, 1997; Mols, 2000; Affuso, 2002;
-Zylbersztajn and Nogueira, 2002; Heide, 2003; Parmigiani, 2007; Silva and Azevedo,
-2007; Dant et al., 2008; Gellynck and Molna´r, 2009; Mello and Paulillo, 2010; Schnaider
-and Saes, 2011; Menard, 2011; Brookes and Roper, 2012). Most of these studies address
-the adoption of plural forms in downstream transactions. Few studies have sought to
-identify the adoption of more than one form of governance in upstream transactions; as
-did Heide (2003), on purchasing relationships between original equipment
-manufacturers and component suppliers, and Parmigiani (2007) on sourcing model
-decisions by manufacturing firms in the tooling industry. Also, a few of them have
-adopted a single firm approach, as in section 4 of this article.
-The literature that addresses the coexistence of various forms of governance in a
-single market, or by a single firm, presents various explanations for the phenomena.
-These explanations can be classified into three groups, which will be analysed below:
-different features of the transactions; plural forms as a transitional situation; and stable
-plural forms as a strategy to coordinate the transactions over time. According to the
-authors of the first group, organisational forms can be plural, or in other words use
-BFJ
-116,4
-646
-D
-ow
-nl
-oa
-de
-d 
-by
- U
-EM
- A
-t 1
-2:
-20
- 1
-5 
-Ju
-ne
- 2
-01
-5 
-(P
-T)
-more than one type of governance structure, if the transactions are different,
-distinguishing themselves in at least one of their classic features: specificity of assets,
-uncertainty and frequency. This explanation for the use of plural forms is in line with
-the model by Williamson (1991), which states that different mechanisms actually
-govern different transactions in at least one feature. For Minkler and Park (1994), the
-different levels of specificity of assets involved in the transactions established by the
-firm are what justify the simultaneous presence of different governance mechanisms.
-The theoretical framework proposed by Menard (2011) added the attribute ambiguity,
-which arises out of a difficulty to analyse the specificity of the assets at the time the
-transaction is conducted, and the complexity of the transactions in the analysis of the
-adoption of plural forms. In this sense, Mols (2000), Heide (2003), Parmigiani (2007) and
-Mello and Paulillo (2010) found empirical evidence that the adoption of plural forms is
-explained by differences in transaction-specific investments, uncertainty and
-transaction frequency.
-The second and third group of authors use the same arguments as the first group to
-justify the existence of plural forms. However, they add to the discussion on the
-stability and advantages of plural forms. The author of the second group considers the
-use of more than one form of governance as transitional, where one or another
-governance structure should prevail as adjustments occur. Within the scope of the
-agro-industrial systems, the issue of plural forms was addressed by Zylbersztajn and
-Nogueira (2002), who assumed that the most efficient arrangement would be gradually
-adopted by the agents, in other words, alternative types of governance could coexist as
-points of disequilibrium in an adjustment process. For the authors, the plurality of
-arrangements could be explained by: situations of disequilibrium, in which the
-presence of plural forms could represent a situation of adjustment between the current
-and future forms, driven by modifications in the features of the transactions; barriers to
-the adoption of a new improved governance due to the existence of specific
-non-transferrable routines; and effects of the institutional environment in which
-governance occurs as an event generating multiple alignments.
-The authors of the third group argue that plural forms are stable and are part of the
-strategy for coordinating transactions by firms. The justification for this is found in the
-complementarity of the mechanisms of governance (Bradach and Eccles, 1989;
-Brousseau and Codron, 1997; Bradach, 1997; Heide, 2003; Parmigiani, 2007; Schnaider
-and Saes, 2011; Menard, 2011). In other words, this stability in the mix of governances
-occurs due to the possibility of exploring some synergy between complementary
-mechanisms of governance. In this case, there are situations in which part of the
-function of the contract would contribute to the efficiency of another contractual form,
-revealing that, in addition to being alternatives, the mechanisms of coordination can be
-complementary. The pioneering study by Bradach and Eccles (1989) posited that the
-adoption of plural forms of governance is related to the use of one form of governance
-to manage the other. For example, the companies can adopt vertical integration to
-acquire knowledge about a production process of its raw material and, based on this
-knowledge, begin to demand better results from their suppliers in terms of the quality
-or price of the product supplied. Porter (1980) had already noted some of the
-advantages that partially integrated companies obtain in relationships with their
-suppliers on the spot market. Although the author did not expressly use the term plural
-forms, he did perceive that by adopting more than one form of governance (vertical
-Plural forms of
-governance in
-the beef industry
-647
-D
-ow
-nl
-oa
-de
-d 
-by
- U
-EM
- A
-t 1
-2:
-20
- 1
-5 
-Ju
-ne
- 2
-01
-5 
-(P
-T)
-integration and spot market) in upstream transactions, the companies were able to
-exercise greater bargaining power in the purchase of raw materials from external
-suppliers on the spot market. Brousseau and Codron (1997), upon analysing the supply
-of fruit in French supermarkets, discovered that the coexistence of plural forms
-promotes complementarity for the firm, allowing the distributor to: match price and
-quality strategies; ensure flexibility to face uncertainties about the quantity and
-quality of production; and enable the learning of a governance to be used in the
-management of the other, resulting in a cross-learning effect.
-According to the literature of TCE, transactions made purely on the spot market are
-subject to the problems of adverse selection and moral hazard. Heide (2003) proposes
-that a plural forms approach involves using a particular type of agent (i.e. an internal
-one) to reduce the problems of information asymmetry (adverse selection and moral
-hazard) in relation to another type of agent (i.e. the external one) due to the nature of the
-information that becomes available through vertical integration or partnership
-contracts. Information on the production and process technology used by suppliers
-outside the company is not always visible, and can result in adverse selection. Moral
-risk occurs when suppliers selected by the company act in an opportunistic manner,
-altering, for example, the quality of the input pre-established between the parties. This
-behaviour harms the competitiveness of the firm. The author, using primary data on
-purchasing relationships between original equipment manufacturers and component
-suppliers, and a logit model approach, found that the higher the asymmetry of
-information present the transactions, the higher the chance that the companies would
-use plural forms with their suppliers. In this case, plurality is understood to mean the
-adoption of hierarchy to partially meet the supply needs of the companies. The
-remainder of this supply would be met by a third party. The adoption of plural forms
-enables a reduction of information asymmetry in the transactions with suppliers,
-without having to internalise all production. By internalising part of production, the
-firms are able to impose elements of a hierarchical transaction in their transactions in
-the spot market, which, in turn, reduces the possibility of exposure to moral risk or
-adverse selection in transactions (Heide, 2003).
-Parmigiani (2007), when analysing sourcing model decisions from 193
-manufacturing firms, found evidence that the adoption of plural forms is stable in
-the long term. Using qualitative choice statistical models, the author identified that the
-adoption of plural forms is determined by transaction attributes (asset specificity and
-uncertainty), as well as by proxy variables for allocative efficiency and firm
-capabilities. The finding that all three theories (TCE, neoclassical economics and firm
-capabilities) contribute to the choice of sourcing mode illustrates the firm’s desire to
-simultaneously monitor suppliers, produce efficiently and improve processes
-(Parmigiani, 2007). Schnaider and Saes (2011) also argue that plural forms are stable
-in the long term, since they allow companies to take advantage of market incentives,
-increase the level of monitoring and coordination of transactions and production
-activities. Hybrid forms, vertical integration and the spot market can be
-simultaneously adopted to reduce both transaction and production costs.
-Menard (2011) developed a theoretical framework that aligns most of the arguments
-presented in the literature to explain the existence of plural forms of governance.
-According to the author, three determinants play a major role: “ambiguity surrounding
-the fitness of a mode of organisation for the transaction in question; complexity of a
-BFJ
-116,4
-648
-D
-ow
-nl
-oa
-de
-d 
-by
- U
-EM
- A
-t 1
-2:
-20
- 1
-5 
-Ju
-ne
- 2
-01
-5 
-(P
-T)
-transaction or a set of transactions; and strategic behaviour”. There will be ambiguity
-about the choice of the governance because the degree of specificity of assets involved
-cannot be assessed precisely. In these cases, the expected benefits from one type of
-governance or another cannot be precisely evaluated. It is almost impossible to assess
-the marginal advantages of one mode of organisation over another, so plural forms are
-adopted.
-The second determinant is the complexity of some transactions, which can generate
-uncertainties about the appropriate manner to monitor the transaction. In this case, the
-problem is not one of evaluating the specificities of the assets, but rather the problem of
-finding an appropriate manner of monitoring the transactions. In highly complex
-transactions, the risk of adopting only one form of governance can be quite high,
-increasing transactions costs and generating inefficiencies for the firms. The solution
-would be to adopt plural forms to mitigate the risk generated by the complexity. The
-third determinant for adoption of plural forms is the strategic behaviour in the
-organisation of certain transactions. This happens “when a party intends to take the
-lead of the relationship by determining the governance structure of the arrangement
-but faces problems of coordination or control that could challenge his capacity to reap
-the benefits.” The use of different organisational forms can facilitate monitoring and
-control, so that a more significant part of the rent can be captured. Menard (2011)
-concluded that the firms could find different solutions to govern similar transactions,
-adopting plural forms and generating multiple equilibria, unlike the single equilibrium
-(resulting from the adoption of the form of governance that minimises transaction
-costs) proposed by Williamson (1991).
-In summary, the body of studies reviewed establishes the following explanations
-and advantages for the adoption of plural forms: transaction characteristics (asset
-specificity, uncertainty, frequency, ambiguity and complexity); effects of the
-institutional environment; complementarity of the forms (generation of synergies,
-cross-learning effects); ensuring flexibility when faced with the
-uncertainties/complexities of the transactions and variations in demand; resolving
-the problem of information asymmetry to avoid adverse selection and moral risk.
-3. Methodology
-A case study format was selected for this investigation. The focal company selected
-offers a large number of products derived from beef for different commercialisation
-channels in the domestic and foreign market. The company has therefore adopted a
-wide range of commercialisation strategies to both sell beef products and buy cattle.
-However, data on the quantity of cattle it buys, according to each type of governance
-was not provided them, because it was considered strategic information.
-Notwithstanding, a non-probability sample of 30 suppliers (cattle farmers) of the
-focal company provided data on finished steers sold in 2010, according to the three
-types of governance used in the transactions (spot market, forward contracts and
-long-term contracts). Out of a total of 74,301 cattle, 31,818 (43 per cent) were
-commercialised using a forward contract, 24,000 cattle (32 per cent) were
-commercialised using a long-term contract established with the owner of the
-integrated cattle farm that is certified to export to the EU, and 18,483 cattle (25 per cent)
-were commercialised through the spot market. These data corroborate the qualitative
-Plural forms of
-governance in
-the beef industry
-649
-D
-ow
-nl
-oa
-de
-d 
-by
- U
-EM
- A
-t 1
-2:
-20
- 1
-5 
-Ju
-ne
- 2
-01
-5 
-(P
-T)
-information obtained through interviews with the manager of market operations of the
-focal company regarding the use of plural forms of governance for purchase of cattle.
-The company has six slaughterhouses located in different Brazilian states, two
-slaughterhouses abroad, 11 distribution centres in Brazil and offices in the main
-countries to which it exports its products. In 2010, 192,900 tons of in natura beef was
-sold on the international market and 121,600 tons in the domestic market. The main
-destinations of beef exported were the Middle East (26.1 per cent of the volume
-exported), followed by Russia and other states of the former Soviet Union (25.8 per
-cent), the Americas (19 per cent), Africa (14.9 per cent), Europe (8.7 per cent) and Asia
-(5.3 per cent). The company was responsible for 20.2 per cent of the total revenue from
-Brazilian exports of beef for the year 2010.
-Interviews were carried out with the manager of market operations for the focal
-company, a specialist in the finished cattle market and a certification specialist. For
-these interviews a semi-structured questionnaire was used to obtain information that
-enabled: the mapping of the supply chain of the focal company, covering the different
-distribution channels and types of suppliers; identification of the product attributes
-valued in the distribution channels; identification of the features of the transactions
-with the suppliers and the forms of governance being used; and identification of major
-determinants of governance strategies that the focal firm is following. A previous
-version of the results was submitted to the manager of market operations of the focal
-company for validation of the results.
-4. Results and discussion
-Figure 1 shows a diagram of the supply chain of the focal company, which is located at
-the centre of the figure. Its transactions with different distribution channels and
-suppliers are represented by solid lines and identified by Tn. Two main distribution
-channels were identified for the domestic market and two for the foreign market. In the
-domestic market, the meat processing plant serves the meat demand for barbecue
-houses (T1) and retailers (T2). In the foreign market, there are clients from the EU (T4)
-and other countries (T3). Each one of these distribution channels has its own
-characteristics and values different attributes of the beef.
-Figure 1.
-Diagram of the supply
-chain of the focal company
-BFJ
-116,4
-650
-D
-ow
-nl
-oa
-de
-d 
-by
- U
-EM
- A
-t 1
-2:
-20
- 1
-5 
-Ju
-ne
- 2
-01
-5 
-(P
-T)
-To meet this demand, the focal company obtains beef cattle through transactions with
-independent cattle farmers (spot market, T6; forward contract, T7), independent cattle
-farmers certified to export to the EU (forward contracts, T8; and spot market, T9), an
-integrated farm using a partnership model (T10) and intermediaries (T12), as well as
-from production on their own farms (T5). The intermediaries also obtain beef cattle
-through transactions with other cattle farmers, but this is outside the scope of the
-analysis of this study and is not represented in Figure 1. It is important to note that
-transaction T11, the only transaction represented by a dotted line, is carried out
-between the focal company and cattle farmers who raise backgrounding steers. This
-transaction does not involve direct physical flow of animals between these farmers and
-the focal company, and is part of a wider arrangement of partnerships coordinated by
-the focal company, which will be further explained later.
-Table I shows a summary of the transactions established by the focal company with
-the different commercialisation channels (downstream) and level 1 cattle farms
-(upstream). The transactions with cattle farmers are further classified according to
-their priority (priority and marginal). The priority transactions for the purchase of
-cattle are those that occur more frequently and with higher volume. They serve the
-demands of the respective commercialisation channel more efficiently. The marginal
-transactions are those that occur sporadically.
-Note that to serve the barbecue houses (T1), only one type of transaction was used
-(T5). However, to serve the remaining commercialisation channels, two or more
-transaction types are always used. The most extreme case is serving the demands of
-the domestic retail market, which can be carried out using four types of coordination.
-The following sections describe the relationship between the beef attributes desired
-by the main distribution channels and the governance structure established in each
-transaction for the acquisition of cattle.
-4.1 Barbecue houses
-The focal company uses a T1 transaction to serve barbecue houses. These
-establishments value organoleptic characteristics, such as tenderness and flavour.
-These characteristics, as described by Azevedo (2000), are experiential, meaning that
-they are only observable during consumption. The presence of these organoleptic
-characteristics in the final product depends on a set of factors (animal genetics, animal
-nutrition, production system and industrial processes) that are not visible to the end
-consumer, and are also many times not visible to the focal company.
-To resolve the problems of measuring the quality of the raw material and the final
-product, Azevedo (2000) proposed the use of long-term contractual arrangements with
-Upstream transactions
-Downstream transactions Priority Marginal
-Domestic market
-Barbecue Houses T1 T5 –
-Retailers T2 T6 and T7 T5 and T12
-Foreign market
-Other countries T3 T8 and T10 T9
-EU T4 T5, T6 and T7 –
+In the 1990s, several developments moved pork quality concerns to the forefront in
+the USA. Renewed emphasis on leanness emerged in the decade of the 1980s with
+human health research reports linking fat and cholesterol to cardiovascular disease in
+people (Robenstein and Thurman, 1996). Although live hog grading proved to be
+effective in encouraging farmers to reduce the fat content of their hogs, progress
+slowed in the late 1980s, while health conscious consumers were apparently willing to
+pay for even less fat (Kenyon and Purcell, 1999; Hayenga et al., 1985).
+In 1992, several of the largest pork packing companies adopted a new carcass
+measurement technology, referred to as the Fat-O-Meater. The technology is an optical
+probe, used to distinguish backfat from lean tissue, combined with a scale and linked to
+a computer. Backfat thickness and loin muscle depth, combined with the carcass
+weight, are used to calculate the estimated percent carcass lean.
+The detailed measurements and computing capability allowed packers to introduce
+their own “pricing grids”: a schedule of price adjustments to a base price that depend
+on carcass weight and percent lean. Carcass pricing grids, also referred to as carcass
+merit programs or carcass value pricing programs, which provide more precise
+measures of leanness suggest a higher expected price and stronger incentives for
+producing leaner hogs. Evidence collected from six large meat packers in the Southeast
+showed that carcass pricing grids were providing significant incentives for producers
+to raise larger, leaner, and more-muscled hogs (Kenyon et al., 1995).
+The pork industry experienced significant growth in carcass pricing programs in
+the 1990s. As reported by USDA, the percentage of hogs purchased by packers based
+on carcass evaluation increased from 11 percent in 1990, to 25 percent in 1993, and to
+72 percent in 2001. By 2007, hogs purchased on a carcass basis reached 79 percent of
+total hog slaughter. As the popularity of carcass pricing programs grew, leaner and
+more muscular hogs became available at heavier, more desirable weights (Table I).
+According to Meisinger (2000), more progress was made in the 1990s to reduce carcass
+fat and increase muscling than in the previous four decades combined.
+Pale, soft, exudative pork
+As renewed emphasis was placed on producing lean, well muscled hogs in the 1990s,
+pork quality continued to change in other ways. In particular, a relatively high
+incidence of “pale, soft, exudative” (PSE) pork became more apparent. PSE is a fresh
+pork classification category defined by very light color, soft texture (or lack of
+firmness), and exudative or exhibiting a high degree of drip-loss after slaughter. These
+attributes were found to be associated with the Porcine Stress Syndrome (PSS) gene (or
+stress gene), which was carried by some of the leaner genetic lines (Smith, 1999). Hence,
+as hogs became leaner and more heavily muscled, they were also more susceptible to
+producing pork with the PSE condition.
+Trait 1992 2002
+Live weight (lb) 245.1 255.7
+Backfat thickness (inches) 1.07 0.69
+Carcass muscle (percentage) 49.5 55.5
+Source: Miller (2004)
 Table I.
-Upstream and
-downstream transactions
-established by the focal
-company
-Plural forms of
-governance in
-the beef industry
-651
+Average US pork quality
+characteristics, 1992 and
+2002
+Pork quality and
+marketing
+contracts
+305
 D
 ow
 nl
@@ -679,9 +327,9 @@ by
  U
 EM
  A
-t 1
-2:
-20
+t 0
+5:
+38
  1
 5 
 Ju
@@ -691,55 +339,53 @@ ne
 5 
 (P
 T)
-the suppliers or the vertical integration of production. These two forms of
-commercialisation have the potential to minimise the problems of measuring
-characteristics of the raw material, increasing control over the process of raw material
-production and, consequently, increasing the quality of the final product. In fact, to
-serve the distribution channel represented by the barbecue houses/grills, the focal
-company generally uses vertical integration (transaction T5). On its own farms
-animals are produced that meet the organoleptic characteristics of flavour and
-tenderness that are valued by this distribution channel. According to the interview
-with the manager of market operations, by internalising part of the production, the
-company reduces information problems and costs associated with measuring
-characteristics of experiential goods, in addition to considerably increasing control
-over the quality of the raw material, therefore reducing transaction costs. However, by
-internalising part of the production of raw material, the company increases its
-production costs, which is compensated by higher prices paid by agents of this
-distribution channel.
-4.2 Retailers
-The distribution channel represented by the retailers (small, medium and large retail
-chains) is served by the focal company using the T2 transaction. In this type of
-transaction, the cuts of beef are standardised and sold under the focal company’s own
-brand. This distribution channel is less demanding than barbecue houses with regard
-to organoleptic characteristics. In this case, the attributes most valued by the consumer
-at the time of purchase are price and quantity. However, the increase in per capita
-income and purchasing power of the Brazilians has changed food consumption habits
-and made the Brazilian consumer increasingly demanding, mainly with regard to meat
-quality and food safety. The persistence of this increase in income points to continued
-changes in attributes valued in this distribution channel and includes the emergence of
-more demanding market niches.
-To serve the distribution channel represented by the small, medium and large retail
-chains (transaction T2), the focal company acquires raw material from independent
-cattle farmers. These transactions occur predominantly through the spot market
-(transaction T6) and through forward contracts (transaction T7). To a much lesser
-extent, the focal company also uses animals from its own farms (transaction T5) to
-serve this distribution channel.
-In the transactions formalised by means of a forward contract, clauses concerning
-the future delivery date of the animals, quantity, weight, age and sex of the animals, in
-addition to price, are pre-established. The price is calculated based on the indicator
-ESALQ/BM&F[1], with the addition or not of a premium. This premium is determined
-by the supply and demand conditions of the market and by the quality of the animal.
-For the cattle farmer, the forward contract allows the technical and financial
-scheduling of production and reduces the risk due to greater specificity of the asset and
-uncertainty of the institutional environment, ensuring the future sale of the product at
-a pre-determined price and encouraging investment in improvements to the production
-processes with possible gains in quality and productivity. For the focal company, it
-ensures the supply of raw material with pre-specified standards of quality and allows
-better planning and control of supply and production with consequent gains in
-coordination and competitiveness.
+PSE pork quickly became recognized for its undesirable qualities (Kaufman et al.,
+1994). Economic losses associated with PSE included reduced yield during processing
+and cooking, drip loss in retail display trays, reduced shelf life, increased quality
+variation, and reduced consumer appeal. Panel scores suggest that pale-colored pork is
+less acceptable to consumers (McKeith et al., 1996). PSE pork is also less tender because
+of increased cooking losses.
+At the same time, as packers attempted to differentiate their products through
+branding programs, pork quality standards and consistency became increasingly
+important. In Lawrence et al.’s (2001) survey of 11 large US pork packers, the packers
+reported a need for increased quality control and consistency in response to greater
+demand from their pork customers and ultimate consumers. The survey also found
+that branded programs by packers have been rapidly increasing, accounting for 18
+percent of 1999 sales volume, and were expected to represent an even larger share by
+2004. In the eight-year period from 1996 to 2003, over three times as many branded
+fresh pork products were introduced compared to the previous eight years
+(Datamonitor, 2003).
+Meat safety
+Another development that raised quality awareness was a spate of meat safety recalls
+by food companies in the 1990s. These events heightened media attention and
+consumer awareness of the importance of containing microbial hazards (Shane, 1999).
+On the heels of the Jack-in-the-Box beef recall in 1993, new regulatory initiatives in the
+meat and poultry industries were designed to replace the “poke and sniff” inspection
+methods for detecting tainted meat. In 1996, the USDA, Food Safety and Inspection
+Service published the final pathogen reduction regulation for the meat and poultry
+industry (Unnevehr et al., 1998). It set standards for reducing of microbial pathogens on
+meat and poultry products and required meat and poultry plants to implement Hazard
+Analysis Critical Control Point (HACCP) plans.
+HACCP is a preventative approach to controlling biological, physical, and chemical
+food safety hazards. As part of the HACCP program, companies identify the types of
+hazards that could affect their products, institute controls to prevent or minimize the
+hazards, monitor results of these controls, and maintain records of monitoring efforts.
+In the event that problems are found, the packer is required to take corrective action by
+locating and eliminating the cause and establishing preventative measures. The
+government oversees the process and verifies its adequacy. In effect, HACCP shifted
+more responsibility for safety from the government to meat packers. Mandated use of
+HACCP reflected the growing importance of preventing and controlling safety
+problems before products reach the consumer (Unnevehr, 2003).
+Pork exports
+The US pork industry experienced unprecedented growth in exports in the 1990s,
+increasing from 1.6 percent of production in 1990 to 8.6 percent in 2003. The North
+American Free Trade Agreement (NAFTA) and the Uruguay Round of the General
+Agreement on Tariffs and Trade (GATT) opened previously protected markets.
+Technological advances allowed US exporters to ship chilled pork products to Japan,
+which is the largest US export market. In March 1997, Taiwan was forced to close
 BFJ
-116,4
-652
+114,3
+306
 D
 ow
 nl
@@ -750,9 +396,9 @@ by
  U
 EM
  A
-t 1
-2:
-20
+t 0
+5:
+38
  1
 5 
 Ju
@@ -762,56 +408,56 @@ ne
 5 
 (P
 T)
-With a more comfortable position from which to plan its operations, including a
-lower risk of raw material shortages, the company increases its bargaining power in
-transactions with cattle farmers on the spot market. In other words, the more secure
-availability of animals purchased through forward contracts reduces dependence on
-the spot market and, in this way, the company can obtain lower prices than the average
-observed in this market. This strategy corroborates the idea that the use of plural
-forms of governance enables gains from synergies (Brousseau and Codron, 1997;
-Parmigiani, 2007; Schnaider and Saes, 2011; Menard, 2011). In the case of the present
-study, the focal company takes advantage of the potential for financial planning, scale
-and quality that the forward contract can offer and, as a result, obtains lower prices on
-the spot market. This supply strategy adopted by the focal firm corroborates the
-pioneering vision of Bradach and Eccles (1989) that the adoption of plural forms of
-governance is related to the use of one form of governance to manage the other.
-It is also important to note that in some regions of Brazil, the focal company
-conducts transactions with intermediaries, carried out through the spot market
-(transaction T12) to acquire finished steers that will be used in the production of beef
-for the retail market. These intermediaries purchase animals from various small
-producers and resell them, with gains from scale, to the focal company. However, these
-transactions are marginal and tend to shrink as the market evolves and as the
-company reduces transaction costs and increases control over the quality of the raw
-material.
-4.3 EU
-The EU market (transaction T4) is demanding with regard to organoleptic
-characteristics of the beef and food safety. This distribution channel also requires
-the traceability of the animals, from rural production until slaughter. The traceability
-system used in Brazil, known as SISBOV[2], is supervised by the Ministry of
-Agriculture, Livestock and Supply (MAPA), which is responsible for certifying the
-farms where cattle are obtained for meat production and exported to the EU[3].
-The rural producer who wants to raise animals that can be used in the production of
-beef for export to the EU must meet the following requirements: SISBOV enrolment,
-producer registration, farm registration, basic production protocol, record of inputs
-used at the farm, individual identification of all of the cattle on the farm, control of
-animal transfer and monitoring by a single certification agency. The certification
-process is relatively slow and must be audited on a bi-annual basis by MAPA.
-Certification for export to the EU is also used as a benchmark for other countries, such
-as Russia and the Middle East (Vinholis and Souza, 2010).
-The set of requirements imposed by the EU increases the specificity of the raw
-material, pointing to a need to build a relationship that is closer and more coordinated
-between the focal company and its suppliers. In this way, to purchase animals that will
-meet the requirements of this commercialisation channel, the focal company uses T8,
-T9 and T10 transactions, detailed as follows.
-To obtain finished steers using the T10 transaction, the company coordinates
-partnerships with two types of animal suppliers: a large cattle farmer (owner of a farm
-certified for export to the EU) and a group of cattle farmers supplying backgrounding
-steers (raised on uncertified farms) (Figure 1). The focal company purchases
-backgrounding steers from the uncertified farms (T11) to then supply the certified
-Plural forms of
-governance in
-the beef industry
-653
+down its pork industry due to an outbreak of foot-and-mouth disease, which opened the
+door for other exporters.
+Pork product quality and customized service were major factors affecting global
+trade of pork products. Consequently, as US pork export markets fueled new business
+opportunities, addressing pork quality problems became more important. For example,
+in the 1990s, the USA made significant progress toward overtaking Denmark (a major
+US export competitor) as the leading exporter to Japan, where meat quality issues are
+especially important. A 1990 survey of Japanese consumers regarding factors that
+affect selection of pork products found that food safety, fat intake, taste, and freshness
+were among the quality characteristics that ranked high (Sapp and Knipe, 1990).
+Marketing contracts and carcass pricing programs
+As advances in measurement technology enabled more accurate and less expensive
+measures of carcass leanness, packers could offer grids with narrower groupings for
+leanness and carcass weight. In addition to added packer costs related to
+record-keeping and maintaining producer identity (McCoy and Sarhan, 1988),
+carcass grading programs with more narrow quality groupings likely increase costs of
+sorting and pricing hogs.
+The move to carcass pricing programs also likely raised producer costs associated
+with comparing alternative packer pricing programs for several reasons. First, each
+meat packer has different premium and discount schedules, depending on the type of
+outlet and products sold. For example, packers such as Hormel, who process much of
+their pork, prefer a lighter carcass. Others, such as Excel, prefer a heavier carcass for
+boned or boxed products. Marbery (2000a) writes that restaurants prefer relatively
+small loins, which come from 215-230 pound hogs compared with the standard
+270-pound hog. A packer that exports to Japan prefers leaner pork.
+Second, instruments used to measure lean vary across packers. In 2000, among the
+nation’s 32 largest plants owned by 13 packers, seven of these packers used the
+Fat-O-Meater, which employs light diffraction to measure fat and loin depth. Ultrafom
+and Animal Ultrasound Systems (AUS), which measure fat depth and loin depth by
+ultrasound rather than light diffraction, are used by three companies. Two packers
+used a low technology ruler measurement on midline backfat to estimate lean. A more
+sophisticated measuring device, AutoFom, also uses ultrasound but scans carcasses at
+2,000 points and monitors intramuscular fat, and pH and color (PSE pork indicators) in
+the cooler. This device was used by Hatfield and became operational in one of Hormel’s
+plants in 2000. These differences led to significant grading program disparities across
+packers.
+A third factor complicating price comparisons across packers is that carcass merit
+matrices may be revised by the packer, which suggests the producers must continually
+reevaluate alternative packer buying programs. Buying programs have been
+continually adjusted to increase compensation for leaner hogs, and packers have
+been narrowing their ideal carcass weight ranges to provide more consistent products.
+Packer resistance toward making these programs public also complicated producers’
+ability to evaluate alternative programs[1].
+Along with the growing importance of carcass pricing grids, marketing contracts
+between packers and producers quickly supplanted much of the spot market trade. The
+dominant pricing method in these contracts was a formula price adjusted by the
+Pork quality and
+marketing
+contracts
+307
 D
 ow
 nl
@@ -822,9 +468,9 @@ by
  U
 EM
  A
-t 1
-2:
-20
+t 0
+5:
+38
  1
 5 
 Ju
@@ -834,52 +480,55 @@ ne
 5 
 (P
 T)
-finishing farm[4, 5]. The T11 transaction does not involve the direct flow of animals,
-but the negotiation of backgrounding steers that will be fattened and confined on the
-certified farm, and then later slaughtered by the focal company. Payment for these
-backgrounding steers to the cattle farmers will be made by the focal company only
-after the finishing stage on the certified farm, in other words, at slaughter, with the
-price determined at time of purchase or set on the date of slaughter using that day’s
-market price. The integrated confinement farm has the capacity to fatten 24,000 head
-of cattle a year, and is dedicated exclusively to the final production phase of the
-animals, which consists of a 90-day confinement. The focal company formalises a
-long-term partnership contract with the owner of the cattle farm in which he pledges to
-supply backgrounding steers and technical assistance, as well as the predetermined
-amount of R$ 0.50 per 15 kg of fattened animal. The monetary value of the weight gain
-obtained by the cattle on the farm (the difference in weight upon entering and leaving
-confinement) is paid by the focal company. With this governance structure, the focal
-company ensures a supply of high-quality cattle that it needs to serve the EU. The
-following list presents the advantages that the governance structure developed and
-coordinated by the focal company for transaction T10 can provide to the three agents
-involved:
-(1) Advantages for the livestock suppliers of backgrounding steers:
-. the ability to export to the EU and receive half the Europe premium without
-being on the TRACES list and without having to pay the costs of
-traceability;
-. the ability to establish a forward contract with the meat processing plant,
-protecting itself from price variations in cattle and ensuring its sale; and
-. resting of pasture during the dry season, when animals go to the finishing
-farm, providing increased capacity during the rainy season and increased
-productivity.
-(2) Advantages for the focal company:
-. the company maintains a safe stock of 24,000 head of cattle per year through
-a long-term contract with the owner of the finishing farm;
-. despite having to pay for part of the production costs (animal nutrition and
-consulting), the company can focus on its core activity by outsourcing the
-raising and fattening of animals; and
-. control over the quality of raw material through incentives for use of
-management and nutrition techniques.
-(3) Advantages for the owner of the finishing farm:
-. receives a set price per head and pays no transaction costs, since the focal
-company negotiates the purchase of the animals for finishing on the certified
-farm and all the animals are slaughtered at the focal company itself;
-. receives the necessary technical assistance for production, reducing
-production costs; and
-. the opportunity to focus solely on production with resulting gains in
-productivity and increases in remuneration.
+packer’s carcass pricing grid, with a current live spot market price (e.g., Iowa-Southern
+Minnesota plant prices) serving as the base price (Lawrence et al., 1997; Hayenga et al.,
+1996).
+Given changes in the pricing system, two features of marketing contracts could
+lower packer and producer measuring costs compared to spot markets. First, long-term
+agreements may reduce search costs associated with finding suitable trading partners.
+The duration of most hog marketing contracts is four to seven years (Kenyon and
+Purcell, 1999), which can reduce producers’ costs associated with reevaluating packer
+grids at each sales interval. Similarly, packer costs associated with identifying suitable
+producers are incurred at long-term intervals.
+Second, minimum quantity requirements help to assure packers that hogs are of
+uniform quality, which allows packers to engage in much less testing at the time of
+exchange. A 1994 survey of the largest US pork packers revealed that almost half of
+the 13 packers involved in formal, written contracts had minimum volume
+requirements, and either minimum quality requirements or breeding/genetic
+stipulations (Hayenga et al., 1996). Large numbers of hogs produced under similar
+breeding, nutrition, health, and other production conditions would give the packer
+useful information on the other hogs by measuring a few. Also, because much of the
+difference in the typical versus ideal hog is related to genetics (Kenyon et al., 1995),
+stipulations regarding genetics provide further assurances of uniform quality. Genetic
+traits that directly effect meat quality include intra-muscular fat (that is, marbling),
+meat color, pH, and tenderness.
+Contract design to control quality and limit measuring costs
+While carcass pricing grids provided strong incentives for leanness, the growing
+prevalence of PSE-related characteristics and safety concerns were expected to lead to
+efforts to control these attributes as well. However, measuring costs associated with
+these attributes provided obstacles to compensating producers. Packers could not
+readily grade hogs using PSE indicators (for example pH, color, and water holding
+capacity) because they are difficult to apply in high-speed slaughter lines that kill 1000
+hogs per hour (3 seconds per carcass) (Marbery, 2000b). In 2000, Forrest et al. (2000)
+noted that predicting color and water holding capacity of pork is one of the most
+difficult and important challenges facing meat scientists.
+Biological (bacteria, viruses, etc.) and chemical (antibiotics, hormones, etc.)
+contaminants also presented measurement difficulties. Testing for pathogen content at
+different stages of the supply chain is often difficult because rapid tests are not
+available (Unnevehr and Jensen, 2001). Microbiological and chemical residue testing is
+of limited value because the time required to obtain results does not permit action to be
+taken while the meat is being processed.
+While PSE and safety attributes presented measuring difficulties, relationships
+between these attributes and production activities became better known. Research
+improved knowledge about the link between PSE problems and hog production inputs
+(Smith, 1999). Producers are responsible for 50 percent of PSE problems, mostly
+through their choice of genetics. As hogs were bred to be lean and well-muscled, such
+breeding led to more stress-prone hogs. Producers can reduce hog stress in several
+ways, including minimizing the use of electric prods, designing finishing facilities to
+optimize environmental conditions, and using feed additives.
 BFJ
-116,4
-654
+114,3
+308
 D
 ow
 nl
@@ -890,9 +539,9 @@ by
  U
 EM
  A
-t 1
-2:
-20
+t 0
+5:
+38
  1
 5 
 Ju
@@ -902,200 +551,58 @@ ne
 5 
 (P
 T)
-Following the proposal developed by Lazzarini et al. (2001), the partnership model
-coordinated by the focal company establishes three types of interdependence between
-the agents: the first is group interdependence between the farmers raising the
-backgrounding steers and the owner of the certified farm; the second is the sequential
-interdependence between the farmers raising the backgrounding steers and the focal
-company; and the third is the reciprocal interdependence between the owner of the
-certified farm and the focal company.
-The partnership model identified in this work points to a trend in the development
-of new coordination arrangements in the production chain of Brazilian beef. The
-partnership/structure model of governance analysed is designed to reduce both the
-costs of obtaining information on raw material through traceability and also other
-transaction costs through contracts used between the focal company and the owner of
-the farm and between the focal company and the cattle farmers. The partnership
-arrangement also has the objective of encouraging investments in quality in cattle
-raising and ensuring the supply of quality cattle for the focal company, in addition to
-potentially increasing the profitability of all agents involved. It is important to stress
-that no similar partnership arrangements were found in the literature for the beef
-production chain in Brazil, indicating that it is an innovation in relations between meat
-processing plants and cattle farmers.
-The governance established above was not sufficient to meet the demand of the
-focal company for certified animals. To do so, the company had to establish a second
-type of governance for transactions (transaction T8) with other cattle farmers, whose
-farms were also certified. This governance is characterised by the use of forward
-contracts, whose advantages and design have already been explained. However, in the
-case of purchasing cattle to meet EU demand, there are two basic conditions in the
-design of these contracts. The first condition is that the cattle raising farm must be
-listed on TRACES, in other words, it must be duly certified for export; and the second
-refers to the price for fattening, which could be defined as a bonus, and is known as the
-Europe premium.
-Marginally, the focal company can also purchase animals from certified farms
-through the spot market (transaction T9) to serve the EU. This governance mechanism
-would not be the most suitable in this case, given the high specificity of the asset
-traded. However, these transactions become feasible when the focal company conducts
-a large number or high frequency of transactions with certain cattle farmers, thus
-creating an environment of trust, and making forward contracts unnecessary.
-Although these transactions are carried out on the spot market, the Europe premium is
-also paid.
-The strategy of adopting plural forms for the supply of animals enabled the focal
-firm to obtain greater flexibility and reduce the risks associated with meeting EU
-demand. In fact, the demand from the EU for traceable beef in Brazil has been unstable,
-whether due to factors related to changes in the income of the European consumer or
-embargos associated with technical barriers to trade. Faced with a sudden fall in
-demand for Brazilian beef, the focal firm ends their purchase operations for traceable
-finished steers on the spot market, or removes the Europe premium offered on these
-operations. In this way, the firm avoids the costs associated with ex post changes in the
-institutional environment. However, it is not able to avoid these costs in operations
-involving partnerships or forward contracts for traceable cattle. Even if the firm is able
-Plural forms of
-governance in
-the beef industry
-655
-D
-ow
-nl
-oa
-de
-d 
-by
- U
-EM
- A
-t 1
-2:
-20
- 1
-5 
-Ju
-ne
- 2
-01
-5 
-(P
-T)
-to redirect the surplus to other commercialisation channels, it is unlikely to obtain
-premium prices that justify the adoption of such forms of governance. Against a
-backdrop of rising European demand for Brazilian beef, the opposite occurs. The focal
-company sustains its purchase operations using the partnership model and forward
-contracts, and can also expand its purchases using the spot market. In this case, the
-Europe premium tends to rise until the supply of traceable cattle adjusts to the new
-demand. The adoption of plural forms of governance allows the focal company to meet
-the requirements of the EU in terms of beef quality attributes, without having to
-internalise production, bear the burden of all the production costs or lose the incentives
-offered by the market upstream.
-4.4 Other countries
-The distribution channels of foreign markets that do not require a traceability system
-like the European one are served using T3 transactions. In these transactions,
-guarantees are offered by the Official Veterinary Services, by means of a declaration
-from the producer attesting to the rural property origin of the animals and supervised
-by the Official Veterinary Service. The principal demands are limited to requirements
-of the Export Health Certificate, which includes, for example, that the animals must be
-less than 30 months old (Vinholis and Souza, 2010).
-To serve the foreign market distribution channels regarding T3, the focal company
-purchases animals through the spot market (T6) and forward contracts (T7), and from
-their own farms (T5). Since these distribution channels do not require EU standard
-traceability, the asset is much less specific than the asset for that market. However,
-efforts are made by the focal company to obtain the highest quality raw material to
-serve these channels, given its strategy to increase competitiveness in the foreign
-market. In transactions using forward contracts and vertical integration, as just
-mentioned, there is the possibility of reducing transaction and measuring costs and
-encouraging investment in the quality of raw material through the promise of future
-transactions and payment of premiums, in the case of high quality cattle. In the
-transactions carried out on the spot market, quality control and incentives for
-investment in quality are reduced.
-The supply strategy to serve the distribution channel represented by other countries
-(transaction T3) is very similar to the strategy for serving domestic market retail
-chains (transaction T2). In both cases the focal firm uses the spot market in conjunction
-with other forward contracts and, sporadically, vertical integration. As already
-emphasised, there are three advantages derived from the use of this supply strategy
-that became evident in the present study: i) greater flexibility in adjusting to changes in
-demand; ii) ability to take advantage of synergies, making use of the pre-determined
-scale contained in the forward contract to increase bargaining power and pay lower
-prices on the spot market; iii) a decrease in information asymmetry in the transactions
-using vertical integration, enabling the acquisition of more knowledge about the
-production of the raw material, and consequently more control over the suppliers of
-raw material.
-4.5 Complexity and strategy
-The classification established by Menard (2011) allows us to conclude that the plural
-forms adopted for the upstream transactions were determined by the complexity of
-BFJ
-116,4
-656
-D
-ow
-nl
-oa
-de
-d 
-by
- U
-EM
- A
-t 1
-2:
-20
- 1
-5 
-Ju
-ne
- 2
-01
-5 
-(P
-T)
-transactions in certain commercialisation channels, as well as the strategic behaviour
-of the focal firm. Table II presents the role of each of the determinants established by
-Menard (2011).
-To meet the demand of barbecue houses, the focal firm does not adopt plural forms
-of governance for the supply of raw material. In the case of retailers in the domestic
-market, the adoption of plural forms upstream is determined by the supply strategy of
-the firm. These transactions present neither ambiguity nor complexity. The use of
-plural forms is a strategy for securing in advance a part of the supply of animals, by
-adopting forward contracts, and, simultaneously, reaping the benefits of the spot
-market. Cross-learning effects are also an advantage of this strategy.
-To meet the strict requirements of the EU, the adoption of plural forms is mainly the
-result of the complexity of the transactions upstream. The inherent uncertainties of the
-institutional environment and the need to obtain traceable animals of high quality
-make these transactions complex and risky. The focal firm uses plural forms as a way
-to keep these factors under control. In the case of other countries, the adoption of plural
-forms is determined by the strategy of the firm. In this case, the supply strategy is
-similar to the strategy adopted to serve retailers in the domestic market.
-5. Final considerations
-The present case study showed that the governance structures in the transactions
-between cattle farmers and meat processing plants change according to consumer
-demands and institutional environment. Plural forms of governance were adopted as a
-strategy for coordinating transactions and because of the complexity of some
-transactions. The focal company uses different forms of governance with their
-suppliers to serve different distribution channels in an effort to take advantage of the
-synergies that the different forms provide and to keep uncertainties about the quality
-and quantity of raw materials under control. The company uses the spot market,
-hybrid forms and vertical integration to purchase cattle. This strategy provides a
-competitive advantage, since it allows the company to serve different distribution
-channels, with different levels of requirements in terms of quality and other product
-attributes. It reduces the risk of depending on just a few suppliers by diversifying
-supply strategies. It also reduces the risk that comes from complexity and
-unpredictable institutional environment in the international market.
-Determinants of plural forms in upstream transactions
-Distributions channels Ambiguity Complexity Strategy
-Domestic market
-Barbecue houses 0 0 0
-Retailers 0 0 þþ
-Foreign market
-EU 0 þþ þ
-Other countries 0 0 þþ
-Notes: In this table, 0 means that the relevant variable does not seem to play a significant role in the
-choice of the plural forms of governance, + signals that the related variable has a moderate influence,
-++ indicates a major determinant
+While less is known about the application of specific on-farm HACCP principles to
+control pathogen contaminants, such as salmonella, producers directly affect pork
+safety through health management and handling practices. The most significant way
+that producers implement HACCP principles is through the PORK QUALITY
+ASSURANCEe (PQA) certification program (Lautner, 1999), which is a voluntary
+education program introduced in 1989 to prevent antimicrobial residues and enhance
+herd health practices. To blend with packer HACCP plans, the National Pork Producers
+Council released a new version of the PQA program in 1997, which was designed to
+more clearly define producers’ responsibilities. At the time, PQA Level III was the
+highest level of the PQA program, and could only be completed after discussions with
+a third-party verifier (veterinarians, agricultural education instructors, USDA
+extension personnel).
+Contract sample
+Given the strong link between production inputs and PSE pork, and certain safety
+attributes, contracts are expected to specify input requirements and monitoring of
+production activities[2]. A survey of 13 large US packers provides a glimpse of specific
+non-price terms of long-term hog marketing contracts in 1993 (Hayenga et al., 1996). In
+addition to minimum quality requirements or breeding/genetic specifications required
+by nearly half of the packers, feeding programs or approval of facilities were specified
+by three packers. However, herd health or drug withdrawal programs were included by
+only one packer.
+A more recent snapshot of marketing contracts is provided by a sample of 15
+marketing contracts submitted by producers to the Iowa Attorney General’s Office.
+These contracts were offered from 1996 to 2001 by six leading packers at the time
+(Farmland, Hormel, IBP, John Morrell, Swift, Excel) (Table II). Frequency of contract
+clauses related to monitoring and input specifications are summarized in Table III.
+Company Contract yeara Number of different contracts
+Farmland 1998 1
+Hormel 1996 2
+1997 3
+1999 1
+2000 1
+IBP 1997 2
+John Morrell 1997 2
+2000 1
+NDb 2
+Swift 1998 1
+2000 1
+2001 1
+Excel 2000 1
+Notes: aContract year is our best assessment of the year that the contract was initially available based
+on dates contained in the contract. listed for that year is contained in parentheses; bND ¼ year not
+disclosed
+Source: Iowa Attorney General’s Office (www.iowaattorneygeneral.org/working_for_farmers/
+contracts/index.html)
 Table II.
-Determinants of plural
-forms in upstream
-transactions
-Plural forms of
-governance in
-the beef industry
-657
+Inventory of long-term
+contracts
+Pork quality and
+marketing
+contracts
+309
 D
 ow
 nl
@@ -1106,9 +613,9 @@ by
  U
 EM
  A
-t 1
-2:
-20
+t 0
+5:
+38
  1
 5 
 Ju
@@ -1118,54 +625,821 @@ ne
 5 
 (P
 T)
-The adoption of plural forms allows the company to improve its planning and control
-of supply, with consequent gains in the use of installed capacity. The strategy of
-adopting plural forms also appears to be gaining ground in other companies and in
-other sectors, and deserves further in-depth study. This study is novel in pointing out
-the advantages that this strategy can provide based on a case study carried out at a
-large company of the beef industry that serves different distribution channels with
-differentiated products (in terms of quality and packaging/cuts).
-Most empirical studies on plural forms evaluate their existence within a sector or
-production chain, without wondering whether plural forms exist within a single
-company. Furthermore, most of these studies do not take into consideration the impact
-that the differentiation of product and distribution channels can have on the adoption
-of plural forms of governance when make their evaluations. In fact, the analytical
-model used in these studies implicitly presumes that the companies offer a single
-homogeneous product and must decide on the form of governance to be adopted for the
-supply of the most important input (upstream transactions) (Heide, 2003; Parmigiani,
-2007; Mello and Paulillo, 2010). This simplification of the real world leads these studies
-to disregard the effect of differentiation of product and distribution channels on the
-supply strategy that the company is following. Also, these studies do not take into
-account the role played by a given and pre-existing heterogeneity of input suppliers. In
-the present study it was found that both the specificity of the final product, as well as
-the availability of a wide range of suppliers of raw material, employing different
-production technologies, are determinant factors for the focal company adopting plural
-forms.
-The case study presented here corroborates the vision that plural forms of
-governance are aligned with the model provided by Menard (2011). In the case
-presented, plurality is more efficient than the adoption of only one form of governance.
-This can be explained by the complexity of some transactions, by the different
-characteristics of the assets involved and by the supply strategy of the company.
-Plurality is not a situation of disequilibrium, but rather a question of multiple
-equilibria found to efficiently serve the diversity of existing distribution channels. It is
-possible to set price and quality strategies, and ensure the flexibility needed to face
-uncertainties about the quantity and quality of production, as suggested by Brousseau
-and Codron (1997), Silva and Azevedo (2007), Perrigot et al. (2009) and Menard (2011).
-The adoption of plural forms of governance allowed the Brazilian beef export
-industry to match the heterogeneity in the supply of beef cattle in Brazil with the
-heterogeneity of the beef market in both domestic and foreign markets. This strategy
-has provided competitive advantages for the Brazilian beef chain in the international
-market.
+Several clauses relate to food safety. In stark contrast to the earlier 1993 survey, nearly
+all packers had provisions that required producers to be certified at Level III PQA or
+higher. Over half of the contracts required producers to be supervised by a licensed
+veterinarian. Five contracts offered by three packers had provisions that require
+producers to comply with any company HACCP programs in place.
+While five contracts have specific clauses with minimum PSE standards, they are
+not likely to involve regular measurements with consistent feedback to producers. For
+example, in Swift’s 1998 contract, there is no indication of how the PSE condition
+would be measured or procedures for verifying compliance. Aside from lean
+composition and trim losses, there are no other pork quality data provided by any
+packer back to the producer on a consistent basis (Meisinger, 2000). Instead, PSE
+requirements may serve as a communication device to express PSE concerns to the
+producer, and perhaps signal to customers packer efforts to improve quality.
+Given difficulties in measuring PSE pork, strong incentives for leanness provided by
+carcass pricing grids might be expected to divert producer effort away from controlling
+PSE pork. Clearly, the packer’s ability to control PSE pork is enhanced by its relationship
+to genetics and other hog production inputs. Input specifications, together with packer
+monitoring, can give packers some control over PSE-related attributes.
+Nearly all of the 15 contracts contain terms related to inputs that affect PSE. Six
+contracts had clauses requiring company approval (or joint agreement) of genetics or
+feeder-pig source. Four other contracts required a specific type of genetics or source of
+feeder pigs. In five contracts, producers were required to handle hogs in a humane
+manner or in a way that optimizes meat quality. Most contracts also required
+producers to use company-approved or company-specific feeding programs, and five
+contracts have clauses requiring company-approved facilities.
+Number of packers
+with clause
+Number of
+contracts with
+clause
+Clause (n ¼ 6) (n ¼ 15)
+Level III PQA or higher 5 13
+Packer can observe production operations 5 10
+Company-approved or company-specific feeding program 5 9
+Company-approved genetics or feeder pig source 4 6
+Handling of hogs 3 5
+Veterinary supervision 3 8
+Producer review of payment records 3 7
+Producer can observe packing plant 3 6
+Minimum requirements for PSE-related attributes 3 5
+Specific genetics or feeder pig source 3 4
+HACCP program compliance 3 5
+Company-approved facilities 2 5
+Packer audits of production management records 2 3
+Company-approved management programs 1 1
+Note: n ¼ sample size
+Source: Compiled from contracts submitted by producers to the Iowa Attorney General’s Office
+(www.iowaattorneygeneral.org/working_for_farmers/contracts/index.html)
+Table III.
+Frequency of contract
+clause related to
+production inputs
+BFJ
+114,3
+310
+D
+ow
+nl
+oa
+de
+d 
+by
+ U
+EM
+ A
+t 0
+5:
+38
+ 1
+5 
+Ju
+ne
+ 2
+01
+5 
+(P
+T)
+Are strong incentives for leanness efficient?
+As discussed earlier, increasingly leaner, heavily muscled hogs were often carriers of
+the stress gene, which was linked to PSE pork. Strong incentives for leanness provided
+by carcass pricing grids are expected when the packer can use marketing contracts to
+specify and monitor producer behavior related to other important, but difficult to
+measure attributes. Given the ability to control the PSE attribute through genetics and
+production management practices, this is clearly the case.
+Strong incentives for leaner hogs are also efficient when marginal benefits to the
+packer are relatively large compared to marginal benefits from reductions in PSE pork
+(Holmstrom and Milgrom, 1991). Marginal benefits from producer efforts to control
+PSE attributes may have been limited by industry wide efforts to breed out the stress
+syndrome from commercial herds (Casau, 2003; Marbery, 2000b).
+As marginal benefits from increasing leanness become relatively smaller compared
+with controlling PSE attributes, weaker incentives, or perhaps disincentives, for leaner
+hogs are expected (Holmstrom and Milgrom, 1991). There is a positive relationship
+between increasingly lean hogs and PSE pork (which is disliked by
+packers/processors, distributors, and consumers). In addition, some researchers
+believe that fresh pork may have become too lean for consumers (Marbery, 2000c).
+Excessive leanness was one weakness identified in a 2002 pork quality audit of US
+packers accounting for 64 percent of hogs slaughtered (Messenger, 2004a)[3].
+Disincentives for lean hogs was reflected in at least one carcass pricing grid recently
+submitted by a packer to the USDA’s swine contract library[4]. The grid demonstrated
+a slight cutoff in lean premiums for hogs exceeding 58.9 lean percent in the industry’s
+most common weight range, 232 to 292 pounds.
+Marketing contracts and adjustments to uncertainty
+Many contract clauses related to production input requirements tend to be less detailed
+regarding the degree to which required inputs and expected outputs are fully specified.
+Rather than specifically defining input standards, many clauses require
+packer-approval of feeding programs, facilities, or genetics. In Excel’s contract, for
+example, specifications regarding diet, management, facilities, and handling of hogs
+require that these inputs be company approved, meet industry standards, or minimize
+carcass damage. Other provisions describe packer expectations or plans for working
+together. As stated in one of Hormel’s contracts:
+Both parties will work together to assure the genetics are meeting both the production and
+carcass meat quality requirements.
+The less detailed nature of these terms may reflect uncertainty in pork markets that
+make it difficult for packers to accurately predict future input requirements. Adapting
+to changing input requirements may be facilitated by recognizing potential areas of
+conflict in advance, and defining partner expectations and a plan for collaboration,
+rather than defining specific terms of cooperation. By leaving contract terms less
+explicit, transaction costs associated with renegotiating and revising contract terms
+are reduced in light of uncertain future needs.
+Changing industry standards for pork products is one source of uncertainty in the
+transaction. In addition to the growing importance of domestic fresh pork branding
+Pork quality and
+marketing
+contracts
+311
+D
+ow
+nl
+oa
+de
+d 
+by
+ U
+EM
+ A
+t 0
+5:
+38
+ 1
+5 
+Ju
+ne
+ 2
+01
+5 
+(P
+T)
+programs, international markets are increasingly targeted as avenues for growth.
+Quality standards are dictated by preferences of the importing country.
+Changes in quality measuring tools are another source of uncertainty. More
+accurate measures of pork quality can lead to corresponding adjustments in input
+requirements and pricing programs. Examples from the late 1990s include IBP’s (now
+Tyson Fresh Meat) adoption of the ultrasound system for measuring lean, and
+Hormel’s Autofom carcass testing system, which also monitors PSE-related indicators.
+Uncertainty related to output and input requirements is reflected in “adjustment
+mechanisms” to alter the contract over time. For example, almost all contracts specify
+that the packer can change the carcass pricing grid, some requiring advanced notice to
+the producer. In its 2000 contract, John Morrell reserves the right to change or add
+additional requirements, upon reasonable notice, consistent with evolving industry
+standards for quality. Two of Swift’s contracts, require producers to modify nutrition
+plans if requested (citing the use of non-genetically modified feed as an example). In
+addition, if requested by the company, producers must implement programs that
+improve quality or the company’s ability to sell products (citing HACCP as an
+example). These terms help to resolve coordination problems and conflicts that might
+otherwise develop.
+Variation in sample contract provisions
+Although there are many similarities in input requirements and monitoring clauses
+across the sample, there are also significant differences, even between contracts offered
+by the same packer. This may reflect differences in the type of outlet targeted. For
+example, leanness, consistent color, and water holding capacity are more important for
+pork destined for grocery store shelves and international markets compared to further
+processing and food service outlets (Huskey, 2000).
+Differences in contract terms may also reflect changes in information and packer
+goals over time. Ten of the contracts offered by Hormel, Swift, and John Morrell allow
+us to observe contract terms over time. Splitting the sample into two time periods,
+1996-1998 and 1999-2001, provides five contracts for each period (Table IV).
+Comparing frequency counts across periods, all three packers added clauses that
+required producers to comply with any company HACCP program, perhaps in
+anticipation of a farm-level HACCP program.
+Clauses related to handling of hogs were introduced for the first time in the latter
+period. This may reflect growing knowledge about the causes of PSE-related
+attributes, and greater concerns over PSE pork in response to increasingly leaner and
+stress-prone hogs. While progress had apparently been made in breeding out the stress
+gene in the hog population, the 2002 pork quality audit revealed an increase in the
+incidence of PSE pork compared to 1992. This suggests handling problems may have
+been an important contributor to PSE-related problems[5].
+Changes in contract terms over time also coincide with attempts by these packers to
+expand their offerings of branded pork products. Using two five-year time periods,
+corresponding to the break in our contract analysis, we compare the number of new
+fresh pork products introduced by Hormel, John Morrell, and Swift. From 1999 to 2003,
+the number of new products tracked by Datamonitor increased markedly compared to
+the earlier period (Figure 1).
+BFJ
+114,3
+312
+D
+ow
+nl
+oa
+de
+d 
+by
+ U
+EM
+ A
+t 0
+5:
+38
+ 1
+5 
+Ju
+ne
+ 2
+01
+5 
+(P
+T)
+19
+96
+-1
+99
+8
+19
+99
+-2
+00
+1
+(n
+¼
+5)
+(n
+¼
+5)
+C
+la
+u
+se
+N
+u
+m
+b
+er
+of
+co
+n
+tr
+ac
+ts
+N
+u
+m
+b
+er
+of
+p
+ac
+k
+er
+s
+u
+si
+n
+g
+th
+e
+cl
+au
+se
+N
+u
+m
+b
+er
+of
+co
+n
+tr
+ac
+ts
+N
+u
+m
+b
+er
+of
+p
+ac
+k
+er
+s
+u
+si
+n
+g
+th
+e
+cl
+au
+se
+L
+ev
+el
+II
+I
+P
+Q
+A
+or
+h
+ig
+h
+er
+4
+3
+5
+3
+V
+et
+er
+in
+ar
+y
+su
+p
+er
+v
+is
+io
+n
+3
+2
+3
+2
+P
+ro
+d
+u
+ce
+r
+re
+v
+ie
+w
+of
+p
+ay
+m
+en
+t
+re
+co
+rd
+s
+3
+2
+3
+2
+P
+ac
+k
+er
+ca
+n
+ob
+se
+rv
+e
+p
+ro
+d
+u
+ct
+io
+n
+op
+er
+at
+io
+n
+s
+2
+2
+5
+3
+C
+om
+p
+an
+y
+-a
+p
+p
+ro
+v
+ed
+or
+co
+m
+p
+an
+y
+-s
+p
+ec
+ifi
+c
+fe
+ed
+in
+g
+p
+ro
+g
+ra
+m
+2
+2
+5
+3
+C
+om
+p
+an
+y
+-a
+p
+p
+ro
+v
+ed
+g
+en
+et
+ic
+s
+or
+fe
+ed
+er
+p
+ig
+so
+u
+rc
+e
+2
+2
+2
+1
+P
+ro
+d
+u
+ce
+r
+ca
+n
+ob
+se
+rv
+e
+p
+ac
+k
+in
+g
+p
+la
+n
+ts
+2
+2
+3
+2
+C
+om
+p
+an
+y
+-a
+p
+p
+ro
+v
+ed
+fa
+ci
+li
+ti
+es
+2
+2
+3
+2
+M
+in
+im
+u
+m
+re
+q
+u
+ir
+em
+en
+ts
+fo
+r
+P
+S
+E
+-r
+el
+at
+ed
+at
+tr
+ib
+u
+te
+s
+1
+2
+1
+H
+an
+d
+li
+n
+g
+of
+h
+og
+s
+0
+0
+4
+2
+S
+p
+ec
+ifi
+c
+g
+en
+et
+ic
+s
+or
+fe
+ed
+er
+p
+ig
+so
+u
+rc
+e
+0
+0
+2
+1
+H
+A
+C
+C
+P
+p
+ro
+g
+ra
+m
+co
+m
+p
+li
+an
+ce
+0
+0
+5
+3
+P
+ac
+k
+er
+au
+d
+it
+s
+of
+p
+ro
+d
+u
+ct
+io
+n
+m
+an
+ag
+em
+en
+t
+re
+co
+rd
+s
+0
+0
+0
+0
+C
+om
+p
+an
+y
+-a
+p
+p
+ro
+v
+ed
+m
+an
+ag
+em
+en
+t
+p
+ro
+g
+ra
+m
+s
+0
+0
+0
+0
+N
+o
+te
+:
+n
+¼
+sa
+m
+p
+le
+si
+ze
+S
+o
+u
+rc
+e
+:
+C
+om
+p
+il
+ed
+fr
+om
+co
+n
+tr
+ac
+ts
+su
+b
+m
+it
+te
+d
+b
+y
+p
+ro
+d
+u
+ce
+rs
+to
+th
+e
+Io
+w
+a
+A
+tt
+or
+n
+ey
+G
+en
+er
+al
+’s
+O
+ffi
+ce
+(w
+w
+w
+.io
+w
+aa
+tt
+or
+n
+ey
+g
+en
+er
+al
+.o
+rg
+/w
+or
+k
+in
+g
+_
+fo
+r_
+fa
+rm
+er
+s/
+co
+n
+tr
+ac
+ts
+/i
+n
+d
+ex
+.h
+tm
+l)
+Table IV.
+Contract clause frequency
+for contracts offered by
+Swift, John Morrell, and
+Hormel, 1996-1998 and
+1999-2001 periods
+Pork quality and
+marketing
+contracts
+313
+D
+ow
+nl
+oa
+de
+d 
+by
+ U
+EM
+ A
+t 0
+5:
+38
+ 1
+5 
+Ju
+ne
+ 2
+01
+5 
+(P
+T)
+Conclusion
+The US pork industry’s adoption of marketing contracts offer several advantages in light
+of changing emphasis on pork quality attributes. The long-term nature of marketing
+contracts limits the number of times that producers must evaluate alternative
+heterogeneous packer grading programs. Minimum volume requirements allow packers
+to obtain a larger number of uniform hogs from a single source, so that measuring a few
+provides more reliable information about quality of the rest. A sample of contracts
+collected in a specific region of the USA provides insight into the design of marketing
+contracts. By specifying production input requirements in contracts, packers could
+maintain strong incentives for the easily measured leanness attribute, while controlling
+for other quality attributes that are more difficult to measure. When quality
+specifications and production input requirements are subject to change, clauses in
+long-term marketing contracts that define packer expectations and plans for
+collaboration with producers facilitate adaptation to these changes. Coupled with
+production monitoring provisions, these contract terms appear to support effective
+coordination and timely responses to changing input requirements. While there may be
+other factors that contributed to the growing use of pork marketing contracts, changing
+emphasis on pork quality provided strong incentives for their increasing popularity.
+Sorting out the relative importance of alternative market forces driving changes in
+vertical coordination of the US pork industry provides rich ground for future research.
 Notes
-1. The ESALQ/BM&F indicator is a price indicator calculated by the Center for Advanced
-Studies on Applied Economics (CEPEA) of the University of Sa˜o Paulo (USP) and the
-Mercantile & Futures Exchange (BM&F).
-2. Brazilian Tracing Service for the Cattle and Buffalo Production Chain.
-3. These farms, in addition to tracing all animals, must also be audited and certified by the
-Ministry of Agriculture, and listed on TRACES.
+1. As part of the Livestock Mandatory Price Reporting Program, the USDA publishes
+mandatory data on contract arrangements, among other data, while protecting the identity
+of those reporting and the confidentiality of specific transactions.
+2. Because packers do not typically own the hogs, provisions regarding production inputs are
+likely related to hog quality outcomes rather than efficiency gains that lower production costs.
+Furthermore, one may argue that input provisions have less to do with the leanness attribute
+because of strong explicit incentives for lean in the carcass pricing program (Smith, 1999).
+3. The study found that bacon from thin bellies, while visually appealing to consumers because
+of less fat, is less palatable (Messenger, 2004b). It also causes processing problems related to
+yield losses from slicing and cook shrink. As bacon-topped sandwiches became more
+popular at restaurants, the belly became an increasingly valuable part of the hog.
+Figure 1.
+New branded fresh pork
+product and associated
+SKUs introduced by Swift,
+John Morrell, and Hormell,
+1994-1198 and 1999-2003
 BFJ
-116,4
-658
+114,3
+314
 D
 ow
 nl
@@ -1176,9 +1450,9 @@ by
  U
 EM
  A
-t 1
-2:
-20
+t 0
+5:
+38
  1
 5 
 Ju
@@ -1188,54 +1462,57 @@ ne
 5 
 (P
 T)
-4. The animals that will be slaughtered and sent to the EU must remain on a certified farm
-(Rural Establishment Approved in the SISBOV – ERAS) for a period of 90 days before being
-shipped to the meat processing plant. Before this 90-day period, the animals can be raised on
-uncertified farms.
-5. In Brazil, the cattle production cycle is traditionally composed of three production phases:
-pre-weaning, post-weaning and finishing. These phases can be carried out separately on
-different farms or on the same farm. The pre-weaning phase requires the largest amount of
-land per animal. Therefore, this phase is normally carried out in regions where the land cost
-is lower. The finishing phase, on the other hand, can be more capital intensive and requires
-less area per animal, therefore, it is economically viable in regions where the cost of land is
-higher.
+4. This grid can be accessed at http://scl.gipsa.usda.gov/content.aspx?page ¼ 227&section ¼ 10
+by clicking on Swine or Pork Market Formula under National, and then clicking on
+“Premiums and Discounts.”
+5. Recent concerns over handling issues are reflected in the establishment of a Trucker Quality
+Assurance (TQA) program by the National Pork Board in 2001. TQA is a certification
+program that educates truckers about proper handling, loading, and transporting of pigs,
+with emphasis on animal welfare and biosecurity topics (Miller, 2002). Recent research also
+suggests that there may be other genetic causes of PSE pork, besides the stress gene (Casau
+(2003); Pork, 2004). Hence, certain genotypes may be more prone to stress than previously
+thought, which increases the importance of proper hog handling.
 References
-Affuso, L. (2002), “An empirical study on contractual heterogeneity within the firm: the ‘vertical
-integration-franchise contracts’ mix”, Applied Economics, Vol. 34 No. 8, pp. 931-944.
-Arrow, K.J. (1969), “The organization of economic activity: issues pertinent to the choice of
-market versus non-market allocation”, The Analysis and Evaluation of Public
-Expenditures: The PBB System, Government Printing Office, Washington, DC.
-Azevedo, P.F. (2000), “Nova Economia Institucional: referencial geral e aplicac¸o˜es para a
-agricultura”, Agricultura em Sa˜o Paulo, Vol. 47 No. 1, pp. 33-52.
-Bradach, J.L. (1997), “Using the plural form in the management of restaurant chains”,
-Administrative Science Quarterly, Vol. 42 No. 2, pp. 276-303.
-Bradach, J.L. and Eccles, R.G. (1989), “Price, authority, and trust: from ideal types to plural
-forms”, Annual Review of Sociology, Vol. 15, pp. 97-118.
-Brookes, M. and Roper, A. (2012), “Realising plural-form benefits in international hotel chains”,
-Tourism Management, Vol. 33, pp. 580-591.
-Brousseau, E. and Codron, J.M. (1997), The Hybridization of Governance Structures: Supplying
-French Supermarkets With Off-Season Fruit, mimeo, Montpellier.
-Caleman, S.M.Q., Sproesser, R.L. and Zylbersztajn, D. (2008), “Custos de mensurac¸a˜o e
-governanc¸a no agronego´cio: um estudo de casos mu´ltiplos no Sistema Agroindustrial da
-carne bovina”, Organizac¸o˜es Rurais e Agroindustriais, Vol. 10 No. 3, pp. 359-375.
-Coase, R.H. (1937), “The Nature of the Firm”, Economica, Vol. 4 No. 16, pp. 386-405.
-Dant, R.P., Perrigot, R. and Cliquet, G. (2008), “A cross-cultural comparison of the plural forms in
-franchise networks: United States, France, and Brazil”, Journal of Small Business
-Management, Vol. 46 No. 2, pp. 286-311.
-Gellynck, X. and Molna´r, A. (2009), “Chain governance structures: the European traditional food
-sector”, British Food Journal, Vol. 111 No. 8, pp. 762-775.
-Heide, J.B. (2003), “Plural governance in industrial purchasing”, Journal of Marketing, Vol. 67,
-pp. 18-29.
-Lazzarini, S.G., Chaddad, F.R. and Cook, M.L. (2001), “Integrating supply chain and network
-analyses: the study of net chains”, Journal of Chain and Network Science, Vol. 1 No. 1,
-pp. 7-22.
-Lindgreen, A. and Hingley, M. (2003), “The impact of food safety and animal welfare policies on
-supply chain management: the case of the Tesco meat supply chain”, British Food Journal,
-Vol. 105 No. 6, pp. 328-349.
-Plural forms of
-governance in
-the beef industry
-659
+Barzel, Y. (1982), “Measurement costs and the organization of markets”, Journal of Law and
+Economics, Vol. 25, pp. 27-48.
+Casau, A. (2003), “When pigs stress out”, The New York Times, October 7.
+Datamonitor (2003), “Productscan online”, available at: www.productscan.com
+Eisenhardt, K.E. (1989), “Agency theory: an assessment and review”, Academy of Management
+Review, Vol. 14, pp. 57-74.
+Forrest, J.C., Morgan, M.T., D, E. and Gerrard, D.E. (2000), “Predicting pork quality”, in Ward, J.
+(Ed.), Proceedings of the Pork Quality and Safety Summit, National Pork Producers
+Council, Des Moines, IA, July 11-12, pp. 263-9.
+Grimes, G. and Plain, R. (2009), “US hog marketing contract study”, University of Missouri, January,
+available at: http://agebb.missouri.edu/mkt/vertstud09.htm (accessed April 30, 2009).
+Hayenga, M.L., Grisdale, B.S., Kaufman, R.G., Cross, H.R. and Christian, L.L. (1985), “A carcass
+merit pricing system for the pork industry”, American Journal of Agricultural Economics,
+Vol. 67, May, pp. 315-9.
+Hayenga, M.L., Lawrence, J.D., Rhodes, V.J., Glenn, A. and Grimes, G.A. (1996), “Vertical coordination
+in hog production”, Concentration in the Red Meat Packing Industry, US Department of
+Agriculture, Grain Inspection, Packers and Stockyards Administration, February.
+Hallwood, C.P. (1990), “Measurement cost and the organization of exchange in the oil gathering
+business”, Journal of Institutional and Theoretical Economics, Vol. 146 No. 4, pp. 576-93.
+Hobbs, J.E. (1996), “Transaction costs and slaughter cattle procurement: processors’ selection of
+supply channels”, Agribusiness, Vol. 12 No. 6, pp. 509-23.
+Holmstrom, B. and Milgrom, P. (1991), “Multitask principal-agent analyses: incentive contracts,
+asset ownership, and job design”, The Journal of Law, Economics, & Organization, Vol. 7,
+special issue, pp. 24-52.
+Huskey, L. (2000), “Measuring for producer communication”, Proceedings of the pH and Pork
+Quality Symposia, June 23, available at: www.meatscience.org/meetings/RMC/porkph/
+Default.asp (accessed July 29, 2003).
+Kaufman, R.G., Warner, R.D. and Joo, S.T. (1994), “One step closer to providing ideal pork quality
+for consumers in 1994”, in Meeker, D. and Sonka, S. (Eds), Pork Chain Quality Audit.
+Progress Report Prepared for the National Pork Producers Council, National Pork
+Producers Council in cooperation with the National Pork Board, Des Moines, IA, April 6.
+Kenyon, D. and Purcell, W. (1999), “Price discovery and risk management in an industrialized
+pork sector”, Research Institute on Livestock Pricing, Research Bulletin, 8-99, December.
+Kenyon, D., McKissick, J. and Zering, K. (1995), “A comparison of carcass value pricing systems
+of southeast hog plants”, paper presented at NC-134 Conference on Applied Commodity
+Price Analysis, Forecasting, and Market Risk Management, Chicago, IL, April 24-25.
+Pork quality and
+marketing
+contracts
+315
 D
 ow
 nl
@@ -1246,9 +1523,9 @@ by
  U
 EM
  A
-t 1
-2:
-20
+t 0
+5:
+38
  1
 5 
 Ju
@@ -1258,55 +1535,55 @@ ne
 5 
 (P
 T)
-Mello, F.O.T. and Paulillo, L.F.O. (2010), “Formas plurais de governanc¸a no sistema
-agroindustrial citrı´cola paulista”, Revista de Economia e Sociologia Rural, Vol. 48 No. 1,
-pp. 135-139.
-Menard, C. (2004), “The economics of hybrid organizations”, Journal of Institutional and
-Theoretical Economics, Vol. 160 No. 3, pp. 345-376.
-Menard, C. (2011), “Plural forms of organization: where do we stand”, paper presented at
-Conference on Institutions and Organizations, 21 December, Rio de Janeiro.
-Minkler, A. and Park, T.A. (1994), “Asset specificity and vertical integration in franchising”,
-Review of Industrial Organization, Vol. 9 No. 7, pp. 409-423.
-Mols, N.P. (2000), “Dual channels of distribution: a transaction cost analysis and propositions”,
-The International Review of Retail, Distribution and Consumer Research, Vol. 10 No. 3,
-pp. 227-246.
-Parmigiani, A. (2007), “Why do firms both make and buy? An investigation of concurrent
-sourcing”, Strategic Management Journal, Vol. 28 No. 3, pp. 285-311.
-Perrigot, R., Cliquet, G. and Piot-Lepetit, I. (2009), “Plural form chain and efficiency: insights from
-the French hotel chains and the DEA methodology”, European Management Journal,
-Vol. 27, pp. 268-280.
-Porter, M.R. (1980), Competitive Strategy: Techniques for Analysing Industries and Competitors,
-The Free Press, New York, NY.
-Schnaider, P.S.B. and Saes, M.S.M. (2011), “Plural forms and information asymmetry: an analytic
-proposal”, paper presented at Conference on Institutions and Organizations, 21 December,
-Rio de Janeiro.
-Silva, V.L.S. and Azevedo, P.F. (2007), “Formas plurais no franchising de alimentos: evideˆncias
-de estudos de caso na Franc¸a e no Brasil”, Revista de Administrac¸a˜o Contemporaˆnea,
-Vol. 11, pp. 129-152.
-Souza Filho, H.M., Rosa, F.T. and Vinholis, M.M.B. (2010), “Ana´lise da competitividade da cadeia
-produtiva da carne bovina do Estado de Sa˜o Paulo”, Informac¸o˜es Econoˆmicas, Vol. 40
-No. 3, pp. 16-28.
-Vieira, L.M. and Traill, W.B. (2008), “Trust and governance of global value chains: the case of a
-Brazilian beef processor”, British Food Journal, Vol. 110 Nos 4/5, pp. 460-473.
-Vinholis, M.M.B., Souza, J.D.F. and Souza Filho, H.M. (2010), “Estruturas de governanc¸a na
-cadeia de suprimentos da carne bovina: um caso brasileiro”, XXX Encontro Nacional de
-Engenharia de Produc¸a˜o, Brazil, p. 2010.
-Williamson, O.E. (1985), The Economic Institutions of Capitalism: Firms, Markets, Relational
-Contracting, The Free Press, New York, NY.
-Williamson, O.E. (1991), “Comparative economic organization: the analysis of discrete structural
-alternatives”, Administrative Science Quarterly, Vol. 36, pp. 269-296.
-Zylbersztajn, D. and Machado Filho, C.P. (2003), “Competitiveness of meat agri-food chain in
-Brazil”, Supply Chain Management: An International Journal, Vol. 8 No. 2, pp. 155-165.
-Zylbersztajn, D. and Nogueira, A.C.L. (2002), “Estabilidade e difusa˜o de arranjos verticais de
-produc¸a˜o: uma contribuic¸a˜o teo´rica”, Economia e Sociedade, Vol. 11 No. 2, pp. 329-346.
-About the authors
-Marcelo Jose´ Carrer is an Economist. He graduated from State University of Maringa, Brazil, in
-2009. He gained his BSc degree from the Federal University of Sa˜o Carlos, Brazil, in 2012. He
-joined the Department of Production Engineering of Federal University of Sa˜o Carlos in 2012. He
-teaches courses in Economics, Agribusiness and International Finance at Foundation Herminio
+Lafontaine, F. and Masten, S.E. (2002), “Contracting in the absence of specific investments and
+moral hazard: understanding carrier-driver relations in US trucking”, Paper No. 02-002, John
+M. Olin Center for Law and Economics, University of Michigan, Ann Arbor, MI, March.
+Lautner, B. (1999), “What does ‘quality-assured pork’ really mean?”, National Hog Farmer, April
+30, available at: http://nationalhogfarmer.com/mag/farming_qualityassured_pork_really/
+(accessed May 14, 2004).
+Lawrence, J.D., Schroeder, T.C. and Hayenga, M.L. (2001), “Evolving producer-packer-customer
+linkages in the beef and pork industries”, Review of Agricultural Economics, Vol. 23 No. 2,
+pp. 370-85.
+Lawrence, J.D., Rhodes, A.J., Grimes, G.A. and Hayenga, M.L. (1997), “Vertical coordination in the
+US pork industry: status, motivations, and expectations”, Agribusiness, Vol. 13 No. 1,
+pp. 21-31.
+McCoy, J.H. and Sarhan, M.E. (1988), Livestock and Meat Marketing, Van Nostrand Reinhold,
+New York, NY.
+McKeith, F.K., Ellis, M. and Carr, T.R. (1996), The Pork Quality Challenge, Department of Animal
+Science, University of Illinois, Urbana-Champaign, IL.
+Marbery, S. (2000a), “Iowa premium pork soliciting memberships for hog co-op”, Feedstuffs,
+January 24.
+Marbery, S. (2000b), “Challenge for pork industry goes beyond lean hog”, Feedstuffs, June 5.
+Marbery, S. (2000c), “Fresh pork revolution results in emerging battle of the brands”, Feedstuffs,
+June 5.
+Marion, B.W. (Compiler) (1985), The Organization and Performance of the US Food System,
+Lexington Books, Lexington, MA.
+Masten, S.E. (Ed.) (1996), Case Studies in Contracting and Organization, Oxford University Press,
+New York, NY.
+Meisinger, D. (2000), “Predicting composition fat-free lean index”, in Ward, J. (Ed.), Proceedings of
+the Pork Quality and Safety Summit, July 11-12, National Pork Producers Council, Des
+Moines, IA, pp. 131-3.
+Messenger, J. (2004a), “Thin is in – or is it?”, Pork, March.
+Messenger, J. (2004b), “Making better bacon”, Pork, March.
+Miller, D. (2004), “Audit outlines 10-year pork quality shifts”, National Hog Farmer, January 15,
+available at: http://nationalhogfarmer.com/mag/farming_audit_outlines_year/
+Miller, M. (2002), “TQA complete the three-legged stool”, Pork, July.
+Morgan, J.B., Smith, G.C., Cannon, J., McKeith, F. and Heavner, J. (1994), “Pork distribution audit
+report”, in Meeker, D. and Sonka, S. (Eds), Pork Chain Quality Audit, National Pork
+Producers Council in cooperation with the National Pork Board, Des Moines, IA, progress
+report prepared for the National Pork Producers Council, April 6.
+Poppo, L. and Zenger, T. (2002), “Do formal contracts and relational governance function as
+substitutes or complements?”, Strategic Management Journal, Vol. 23 No. 8, pp. 707-25.
+Pork (2004), “Halothene sensitive pigs still exist”, Pork, July, p. 26.
+Robenstein, R.G. and Thurman, W.N. (1996), “Health risk and the demand for red meat: evidence
+from the futures markets”, Review of Agricultural Economics, Vol. 18, pp. 629-41.
+Ryall, M.D. and Sampson, R.C. (2003), “Do prior alliances influence contract structure? Evidence
+from technology alliance contracts”, Financial Research and Policy Working Paper No. FR
+03-11, The Bradley Policy Research Center, University of Rochester, Rochester, NY,
+February.
 BFJ
-116,4
-660
+114,3
+316
 D
 ow
 nl
@@ -1317,9 +1594,9 @@ by
  U
 EM
  A
-t 1
-2:
-20
+t 0
+5:
+38
  1
 5 
 Ju
@@ -1329,30 +1606,51 @@ ne
 5 
 (P
 T)
-Ometto, Araras, Brazil. His academic interests include agricultural economics, agricultural
-management and rural development; with scientific work developed in these areas.
-Dr Hildo Meirelles de Souza Filho gained his BSc degree from Campinas State University,
-Brazil, in 1990; and his PhD from the University of Manchester, in 1996; both in Economics. He
-joined the Federal University of Espı´rito Santo in 1986, where he was Lecturer in Economics. He
-is presently a Senior Lecturer of Economics in the Department of Production Engineering of
-Federal University of Sa˜o Carlos, Sa˜o Paulo, Brazil. His academic interests include
-competitiveness of agri-systems, agricultural economics and rural development; with scientific
-work developed in these areas for Brazilian government organisations and international
-organisations, such as FAO, IICA, FIDA, European Commission Directorate-General, and World
-Bank. Hildo Meirelles de Souza Filho is the corresponding author and can be contacted at:
-hildo@dep.ufscar.br
-Marcela de Melo Branda˜o Vinholis graduated in Agronomy from University of Sao Paulo, Sa˜o
-Paulo, Brazil, in 1995. In 2001, she gained her Ms. degree in Production Engineering from the
-Federal University of Sa˜o Carlos, Sa˜o Paulo, Brazil. From 2000 to 2005 she worked as a Quality
-Assurance Manager at Syngenta. In 2005 she joined the Brazilian Agricultural Research
-Corporation (EMBRAPA, Ministry of Agriculture, Livestock and Food Supply), Southeast Cattle
-Unit. Currently, she is a PhD student in Production Engineering at the Federal University of Sa˜o
-Carlos, Brazil. Her research interests include agrifood chain management and technology
-adoption.
-Plural forms of
-governance in
-the beef industry
-661
+Sapp, S.G. and Knipe, C.L. (1990), “Japanese consumer preferences for processed pork”,
+Agribusiness, Vol. 6 No. 4, pp. 387-400.
+Shane, S. (1999), “Foodborne pathogen crisis: your business at risk!”, Broiler Industry, September.
+Smith, K.E. (1999), “Three essays on quality, measurement costs, and the organization of
+exchange in livestock markets”, PhD dissertation, Department of Economics, North
+Carolina State University, Raleigh, NC.
+Unnevehr, L. (2003), “Food safety: setting and enforcing standards”, Choices, First Quarter.
+Unnevehr, L. and Jensen, H.H. (2001), “Industry compliance costs: what would they look like in a
+risk-based integrated food system?”, Working Paper 01-WP 278, Center for Agricultural
+and Rural Development, Iowa State University, Ames, IA, June.
+Unnevehr, L.J., Gomez, M.I. and Garcia, P. (1998), “The incidence of producer welfare losses from
+food safety regulation in the meat industry”, Review of Agricultural Economics, Vol. 20
+No. 1, pp. 186-201.
+Williamson, O.E. (1985), The Economic Institutions of Capitalism, The Free Press, New York, NY.
+Williamson, O.E. (2000), “The new institutional economics: taking stock, looking ahead”, Journal
+of Economic Literature, Vol. XXXVIII, September, pp. 595-613.
+Further reading
+AP (1999), “Meatpacker changes pricing structure because of new law”, press release, July 1.
+Eisenhardt, K.E. (1985), “Control: organizational and economic approaches”, Management
+Science, Vol. 31, pp. 134-49.
+Grimes, G. and Meyer, S. (2002), “US hog marketing contract study”, University of Missouri and
+National Pork Board, January, available at: www.agebb.missouri.edu/mkt/vertstud.htm
+(accessed April 30, 2003).
+Grimes, G., Plain, R. and Meyer, S. (2003), “US hog marketing contract study”, University of
+Missouri and Paragon Economics, January, available at: www.agebb.missouri.edu/mkt/
+vertstud03.htm (accessed July 10, 2003).
+Meisinger, D.J. (n.d.), “Assessing packer information”, presentation conducted by the National
+Pork Producers Council under contract to the National Pork Board, available at: www.
+porkscience.org/documents/Other/Assessing%20Packer%20Information.pdf (accessed
+January 9, 2004).
+United States Department of Agriculture, Grain Inspection, Packers and Stockyards
+Administration (1996), Packers and Stockyards Statistical Report: 1996, United States
+Department of Agriculture, Grain Inspection, Packers and Stockyards Administration.
+United States Department of Agriculture, Grain Inspection, Packers and Stockyards
+Administration (1999), Packers and Stockyards Statistical Report: 1999, United States
+Department of Agriculture, Grain Inspection, Packers and Stockyards Administration.
+United States Department of Agriculture, Grain Inspection, Packers and Stockyards
+Administration (2001), Packers and Stockyards Statistical Report: 2001, United States
+Department of Agriculture, Grain Inspection, Packers and Stockyards Administration.
+Corresponding author
+Steve W. Martinez can be contacted at: martinez@ers.usda.gov
+Pork quality and
+marketing
+contracts
+317
 To purchase reprints of this article please e-mail: reprints@emeraldinsight.com
 Or visit our web site for further details: www.emeraldinsight.com/reprints
 D
@@ -1365,35 +1663,9 @@ by
  U
 EM
  A
-t 1
-2:
-20
- 1
-5 
-Ju
-ne
- 2
-01
-5 
-(P
-T)
-This article has been cited by:
-1. M. de Mello Brandão Vinholis, H. Meirelles de Souza Filho, M.J. Carrer, F.R. Chaddad. 2014.
-Transaction attributes and adoption of hybrid governance in the Brazilian cattle market. Journal on Chain
-and Network Science 14, 189-199. [CrossRef]
-D
-ow
-nl
-oa
-de
-d 
-by
- U
-EM
- A
-t 1
-2:
-20
+t 0
+5:
+38
  1
 5 
 Ju

@@ -1,0 +1,174 @@
+Energy Policy 34 (2006) 200–211
+How much market do market-based
+for the case of ‘‘whi
+Ole Langnissa,, Bar
+Resea
+rlin 1
+e 17 S
+ficien
+investigated for renewable energy, and the EU directive on an emissions-trading scheme for CO2 certificates has been approved in
+2003. In contrast, tradable energy efficiency—or ‘‘white’’—certificates have only lately been considered as a market-based tool to
+under discussion to contribute to energy-saving and certificates have only been lately celebrated as a market-
+racy of information) of the realised savings, and
+ARTICLE IN PRESS
+www.elsevier.com/locate/enpol
+Ministry for Education and Research (BMBF). We would also like to
+thank the ECEEE team, Adriaan Perrels and an anonymous reviewer
+for helpful comments.0301-4215/$ - see front matter r 2004 Elsevier Ltd. All rights reserved.
+doi:10.1016/j.enpol.2004.08.025
+Corresponding author.
+E-mail address: ole.langniss@zsw-bw.de (O. Langniss).
+1One exemption is Rader and Norgaard (1996) who adverted to the
+applicability of the certificate concept to DSM rather early.climate protection objectives nationally and internation-
+ally, and among them are different forms of tradable
+certificates. Tradable green certificates for renewable
+energy, for example, have been investigated and tested
+based tool to foster energy efficiency.1
+In this paper, we concentrate on the design of a
+system for tradable white certificates and on conditions
+for guaranteeing the efficiency of the instrument.
+Theoretically, a tradable certificate system will allocate
+energy efficiency (EE) activities to the sites with
+minimum marginal costs, provided that number of
+conditions and principles are met. This includes
+additionality of the investment as compared with a
+business as usual development, measurability (or accu-
+$A much earlier version of this paper was presented at the ECEEE
+Summer Study 2003. Ole Langniss held a Marie-Curie Grant of the
+European Union (Contract MCFI-2000-01067) at the time of under-
+taking the research reported in this article. Barbara Praetorius is
+funded via the interdisciplinary research project ‘‘TIPS—transforma-
+tion and innovation in power systems’’, funded by the Germanpractice, however, some fundamental problems arise. Critical issues are the design of an efficient artificial market for white
+certificates, its compatibility with the European emissions-trading system, the identification of a suitable target group for an EE
+obligation and the measurement of energy savings as compared with a reference use of energy. We use the theoretical framework of
+transaction cost economics to elaborate these issues. We conclude that transaction costs and investment specificity will restrict
+markets for white certificates in practice. Long-term contracts rather than spot trade will be the prevailing form of governance for
+EE investments.
+r 2004 Elsevier Ltd. All rights reserved.
+Keywords: Tradable certificates; Energy efficiency; Transaction cost
+1. Introduction and theoretical framework
+A number of economic and other instruments are
+for some time now, and the EU directive on an
+emissions-trading scheme (EU ETS) for CO2 certificates
+has been approved in 2003. In contrast, tradable whitefoster EE as compared with standards and labelling, for example. Theoretically, there is little doubt about the advantages. InaZSW Centre for Solar Energy and Hydrogen
+bDIW Berlin, Be
+Available onlin
+Abstract
+Among the diverse economic instruments to foster energy efinstruments create? An analysis
+te’’ certificates$
+bara Praetoriusb
+rch, Industriestr. 6, Stuttgart 70565, Germany
+4195, Germany
+eptember 2004
+cy (EE) and climate protection, tradable certificates have been
+related to high sunk cost, or generic, i.e. easily
+ARTICLE IN PRESS
+Energy Policy 34 (2006) 200–211 201practicability of the whole trading and verification
+system.
+In practice, this involves a number of challenges, most
+of them related to informational or transaction cost. For
+example, before issuing the white certificates, the factual
+savings have to be determined. For this purpose, a
+reference energy use or baseline without the efficiency
+measure has to be determined and compared with the
+energy consumption after implementing the efficiency
+measure. Aspects, which need to be considered here,
+include the problems and consequences of uncertainty
+and of leakage (e.g. site-specific ‘‘energy savings’’ by
+closing down a plant and importing the energy from
+abroad), but also the treatment of the so-called no regret
+measures. A further issue is the integration of white
+certificates with the EU-wide emissions-trading system.
+Altogether, the assessment of potentially efficient de-
+signs for a system of tradable white certificates requires
+a careful analysis of the problematic issues and
+approaches to manage them in practice.
+Theoretical starting point for our reasoning is the
+concept of transaction cost economics (TCE). TCE
+focuses on the choice of an appropriate organisation of
+economic activities (in other words: an appropriate
+governance structure). It starts from the observation
+that information is not complete per se and that the
+human capacity to process information is limited.
+Improving access to and processing of information is
+related to costs. In consequence, human behaviour is
+guided by the rule of satisficing rather than optimising.
+In this regard, TCE has the same roots like other
+scholars of the New Institutional Economics. People
+intend to act rational but are bounded by their own
+capacities of thinking. Economic actors hence take their
+decisions on the basis of imperfect information (Richter
+and Furubotn, 1999, p. 510) and bounded rationality
+(Simon, 1957, p. 198). The pure existence of bounded
+rationality and imperfect information opens the door for
+the so-called opportunistic behaviour, a rather euphe-
+mistic term for dishonesty, fraud and malice (William-
+son, 1987). To summarise, any investment is inevitably
+related to additional costs, the so-called transaction
+costs. Transaction costs can take one of two forms,
+inputs of resources or a margin between the buying and
+selling price of a commodity in a given market (Stavins,
+1995, p. 134). The former are the direct costs of carrying
+out a transaction, i.e. costs for search, information and
+contracting, while the latter can be regarded as the
+opportunity costs incurred when an efficiency-enhancing
+transaction is not realised (Milgrom and Roberts, 1992,
+p. 604) The latter, also referred to as governance costs,
+stand very much in focus of TCE. We therefore extend
+our concept of investment and include transaction costs
+as part of the initial investment in an EE measure.
+An important concept of TCE is the notion of
+O. Langniss, B. Praetorius /investment specificity. Investments can be specific, i.e.transferable to another application. According to
+TCE, specific investments allow a more efficient
+production than more generic investments (Williamson,
+1987). The higher the specificity of the investment the
+more will these efficiency gains occur only in the specific
+transaction. Thus, specific investments are characterised
+by quasi-rents, which can be derived from this invest-
+ment in comparison with its next profitable application.
+For example, once an insulation has been fixed to a
+certain building, it delivers energy savings to the
+building user but cannot easily (if at all) be transferred
+to another building. It thus loses most of its initial
+market value, and the asset owner depends on sufficient
+payments by the building user to be able to recover his
+sunk costs and to realise the quasi-rent of the specific
+investment. The investment is highly specific to the
+transaction between the energy service provider and the
+building user. In contrast, a CHP-plant has a more
+generic character since it is more easily transferable to
+other applications.
+Investments specific to a certain transaction thus open
+the door for opportunism: the quasi-rent is on risk for
+opportunistic behaviour by a transaction partner (a
+customer, a retailer, etc.). This ‘‘partner’’ may threaten
+to refrain from buying the output of the investment and
+thus be able to appropriate at least a part of the quasi-
+rent. In anticipation of this danger, the asset owner has
+an incentive to invest in more generic assets with lower
+quasi-rents on risk but possibly also lower efficiency.2
+Alternatively, an appropriate governance structure may
+be established to safeguard the quasi-rents of specific
+investments against opportunistic behaviour (William-
+son, 1987). In so doing, efficiency gains due to the
+specific investment can be realised, which is compara-
+tively profitable for both transaction partners and
+increases overall social welfare as compared with low-
+efficiency investments.
+To conclude, the extent of specificity of investments is
+a main determinant for the choice of appropriate
+governance mechanisms. The higher the specificity the
+more an efficient governance will be characterised by
+patterns of hierarchies. Hierarchies can take the form of
+a firm or a regulation. They allow for cooperative and
+intentional adaptations to changes in the environment,
+are connected to stricter accounting and auditing as
+administrative controls, and hence imply a lower
+incentive intensity. By contrast, low specificity of
+investments allows for pure governance by markets
+and thus to benefit from theoretically optimal incentive
+structures by profit-maximising behaviour. At the same
+time, the choice for an appropriate governance structure
+is not a choice exclusively between either markets or
+2Note that the term’’efficiency’’ is used here in a generic meaning,not exclusively meaning energy efficiency.
+
