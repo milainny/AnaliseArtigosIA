@@ -41,8 +41,9 @@ public class AnaliseArtigosIA {
         String textoSemStopWords = extraiStopWords(textoCompleto, caminhoArquivoStopWords);
         gravaTextoSemStopWords(caminhoSaidaSemStopWords, textoSemStopWords);
         String referencias = extraiReferencias(textoSemStopWords);
+        System.out.println("Referencias:\n"+referencias);
         exibeTermosMaisCitados(textoSemStopWords);
-        identificaInstituicoes(caminhoEntrada);
+        identificaInstituicoes(extraiStopWords(leitorDePaginas(caminhoEntrada, 2), caminhoArquivoStopWords));
         identificaObjetivo(caminhoEntrada, caminhoArquivoStopWords);
     }
 
@@ -118,9 +119,8 @@ public class AnaliseArtigosIA {
         }
     }
 
-    private static void identificaInstituicoes(String caminho) throws IOException {
-        String textoPrimeirasPaginas = leitorDePaginas(caminho, 2);
-
+    private static void identificaInstituicoes(String textoSemStopWords) throws IOException {
+        String textoPrimeirasPaginas = textoSemStopWords;
 //        PrintStream saidaPadrao = System.out;
 //        PrintStream saida = new PrintStream(new FileOutputStream(new File("saidas/texto2pg" + 12 + ".txt")));
 //        System.setOut(saida);
@@ -131,9 +131,9 @@ public class AnaliseArtigosIA {
         ArrayList<String> listaInstiuicoes = preencheLista(caminhoArquivoInstuicoes);
         for (String inst : listaInstiuicoes) {
             String textoBusca = textoPrimeirasPaginas;
-            int posicaoAbs = textoPrimeirasPaginas.lastIndexOf("Abstract");
+            int posicaoAbs = textoPrimeirasPaginas.toLowerCase().lastIndexOf("abstract");
             if (posicaoAbs != -1) {
-                textoBusca = textoPrimeirasPaginas.substring(0, textoPrimeirasPaginas.lastIndexOf("Abstract"));
+                textoBusca = textoPrimeirasPaginas.substring(0, textoPrimeirasPaginas.lastIndexOf("abstract"));
             }
             int posicao = textoBusca.indexOf(inst);
             if (posicao == -1) {
@@ -143,7 +143,7 @@ public class AnaliseArtigosIA {
                 }
             }
             while (posicao != -1) {
-                posicao = buscaInicioParagrafo(textoBusca, posicao, "\n");
+                posicao = retornaPosicaoMenor(textoBusca, posicao);
                 int posInicio = posicao;
                 posicao = buscaFimParagrafo(textoBusca, posicao, "\n");
                 instituicoes = instituicoes + textoBusca.substring(posInicio, posicao) + "\n ";
@@ -239,7 +239,25 @@ public class AnaliseArtigosIA {
     }
 
     private static String extraiReferencias(String textoSemStopWords) {
-        return null;
+        int indexReferences = textoSemStopWords.lastIndexOf(" references ");
+        if (indexReferences == -1){
+            indexReferences = textoSemStopWords.lastIndexOf(" reference ");
+        }
+        String textoPartindoReferencias = textoSemStopWords.substring(indexReferences, textoSemStopWords.length());
+        String buscaReferencias = textoPartindoReferencias.substring(textoPartindoReferencias.indexOf("\n ")+2);
+        String referencias = "";        
+        boolean encontrouFimReferencias = false;
+        while (!encontrouFimReferencias){
+            String alfabeticoReferencia = buscaReferencias.substring(0,buscaReferencias.indexOf(" "));
+            int indexQuebraLinhaComPonto = buscaReferencias.indexOf(". \n")+4;
+            referencias+= buscaReferencias.substring(0, indexQuebraLinhaComPonto);
+            buscaReferencias = buscaReferencias.substring(indexQuebraLinhaComPonto, buscaReferencias.length());
+            if(buscaReferencias.length() < 3 || 
+                    alfabeticoReferencia.compareTo(buscaReferencias.substring(0,alfabeticoReferencia.length())) > 0){
+                encontrouFimReferencias = true;
+            }
+        }
+        return referencias;
     }
 
     private static int retornaPosicaoMenor(String textoSemStopWords, int posicao) {
