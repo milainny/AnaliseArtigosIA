@@ -90,11 +90,13 @@
                       <Group type="102" alignment="0" attributes="0">
                           <Component id="jTextFieldSelecaoArquivo" min="-2" pref="351" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="jButtonSelecionar" max="32767" attributes="0"/>
+                          <Component id="jButtonSelecionar" pref="138" max="32767" attributes="0"/>
                       </Group>
-                      <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                      <Component id="jPanel2" max="32767" attributes="0"/>
                   </Group>
-                  <EmptySpace pref="291" max="32767" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="jPanel3" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -111,7 +113,10 @@
                       </Group>
                   </Group>
                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                  <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="jPanel3" max="32767" attributes="0"/>
+                      <Component id="jPanel2" max="32767" attributes="0"/>
+                  </Group>
                   <EmptySpace pref="36" max="32767" attributes="0"/>
               </Group>
           </Group>
@@ -161,10 +166,10 @@
                           <Group type="102" alignment="0" attributes="0">
                               <Component id="jCheckBoxStopWords" max="32767" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jButtonVisualizarResultado" min="-2" pref="161" max="-2" attributes="0"/>
+                              <Component id="jButtonVisualizarStopWords" min="-2" pref="161" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
-                              <Component id="jCheckBoxTermos" pref="296" max="32767" attributes="0"/>
+                              <Component id="jCheckBoxTermos" max="32767" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="jButtonVisualizarTermos" min="-2" pref="161" max="-2" attributes="0"/>
                           </Group>
@@ -213,7 +218,7 @@
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="jCheckBoxStopWords" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jButtonVisualizarResultado" alignment="3" max="32767" attributes="0"/>
+                          <Component id="jButtonVisualizarStopWords" alignment="3" max="32767" attributes="0"/>
                       </Group>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
@@ -364,20 +369,21 @@
                 <Property name="text" type="java.lang.String" value="Analisar Artigo"/>
                 <Property name="enabled" type="boolean" value="false"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonAnalisarArtigoActionPerformed"/>
+              </Events>
             </Component>
-            <Component class="javax.swing.JButton" name="jButtonVisualizarResultado">
+            <Component class="javax.swing.JButton" name="jButtonVisualizarStopWords">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Visualizar Resultado"/>
-                <Property name="enabled" type="boolean" value="false"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonVisualizarResultadoActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonVisualizarStopWordsActionPerformed"/>
               </Events>
             </Component>
             <Component class="javax.swing.JButton" name="jButtonVisualizarTermos">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Visualizar Resultado"/>
-                <Property name="enabled" type="boolean" value="false"/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonVisualizarTermosActionPerformed"/>
@@ -386,7 +392,6 @@
             <Component class="javax.swing.JButton" name="jButtonVisualizarReferencias">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Visualizar Resultado"/>
-                <Property name="enabled" type="boolean" value="false"/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonVisualizarReferenciasActionPerformed"/>
@@ -395,7 +400,6 @@
             <Component class="javax.swing.JButton" name="jButtonVisualizarInstituicoesAutores">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Visualizar Resultado"/>
-                <Property name="enabled" type="boolean" value="false"/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonVisualizarInstituicoesAutoresActionPerformed"/>
@@ -404,7 +408,6 @@
             <Component class="javax.swing.JButton" name="jButtonVisualizarProblema">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Visualizar Resultado"/>
-                <Property name="enabled" type="boolean" value="false"/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonVisualizarProblemaActionPerformed"/>
@@ -413,7 +416,6 @@
             <Component class="javax.swing.JButton" name="jButtonVisualizarObjetivos">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Visualizar Resultado"/>
-                <Property name="enabled" type="boolean" value="false"/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonVisualizarObjetivosActionPerformed"/>
@@ -422,7 +424,6 @@
             <Component class="javax.swing.JButton" name="jButtonVisualizarMetodologia">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Visualizar Resultado"/>
-                <Property name="enabled" type="boolean" value="false"/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonVisualizarMetodologiaActionPerformed"/>
@@ -431,12 +432,51 @@
             <Component class="javax.swing.JButton" name="jButtonVisualizarContribuicao">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Visualizar Resultado"/>
-                <Property name="enabled" type="boolean" value="false"/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonVisualizarContribuicaoActionPerformed"/>
               </Events>
             </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel3">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder title="Log do Sistema"/>
+              </Border>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane2" alignment="0" pref="251" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane2" alignment="0" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextPane" name="jTextPaneLog">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                    <Property name="text" type="java.lang.String" value="Sistema inicializado..."/>
+                    <Property name="debugGraphicsOptions" type="int" value="1"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
           </SubComponents>
         </Container>
       </SubComponents>

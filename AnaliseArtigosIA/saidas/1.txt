@@ -6,7 +6,7 @@ british food journal
  steve w . martinez , (2012) , pork quality role marketing contracts : case study us pork 
  industry , british food journal , vol . 114 iss 3 pp . 302 - 317 
  permanent link document : 
- http : //dx . doi . org/10 . 1108/00070701211213438 
+ http : / / dx . doi . org / 10 . 1108 / 00070701211213438 
  downloaded : 15 june 2015 , : 05 : 38 (pt) 
  references : document contains references 52 documents . 
  copy document : permissions@emeraldinsight . com 
@@ -15,7 +15,7 @@ british food journal
  authors 
  like write , emerald publication , please use emerald 
  authors service information choose publication write submission guidelines 
- available . please visit www . emeraldinsight . com/authors information . 
+ available . please visit www . emeraldinsight . com / authors information . 
  emerald www . emeraldinsight . com 
  emerald global publisher linking research practice benefit society . company 
  manages portfolio 290 journals 2 , 350 books book series volumes , well 
@@ -55,7 +55,7 @@ british food journal
  abstract 
  purpose – paper aims provide assessment growth marketing contracts us 
  pork industry efficient means control pork quality reduce transaction costs . 
- design/methodology/approach – information collected pork quality safety summits 
+ design / methodology / approach – information collected pork quality safety summits 
  sponsored national pork producers council cooperation national pork board , 
  published surveys large packers related contract use , 15 contracts submitted producers 
  iowa attorney general’s office 1996 2001 examined . theoretical framework used 
@@ -65,13 +65,13 @@ british food journal
  help address problems . recognizes role reducing transaction costs associated 
  carcass pricing programs , reducing pork quality measuring costs , providing quality control , 
  reducing costs adapting quality uncertainty . 
- research limitations/implications – list contracts examined small collection 
+ research limitations / implications – list contracts examined small collection 
  contracts voluntarily submitted producers , pertains specific geographic section usa . 
  thus , may representative entire industry . 
  practical implications – paper provides background information quality issues faced 
  us pork industry framework better understanding potential role marketing 
  contracts addressing issues . 
- originality/value – paper provides rather unique institutional background information 
+ originality / value – paper provides rather unique institutional background information 
  important changes occurring us pork industry 1990s role growth 
  marketing contracts addressing related pork quality issues time . given proprietary nature 
  specific contract terms , small sample long-term marketing contracts analyzed better 
@@ -87,7 +87,7 @@ british food journal
  purchased specified dates places . marketing contracts provide hog 
  producers secure outlet hogs specific pricing terms . producers 
  current issue full text archive journal available 
- www . emeraldinsight . com/0007-070x . htm 
+ www . emeraldinsight . com / 0007-070x . htm 
  views expressed author attributed economic 
  research service us department agriculture . 
  bfj 
@@ -101,7 +101,7 @@ british food journal
  pp . 302-317 
  q emerald group publishing limited 
  0007-070x 
- doi 10 . 1108/00070701211213438 
+ doi 10 . 1108 / 00070701211213438 
  d 
  ow 
  nl 
@@ -494,7 +494,7 @@ british food journal
  uniform quality , allows packers engage much less testing time 
  exchange . 1994 survey largest us pork packers revealed almost half 
  13 packers involved formal , written contracts minimum volume 
- requirements , either minimum quality requirements breeding/genetic 
+ requirements , either minimum quality requirements breeding / genetic 
  stipulations (hayenga et al . , 1996) . large numbers hogs produced similar 
  breeding , nutrition , health , production conditions give packer 
  useful information hogs measuring . also , much 
@@ -568,7 +568,7 @@ british food journal
  attributes , contracts expected specify input requirements monitoring 
  production activities[2] . survey 13 large us packers provides glimpse specific 
  non-price terms long-term hog marketing contracts 1993 (hayenga et al . , 1996) . 
- addition minimum quality requirements breeding/genetic specifications required 
+ addition minimum quality requirements breeding / genetic specifications required 
  nearly half packers , feeding programs approval facilities specified 
  three packers . however , herd health drug withdrawal programs included 
  one packer . 
@@ -594,8 +594,8 @@ british food journal
  notes : acontract year best assessment year contract initially available based 
  dates contained contract . listed year contained parentheses ; bnd ¼ year 
  disclosed 
- source : iowa attorney general’s office (www . iowaattorneygeneral . org/working_for_farmers/ 
- contracts/index . html) 
+ source : iowa attorney general’s office (www . iowaattorneygeneral . org / working_for_farmers / 
+ contracts / index . html) 
  table ii . 
  inventory long-term 
  contracts 
@@ -672,7 +672,7 @@ british food journal
  company-approved management programs 1 1 
  note : n ¼ sample size 
  source : compiled contracts submitted producers iowa attorney general’s office 
- (www . iowaattorneygeneral . org/working_for_farmers/contracts/index . html) 
+ (www . iowaattorneygeneral . org / working_for_farmers / contracts / index . html) 
  table iii . 
  frequency contract 
  clause related 
@@ -718,7 +718,7 @@ british food journal
  controlling pse attributes , weaker incentives , perhaps disincentives , leaner 
  hogs expected (holmstrom milgrom , 1991) . positive relationship 
  increasingly lean hogs pse pork (which disliked 
- packers/processors , distributors , consumers) . addition , researchers 
+ packers / processors , distributors , consumers) . addition , researchers 
  believe fresh pork may become lean consumers (marbery , 2000c) . 
  excessive leanness one weakness identified 2002 pork quality audit us 
  packers accounting 64 percent hogs slaughtered (messenger , 2004a)[3] . 
@@ -1343,7 +1343,7 @@ british food journal
  al 
  . o 
  rg 
- /w 
+ / w 
  
  k 
  
@@ -1354,13 +1354,13 @@ british food journal
  fa 
  rm 
  er 
- s/ 
+ s / 
  co 
  n 
  tr 
  ac 
  ts 
- /i 
+ / 
  n 
  d 
  ex 
@@ -1462,7 +1462,7 @@ british food journal
  5 
  (p 
  t) 
- 4 . grid can accessed http : //scl . gipsa . usda . gov/content . aspx ? page ¼ 227&section ¼ 10 
+ 4 . grid can accessed http : / / scl . gipsa . usda . gov / content . aspx ? page ¼ 227&section ¼ 10 
  clicking swine pork market formula national , clicking 
  “premiums discounts . ” 
  5 . recent concerns handling issues reflected establishment trucker quality 
@@ -1483,7 +1483,7 @@ british food journal
  (ed . ) , proceedings pork quality safety summit , national pork producers 
  council , des moines , ia , july 11-12 , pp . 263-9 . 
  grimes , g . plain , r . (2009) , “us hog marketing contract study” , university missouri , january , 
- available : http : //agebb . missouri . edu/mkt/vertstud09 . htm (accessed april 30 , 2009) . 
+ available : http : / / agebb . missouri . edu / mkt / vertstud09 . htm (accessed april 30 , 2009) . 
  hayenga , m . l . , grisdale , b . s . , kaufman , r . g . , cross , h . r . christian , l . l . (1985) , “a carcass 
  merit pricing system pork industry” , american journal agricultural economics , 
  vol . 67 , may , pp . 315-9 . 
@@ -1498,7 +1498,7 @@ british food journal
  asset ownership , job design” , journal law , economics , & organization , vol . 7 , 
  special issue , pp . 24-52 . 
  huskey , l . (2000) , “measuring producer communication” , proceedings ph pork 
- quality symposia , june 23 , available : www . meatscience . org/meetings/rmc/porkph/ 
+ quality symposia , june 23 , available : www . meatscience . org / meetings / rmc / porkph / 
  default . asp (accessed july 29 , 2003) . 
  kaufman , r . g . , warner , r . d . joo , s . t . (1994) , “one step closer providing ideal pork quality 
  consumers 1994” , meeker , d . sonka , s . (eds) , pork chain quality audit . 
@@ -1539,7 +1539,7 @@ british food journal
  moral hazard : understanding carrier-driver relations us trucking” , paper . 02-002 , john 
  m . olin center law economics , university michigan , ann arbor , mi , march . 
  lautner , b . (1999) , “what ‘quality-assured pork’ really mean ? ” , national hog farmer , april 
- 30 , available : http : //nationalhogfarmer . com/mag/farming_qualityassured_pork_really/ 
+ 30 , available : http : / / nationalhogfarmer . com / mag / farming_qualityassured_pork_really / 
  (accessed may 14 , 2004) . 
  lawrence , j . d . , schroeder , t . c . hayenga , m . l . (2001) , “evolving producer-packer-customer 
  linkages beef pork industries” , review agricultural economics , vol . 23 . 2 , 
@@ -1566,7 +1566,7 @@ british food journal
  messenger , j . (2004a) , “thin – ? ” , pork , march . 
  messenger , j . (2004b) , “making better bacon” , pork , march . 
  miller , d . (2004) , “audit outlines 10-year pork quality shifts” , national hog farmer , january 15 , 
- available : http : //nationalhogfarmer . com/mag/farming_audit_outlines_year/ 
+ available : http : / / nationalhogfarmer . com / mag / farming_audit_outlines_year / 
  miller , m . (2002) , “tqa complete three-legged stool” , pork , july . 
  morgan , j . b . , smith , g . c . , cannon , j . , mckeith , f . heavner , j . (1994) , “pork distribution audit 
  report” , meeker , d . sonka , s . (eds) , pork chain quality audit , national pork 
@@ -1627,14 +1627,14 @@ british food journal
  eisenhardt , k . e . (1985) , “control : organizational economic approaches” , management 
  science , vol . 31 , pp . 134-49 . 
  grimes , g . meyer , s . (2002) , “us hog marketing contract study” , university missouri 
- national pork board , january , available : www . agebb . missouri . edu/mkt/vertstud . htm 
+ national pork board , january , available : www . agebb . missouri . edu / mkt / vertstud . htm 
  (accessed april 30 , 2003) . 
  grimes , g . , plain , r . meyer , s . (2003) , “us hog marketing contract study” , university 
- missouri paragon economics , january , available : www . agebb . missouri . edu/mkt/ 
+ missouri paragon economics , january , available : www . agebb . missouri . edu / mkt / 
  vertstud03 . htm (accessed july 10 , 2003) . 
  meisinger , d . j . (n . d . ) , “assessing packer information” , presentation conducted national 
  pork producers council contract national pork board , available : www . 
- porkscience . org/documents/other/assessing%20packer%20information . pdf (accessed 
+ porkscience . org / documents / / assessing%20packer%20information . pdf (accessed 
  january 9 , 2004) . 
  united states department agriculture , grain inspection , packers stockyards 
  administration (1996) , packers stockyards statistical report : 1996 , united states 
@@ -1652,7 +1652,7 @@ british food journal
  contracts 
  317 
  purchase reprints article please e-mail : reprints@emeraldinsight . com 
- visit web site details : www . emeraldinsight . com/reprints 
+ visit web site details : www . emeraldinsight . com / reprints 
  d 
  ow 
  nl 

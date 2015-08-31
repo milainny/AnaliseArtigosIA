@@ -5,14 +5,44 @@
  */
 package analiseartigosia.areaGrafica;
 
+import analiseartigosia.AnaliseArtigosIA;
+import static analiseartigosia.AnaliseArtigosIA.*;
 import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.swing.JFileChooser;
+import javax.swing.JFrame;
+import javax.swing.JTextPane;
 
 /**
  *
  * @author 'Alisson
  */
 public class MenuPrincipal extends javax.swing.JFrame {
+
+    final static String CAMINHO_ARQUIVO_STOP_WORDS = "stop_words/lista_stop_words.txt";
+    final static String CAMINHO_OBJETIVOS = "metadados/objetivo.txt";
+    final static String CAMINHO_INSTITUICOES = "metadados/instituicoes.txt";
+    final static String CAMINHO_CONTRIBUICAO = "metadados/contribuicao.txt";
+    final static String CAMINHO_METODO = "metadados/metodo.txt";
+    final static String CAMINHO_PROBLEMA = "metadados/problema.txt";
+    final static String CAMINHO_REFERENCIAS = "metadados/referencias.txt";
+    
+    String caminhoEntrada;
+    String identificador;
+    String caminhoSaidaSemStopWords;
+    String textoCompleto;
+    String textoSemStopWords;
+    String referencias;
+    String termos;
+    String instituicoes;
+    String autores;
+    String objetivos;
+    String contribuicao;
+    String metodo;
+    String problema;
 
     /**
      * Creates new form MenuPrincipal
@@ -25,7 +55,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
         jButtonVisualizarObjetivos.setVisible(false);
         jButtonVisualizarProblema.setVisible(false);
         jButtonVisualizarReferencias.setVisible(false);
-        jButtonVisualizarResultado.setVisible(false);
+        jButtonVisualizarStopWords.setVisible(false);
         jButtonVisualizarTermos.setVisible(false);
 
     }
@@ -55,7 +85,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
         jCheckBoxMetodologia = new javax.swing.JCheckBox();
         jCheckBoxContribuicao = new javax.swing.JCheckBox();
         jButtonAnalisarArtigo = new javax.swing.JButton();
-        jButtonVisualizarResultado = new javax.swing.JButton();
+        jButtonVisualizarStopWords = new javax.swing.JButton();
         jButtonVisualizarTermos = new javax.swing.JButton();
         jButtonVisualizarReferencias = new javax.swing.JButton();
         jButtonVisualizarInstituicoesAutores = new javax.swing.JButton();
@@ -63,6 +93,9 @@ public class MenuPrincipal extends javax.swing.JFrame {
         jButtonVisualizarObjetivos = new javax.swing.JButton();
         jButtonVisualizarMetodologia = new javax.swing.JButton();
         jButtonVisualizarContribuicao = new javax.swing.JButton();
+        jPanel3 = new javax.swing.JPanel();
+        jScrollPane2 = new javax.swing.JScrollPane();
+        jTextPaneLog = new javax.swing.JTextPane();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Processamento de Linguagem Natural - Inteligencia Artificial");
@@ -177,17 +210,20 @@ public class MenuPrincipal extends javax.swing.JFrame {
         jButtonAnalisarArtigo.setIcon(new javax.swing.ImageIcon("C:\\Users\\'Alisson\\Documents\\NetBeansProjects\\AnaliseArtigosIA\\AnaliseArtigosIA\\src\\analiseartigosia\\icones\\glasses.png")); // NOI18N
         jButtonAnalisarArtigo.setText("Analisar Artigo");
         jButtonAnalisarArtigo.setEnabled(false);
-
-        jButtonVisualizarResultado.setText("Visualizar Resultado");
-        jButtonVisualizarResultado.setEnabled(false);
-        jButtonVisualizarResultado.addActionListener(new java.awt.event.ActionListener() {
+        jButtonAnalisarArtigo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButtonVisualizarResultadoActionPerformed(evt);
+                jButtonAnalisarArtigoActionPerformed(evt);
+            }
+        });
+
+        jButtonVisualizarStopWords.setText("Visualizar Resultado");
+        jButtonVisualizarStopWords.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButtonVisualizarStopWordsActionPerformed(evt);
             }
         });
 
         jButtonVisualizarTermos.setText("Visualizar Resultado");
-        jButtonVisualizarTermos.setEnabled(false);
         jButtonVisualizarTermos.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonVisualizarTermosActionPerformed(evt);
@@ -195,7 +231,6 @@ public class MenuPrincipal extends javax.swing.JFrame {
         });
 
         jButtonVisualizarReferencias.setText("Visualizar Resultado");
-        jButtonVisualizarReferencias.setEnabled(false);
         jButtonVisualizarReferencias.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonVisualizarReferenciasActionPerformed(evt);
@@ -203,7 +238,6 @@ public class MenuPrincipal extends javax.swing.JFrame {
         });
 
         jButtonVisualizarInstituicoesAutores.setText("Visualizar Resultado");
-        jButtonVisualizarInstituicoesAutores.setEnabled(false);
         jButtonVisualizarInstituicoesAutores.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonVisualizarInstituicoesAutoresActionPerformed(evt);
@@ -211,7 +245,6 @@ public class MenuPrincipal extends javax.swing.JFrame {
         });
 
         jButtonVisualizarProblema.setText("Visualizar Resultado");
-        jButtonVisualizarProblema.setEnabled(false);
         jButtonVisualizarProblema.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonVisualizarProblemaActionPerformed(evt);
@@ -219,7 +252,6 @@ public class MenuPrincipal extends javax.swing.JFrame {
         });
 
         jButtonVisualizarObjetivos.setText("Visualizar Resultado");
-        jButtonVisualizarObjetivos.setEnabled(false);
         jButtonVisualizarObjetivos.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonVisualizarObjetivosActionPerformed(evt);
@@ -227,7 +259,6 @@ public class MenuPrincipal extends javax.swing.JFrame {
         });
 
         jButtonVisualizarMetodologia.setText("Visualizar Resultado");
-        jButtonVisualizarMetodologia.setEnabled(false);
         jButtonVisualizarMetodologia.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonVisualizarMetodologiaActionPerformed(evt);
@@ -235,7 +266,6 @@ public class MenuPrincipal extends javax.swing.JFrame {
         });
 
         jButtonVisualizarContribuicao.setText("Visualizar Resultado");
-        jButtonVisualizarContribuicao.setEnabled(false);
         jButtonVisualizarContribuicao.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonVisualizarContribuicaoActionPerformed(evt);
@@ -252,9 +282,9 @@ public class MenuPrincipal extends javax.swing.JFrame {
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addComponent(jCheckBoxStopWords, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jButtonVisualizarResultado, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(jButtonVisualizarStopWords, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addComponent(jCheckBoxTermos, javax.swing.GroupLayout.DEFAULT_SIZE, 296, Short.MAX_VALUE)
+                        .addComponent(jCheckBoxTermos, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jButtonVisualizarTermos, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel2Layout.createSequentialGroup()
@@ -292,7 +322,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jCheckBoxStopWords)
-                    .addComponent(jButtonVisualizarResultado, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(jButtonVisualizarStopWords, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jCheckBoxTermos, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -326,6 +356,24 @@ public class MenuPrincipal extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
+        jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder("Log do Sistema"));
+
+        jTextPaneLog.setEditable(false);
+        jTextPaneLog.setText("Sistema inicializado...");
+        jTextPaneLog.setDebugGraphicsOptions(javax.swing.DebugGraphics.LOG_OPTION);
+        jScrollPane2.setViewportView(jTextPaneLog);
+
+        javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
+        jPanel3.setLayout(jPanel3Layout);
+        jPanel3Layout.setHorizontalGroup(
+            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 251, Short.MAX_VALUE)
+        );
+        jPanel3Layout.setVerticalGroup(
+            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jScrollPane2)
+        );
+
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
@@ -337,9 +385,11 @@ public class MenuPrincipal extends javax.swing.JFrame {
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addComponent(jTextFieldSelecaoArquivo, javax.swing.GroupLayout.PREFERRED_SIZE, 351, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jButtonSelecionar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(291, Short.MAX_VALUE))
+                        .addComponent(jButtonSelecionar, javax.swing.GroupLayout.DEFAULT_SIZE, 138, Short.MAX_VALUE))
+                    .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(18, 18, 18)
+                .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -352,7 +402,9 @@ public class MenuPrincipal extends javax.swing.JFrame {
                         .addGap(18, 18, 18)
                         .addComponent(jTextFieldSelecaoArquivo, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap(36, Short.MAX_VALUE))
         );
 
@@ -365,47 +417,71 @@ public class MenuPrincipal extends javax.swing.JFrame {
     private void jButtonSelecionarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonSelecionarActionPerformed
         JFileChooser fileChooser = new JFileChooser();
         fileChooser.setApproveButtonToolTipText("Selecionar");
+        fileChooser.setCurrentDirectory(new File("arquivos/"));
         fileChooser.setApproveButtonText("Selecionar");
         fileChooser.setDialogTitle("Selecione um arquivo");
         int userSelection = fileChooser.showSaveDialog(this);
         if (userSelection == JFileChooser.APPROVE_OPTION) {
+            resetarTela();
             jTextFieldSelecaoArquivo.setText(fileChooser.getSelectedFile().getPath());
+            caminhoEntrada = jTextFieldSelecaoArquivo.getText();
             jPanel2.setEnabled(true);
+            identificador = caminhoEntrada.substring(caminhoEntrada.lastIndexOf("\\") + 1, caminhoEntrada.lastIndexOf("."));
+            caminhoSaidaSemStopWords = "saidas/" + identificador + ".txt";
             ativaCamposDeAnalise();
-        }        
+            jTextPaneLog.setText(jTextPaneLog.getText() + "\n"
+                    + "Arquivo do caminho " + jTextFieldSelecaoArquivo.getText() + " selecionado.\n");
+
+        }
     }//GEN-LAST:event_jButtonSelecionarActionPerformed
 
     private void jButtonVisualizarContribuicaoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonVisualizarContribuicaoActionPerformed
-        // TODO add your handling code here:
+        PopupExibicaoDados popup = new PopupExibicaoDados();
+        popup.carregaDados("Contribuição", contribuicao);
+        popup.setVisible(true);
     }//GEN-LAST:event_jButtonVisualizarContribuicaoActionPerformed
 
     private void jButtonVisualizarMetodologiaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonVisualizarMetodologiaActionPerformed
-        // TODO add your handling code here:
+        PopupExibicaoDados popup = new PopupExibicaoDados();
+        popup.carregaDados("Metodologia", metodo);
+        popup.setVisible(true);
     }//GEN-LAST:event_jButtonVisualizarMetodologiaActionPerformed
 
     private void jButtonVisualizarObjetivosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonVisualizarObjetivosActionPerformed
-        // TODO add your handling code here:
+        PopupExibicaoDados popup = new PopupExibicaoDados();
+        popup.carregaDados("Objetivos", objetivos);
+        popup.setVisible(true);
     }//GEN-LAST:event_jButtonVisualizarObjetivosActionPerformed
 
     private void jButtonVisualizarProblemaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonVisualizarProblemaActionPerformed
-        // TODO add your handling code here:
+        PopupExibicaoDados popup = new PopupExibicaoDados();
+        popup.carregaDados("Problema", problema);
+        popup.setVisible(true);
     }//GEN-LAST:event_jButtonVisualizarProblemaActionPerformed
 
     private void jButtonVisualizarInstituicoesAutoresActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonVisualizarInstituicoesAutoresActionPerformed
-        // TODO add your handling code here:
+        PopupExibicaoDados popup = new PopupExibicaoDados();
+        popup.carregaDados("Instituições e autores principais", instituicoes);
+        popup.setVisible(true);
     }//GEN-LAST:event_jButtonVisualizarInstituicoesAutoresActionPerformed
 
     private void jButtonVisualizarReferenciasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonVisualizarReferenciasActionPerformed
-        // TODO add your handling code here:
+        PopupExibicaoDados popup = new PopupExibicaoDados();
+        popup.carregaDados("Referências", referencias);
+        popup.setVisible(true);
     }//GEN-LAST:event_jButtonVisualizarReferenciasActionPerformed
 
     private void jButtonVisualizarTermosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonVisualizarTermosActionPerformed
-        // TODO add your handling code here:
+        PopupExibicaoDados popup = new PopupExibicaoDados();
+        popup.carregaDados("Termos mais citados", termos);
+        popup.setVisible(true);
     }//GEN-LAST:event_jButtonVisualizarTermosActionPerformed
 
-    private void jButtonVisualizarResultadoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonVisualizarResultadoActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButtonVisualizarResultadoActionPerformed
+    private void jButtonVisualizarStopWordsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonVisualizarStopWordsActionPerformed
+        PopupExibicaoDados popup = new PopupExibicaoDados();
+        popup.carregaDados("Texto sem stop words", textoSemStopWords);
+        popup.setVisible(true);
+    }//GEN-LAST:event_jButtonVisualizarStopWordsActionPerformed
 
     private void jCheckBoxContribuicaoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBoxContribuicaoActionPerformed
         // TODO add your handling code here:
@@ -439,6 +515,84 @@ public class MenuPrincipal extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jCheckBoxStopWordsActionPerformed
 
+    private void jButtonAnalisarArtigoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonAnalisarArtigoActionPerformed
+        try {
+            textoCompleto = extraiTextoDoPDF(caminhoEntrada);
+        } catch (IOException ex) {
+            jTextPaneLog.setText(jTextPaneLog.getText() + "\nErro ao realizar a conversão do arquivo!\n");
+        } finally {
+            try {
+                if (jCheckBoxStopWords.isSelected()) {
+                    textoSemStopWords = extraiStopWords(textoCompleto, CAMINHO_ARQUIVO_STOP_WORDS);
+                    gravaTextoSemStopWords(caminhoSaidaSemStopWords, textoSemStopWords);
+                    jTextPaneLog.setText(jTextPaneLog.getText() + "\nTexto sem stop words gerado com sucesso.\n");
+                    jButtonVisualizarStopWords.setVisible(true);
+                } else{
+                    jButtonVisualizarStopWords.setVisible(false);
+                }
+
+                if (jCheckBoxReferencias.isSelected()) {
+                    referencias = extraiReferencias(textoCompleto, CAMINHO_REFERENCIAS);
+                    jTextPaneLog.setText(jTextPaneLog.getText() + "Referencias extraídas com sucesso.\n");
+                    jButtonVisualizarReferencias.setVisible(true);
+                } else{
+                    jButtonVisualizarReferencias.setVisible(false);
+                }
+
+                if (jCheckBoxTermos.isSelected()) {
+                    termos = processaTermosMaisCitados(textoSemStopWords);
+                    jTextPaneLog.setText(jTextPaneLog.getText() + "Termos mais utilizados gerados com sucesso.\n");
+                    jButtonVisualizarTermos.setVisible(true);
+                } else {
+                    jButtonVisualizarTermos.setVisible(false);
+                }
+
+                if (jCheckBoxInstituicoesAutores.isSelected()) {
+                    instituicoes = identificaInstituicoes(extraiStopWords(leitorDePaginas(caminhoEntrada, 2), CAMINHO_ARQUIVO_STOP_WORDS), CAMINHO_INSTITUICOES);
+                    jTextPaneLog.setText(jTextPaneLog.getText() + "Instituições e autoures gerados com sucesso.\n");
+                    jButtonVisualizarInstituicoesAutores.setVisible(true);
+                } else {
+                    jButtonVisualizarInstituicoesAutores.setVisible(false);
+                }
+                
+                if(jCheckBoxObjetivos.isSelected()){
+                    objetivos = identificaPropriedade(caminhoEntrada, CAMINHO_ARQUIVO_STOP_WORDS, CAMINHO_OBJETIVOS,5);
+                    jTextPaneLog.setText(jTextPaneLog.getText() + "Objetivos extraídos com sucesso.\n");
+                    jButtonVisualizarObjetivos.setVisible(true);
+                } else {
+                    jButtonVisualizarObjetivos.setVisible(false);
+                }
+                
+                if(jCheckBoxMetodologia.isSelected()){
+                    metodo = identificaPropriedade(caminhoEntrada, CAMINHO_ARQUIVO_STOP_WORDS, CAMINHO_METODO,0);
+                    jTextPaneLog.setText(jTextPaneLog.getText()+"Metodologia extraída com sucesso.\n");
+                    jButtonVisualizarMetodologia.setVisible(true);
+                } else {
+                    jButtonVisualizarMetodologia.setVisible(false);                    
+                }
+                
+                if(jCheckBoxProblema.isSelected()){
+                    problema = identificaPropriedade(caminhoEntrada, CAMINHO_ARQUIVO_STOP_WORDS, CAMINHO_PROBLEMA,5);
+                    jTextPaneLog.setText(jTextPaneLog.getText()+"Problema extraído com sucesso.\n");
+                    jButtonVisualizarProblema.setVisible(true);                    
+                } else {
+                    jButtonVisualizarProblema.setVisible(false);                                        
+                }
+                
+                if(jCheckBoxContribuicao.isSelected()){
+                    contribuicao = identificaPropriedade(caminhoEntrada, CAMINHO_ARQUIVO_STOP_WORDS, CAMINHO_CONTRIBUICAO,5);
+                    jTextPaneLog.setText(jTextPaneLog.getText()+"Contribuição extraída com sucesso.\n");
+                    jButtonVisualizarContribuicao.setVisible(true);                    
+                } else {
+                    jButtonVisualizarContribuicao.setVisible(false);                                        
+                }
+                
+            } catch (Exception ex) {
+                jTextPaneLog.setText(jTextPaneLog.getText() + "Erro encontrado ao realizar as operações!\n");
+            }
+        }
+    }//GEN-LAST:event_jButtonAnalisarArtigoActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -469,7 +623,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new MenuPrincipal().setVisible(true);                
+                new MenuPrincipal().setVisible(true);
             }
         });
     }
@@ -483,7 +637,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
     private javax.swing.JButton jButtonVisualizarObjetivos;
     private javax.swing.JButton jButtonVisualizarProblema;
     private javax.swing.JButton jButtonVisualizarReferencias;
-    private javax.swing.JButton jButtonVisualizarResultado;
+    private javax.swing.JButton jButtonVisualizarStopWords;
     private javax.swing.JButton jButtonVisualizarTermos;
     private javax.swing.JCheckBox jCheckBoxContribuicao;
     private javax.swing.JCheckBox jCheckBoxInstituicoesAutores;
@@ -498,7 +652,10 @@ public class MenuPrincipal extends javax.swing.JFrame {
     private javax.swing.JLabel jLabelTitulo;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
+    private javax.swing.JPanel jPanel3;
+    private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JTextField jTextFieldSelecaoArquivo;
+    private javax.swing.JTextPane jTextPaneLog;
     // End of variables declaration//GEN-END:variables
 
     private void ativaCamposDeAnalise() {
@@ -510,5 +667,32 @@ public class MenuPrincipal extends javax.swing.JFrame {
         jCheckBoxReferencias.setEnabled(true);
         jCheckBoxTermos.setEnabled(true);
         jButtonAnalisarArtigo.setEnabled(true);
+    }
+
+    private void resetarTela() {
+        jButtonVisualizarContribuicao.setVisible(false);
+        jButtonVisualizarInstituicoesAutores.setVisible(false);
+        jButtonVisualizarMetodologia.setVisible(false);
+        jButtonVisualizarObjetivos.setVisible(false);
+        jButtonVisualizarProblema.setVisible(false);
+        jButtonVisualizarReferencias.setVisible(false);
+        jButtonVisualizarStopWords.setVisible(false);
+        jButtonVisualizarTermos.setVisible(false);
+        jCheckBoxContribuicao.setEnabled(false);
+        jCheckBoxContribuicao.setSelected(false);
+        jCheckBoxInstituicoesAutores.setEnabled(false);
+        jCheckBoxInstituicoesAutores.setSelected(false);
+        jCheckBoxMetodologia.setEnabled(false);
+        jCheckBoxMetodologia.setSelected(false);
+        jCheckBoxObjetivos.setEnabled(false);
+        jCheckBoxObjetivos.setSelected(false);
+        jCheckBoxProblema.setEnabled(false);
+        jCheckBoxProblema.setSelected(false);
+        jCheckBoxReferencias.setEnabled(false);
+        jCheckBoxReferencias.setSelected(false);
+        jCheckBoxTermos.setEnabled(false);
+        jCheckBoxTermos.setSelected(false);
+        jButtonAnalisarArtigo.setEnabled(false);
+        jButtonAnalisarArtigo.setSelected(false);
     }
 }

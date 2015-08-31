@@ -11,11 +11,11 @@ energy policy 34 (2006) 200–211
  discussion contribute energy-saving certificates lately celebrated market- 
  racy information) realised savings , 
  article press 
- www . elsevier . com/locate/enpol 
+ www . elsevier . com / locate / enpol 
  ministry education research (bmbf) . also like 
  thank eceee team , adriaan perrels anonymous reviewer 
- helpful comments . 0301-4215/$ - see front matter r 2004 elsevier ltd . rights reserved . 
- doi : 10 . 1016/j . enpol . 2004 . 08 . 025 
+ helpful comments . 0301-4215 / $ - see front matter r 2004 elsevier ltd . rights reserved . 
+ doi : 10 . 1016 / j . enpol . 2004 . 08 . 025 
  corresponding author . 
  e-mail address : ole . langniss@zsw-bw . de (o . langniss) . 
  1one exemption rader norgaard (1996) adverted 
@@ -118,7 +118,7 @@ energy policy 34 (2006) 200–211
  concept investment include transaction costs 
  part initial investment ee measure . 
  important concept tce notion 
- o . langniss , b . praetorius /investment specificity . investments can specific , . e . transferable another application . according 
+ o . langniss , b . praetorius / investment specificity . investments can specific , . e . transferable another application . according 
  tce , specific investments allow efficient 
  production generic investments (williamson , 
  1987) . higher specificity investment 
@@ -320,8 +320,8 @@ energy policy 34 (2006) 200–211
  concerning fulfilment obligations . 
  2 . 2 . italian ee certificate trading 
  april 2001 , two ministerial decrees set targets 
- reducing consumption electricity 18 . 6 twh/a 
- gas 15 . 1 twh/a , respectively , business- 
+ reducing consumption electricity 18 . 6 twh / 
+ gas 15 . 1 twh / , respectively , business- 
  as-usual scenario period 2002–2006 (aeeg , 
  2002) . relates 5 15% italian 
  kyoto target (malaman pavan , 2002) . national 
@@ -336,7 +336,7 @@ energy policy 34 (2006) 200–211
  instance , savings heating oil eligible . 
  exists comprehensive illustrative list eligible ee 
  asures . regulator issues certificates obliged 
- o . langniss , b . praetorius /ount individual obligation granted , e . g . independent escos . difference 
+ o . langniss , b . praetorius / ount individual obligation granted , e . g . independent escos . difference 
  guaranteed cost recovery costs ee 
  measure obliged suppliers’ profit . 
  success failure trading scheme 
@@ -439,7 +439,7 @@ energy policy 34 (2006) 200–211
  countries mostly ended now . 
  2 . 4 . conclusions existing experience 
  review implemented certificate schemes shows 
- o . langniss , b . praetorius /204while considering number possible restrictions . investments can specific generic towards 
+ o . langniss , b . praetorius / 204while considering number possible restrictions . investments can specific generic towards 
  investor’s commercial transactions . specificity arises 
  ee assets designed specific purposes , e . g . onprparticipation tradable certificates scheme depends 
  specificity respective ee investments . ee2 . specificity ee investmentspoaller certificate market will , the 
@@ -544,7 +544,7 @@ energy policy 34 (2006) 200–211
  reduced energy costs acquired 
  transaction partner . threat losing 
  extra income search information costs 
- o . langniss , b . praetorius /detain households investing energy-efficientappliances . thus , ee investments may 
+ o . langniss , b . praetorius / detain households investing energy-efficientappliances . thus , ee investments may 
  analysed tce . 
  picture changes energy services tech- 
  nologies supplied rather pure energy . invest- 
@@ -652,7 +652,7 @@ energy policy 34 (2006) 200–211
  4 
  fig . 1 . possible transactions certificates induced tradable 
  certificate schemes . 
- o . langniss , b . praetorius /206with transactions first type , energy consumers 
+ o . langniss , b . praetorius / 206with transactions first type , energy consumers 
  ll trade certificates obliged parties . generate 
  rtificates , energy consumers need invest . thus , 
  ese transactions crucial achieving ee 
@@ -777,7 +777,7 @@ energy policy 34 (2006) 200–211
  3 . 4 . establishing reference use energy 
  verification energy savings 
  issuing certificates ee efforts presumes 
- o . langniss , b . praetorius /efforts can measured . underlying problem nottrivial . two crucial issues solved theory 
+ o . langniss , b . praetorius / efforts can measured . underlying problem nottrivial . two crucial issues solved theory 
  practice . first , baseline ee 
  improvement , secondly , can energy savings 
  metered ? 
@@ -889,7 +889,7 @@ energy policy 34 (2006) 200–211
  issues need treated . example , may 
  difference baselines replacement invest- 
  ment compared additional capacity . first 
- o . langniss , b . praetorius /208case , ee investment may compared anexisting plant appliance supposed replace . 
+ o . langniss , b . praetorius / 208case , ee investment may compared anexisting plant appliance supposed replace . 
  however , long respective replacement invest- 
  ment time anyway , difficult evaluate 
  investment business usual-progress 
@@ -899,7 +899,7 @@ energy policy 34 (2006) 200–211
  regulator , appropriateness 
  individualised baseline approach via reference technol- 
  ogies chosen investor difficult assess , 
- information/transaction costs high . regulator 
+ information / transaction costs high . regulator 
  may therefore decide offer standardised approach . 
  example , certain performance benchmark 
  individual class appliances technologies 
@@ -1000,7 +1000,7 @@ energy policy 34 (2006) 200–211
  terns . however , energy supply companies can 
  regarded appropriate addressee , 
  experience lower transaction costs 
- o . langniss , b . praetorius /is avoid distortion markets otherwiseto considered . first important , defining 
+ o . langniss , b . praetorius / avoid distortion markets otherwiseto considered . first important , defining 
  issuing homogenous certificate indispensable . 
  simultaneously eases information problem thus 
  transaction cost involved level 
@@ -1102,7 +1102,7 @@ energy policy 34 (2006) 200–211
  certificates . yet , one may apply innovative approaches 
  appliances e . g . specific energy services addi- 
  tional certificates acknowledge difficulties arising 
- o . langniss , b . praetorius /210tradable white certificates allows equalising indivi-dual marginal costs obliged parties . moreover , 
+ o . langniss , b . praetorius / 210tradable white certificates allows equalising indivi-dual marginal costs obliged parties . moreover , 
  bundling demand ee can activate potential 
  economies scale . also creates opportunities 
  escos hereby promotes shift traditional 
@@ -1183,34 +1183,34 @@ energy policy 34 (2006) 200–211
  social institutional barriers energy conservation . energy 5 , 
  335–349 . 
  bode , j . -w . , de beer , j . , blok , k . , 2001 . initial view methods 
- emission baselines : iron steel case study . oecd/iea 
- information paper , paris . download www . oecd . org/env/cc 
- http : //www . ghgprotocol . org/projectmodule . htm 
+ emission baselines : iron steel case study . oecd / iea 
+ information paper , paris . download www . oecd . org / env / cc 
+ http : / / www . ghgprotocol . org / projectmodule . htm 
  bosi , m . , 2000 . initial view methods emission baselines : 
- electricity generation case study . oecd/iea information paper , 
- paris . download www . oecd . org/env/cc http : //www . ghgpro- 
- tocol . org/projectmodule . htm 
+ electricity generation case study . oecd / iea information paper , 
+ paris . download www . oecd . org / env / cc http : / / www . ghgpro- 
+ tocol . org / projectmodule . htm 
  decanio , s . j . , 1993 . barriers within firms energy-efficient invest- 
  ments . energy policy 21 (9) , 906–914 . 
  diw , 2003 . leitfaden fu¨r die klimaschutzpolitische bewertung von ji- 
  und cdm-projekten . projekt im auftrag des umweltbundesamts , 
  berlin . 
  dsire , 2002 . database state incentives renewable energy . 
- http : //www . dsireusa . org/ . status october 28 , 2002 . 
+ http : / / www . dsireusa . org / . status october 28 , 2002 . 
  elcertificat , 2001 . handel med elcertifikat . ett sa¨tt att fra¨mja el fra˚n 
  fo¨rnybara energika¨llor (trade electricity certificates . means 
  support power renewable energy sources) sou (statens 
  offentliga utredningar) , stockholm , 2001 , p . 77 . 
  ellis , j . , 2001 . initial view methods emission baselines : 
  cement case study . oecd information paper , paris download 
- www . oecd . org/env/cc http : //www . ghgprotocol . org/projectmo- 
+ www . oecd . org / env / cc http : / / www . ghgprotocol . org / projectmo- 
  dule . htm . 
  ellis , j . , 2002 . developing guidance monitoring project 
- boundaries greenhouse gas projects . oecd/iea information 
- paper , paris download www . oecd . org/env/cc http : // 
- www . ghgprotocol . org/projectmodule . htm . 
+ boundaries greenhouse gas projects . oecd / iea information 
+ paper , paris download www . oecd . org / env / cc http : / / 
+ www . ghgprotocol . org / projectmodule . htm . 
  ellis , j . , bosi , m . , 2000 . emission baselines . estimating unknown . 
- oecd iea , paris download http : //www . ghgprotocol . org/ 
+ oecd iea , paris download http : / / www . ghgprotocol . org / 
  projectmodule . htm . 
  fisher , . c . , rothkopf , m . h . , 1989 . market failure energy policy . 
  rationale selective conservation . energy policy 17 , 4 , 397–406 . 
@@ -1223,7 +1223,7 @@ energy policy 34 (2006) 200–211
  energy sources . dissertation , stuttgart , lund . 
  langniss , o . , wiser , r . , 2003 . texan renewable portfolio 
  standard . early assessment . energy policy 31 , 527–535 . 
- laurikka , h . , 2002 . absolute relative baselines jo/cdm 
+ laurikka , h . , 2002 . absolute relative baselines jo / cdm 
  projects energy sector ? climate policy 2 , 19–33 . 
  levine , m . d . , koomey , j . g . , mcmahon , j . e . , sanstad , . h . , 1995 . 
  energy efficiency policy market failures . annual review 
@@ -1268,8 +1268,8 @@ energy policy 34 (2006) 200–211
  changing electricity businesses . energy policy 31 , 405–430 . 
  violette , d . , mudd , c . , keneipp , m . , 2000 . initial view 
  methods emission baselines : energy efficiency case study . 
- oecd/iea information paper , paris download www . oecd . org/ 
- env/cc http : //www . ghgprotocol . org/projectmodule . htm . 
+ oecd / iea information paper , paris download www . oecd . org / 
+ env / cc http : / / www . ghgprotocol . org / projectmodule . htm . 
  williamson , o . e . , 1987 . economic institutions capitalism . 
  new york . 
  wuppertal institut fu¨r klima umwelt energie . (ed . ) , 2002 . bringing 

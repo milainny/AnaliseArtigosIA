@@ -5,6 +5,7 @@
  */
 package analiseartigosia;
 
+import analiseartigosia.areaGrafica.MenuPrincipal;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -33,18 +34,8 @@ public class AnaliseArtigosIA {
      * @param args the command line arguments
      */
     public static void main(String[] args) throws IOException {
-        String caminhoEntrada = "arquivos/12.pdf";
-        String identificador = caminhoEntrada.substring(caminhoEntrada.lastIndexOf("/") + 1, caminhoEntrada.lastIndexOf("."));
-        String caminhoArquivoStopWords = "stop_words/lista_stop_words.txt";
-        String caminhoSaidaSemStopWords = "saidas/" + identificador + ".txt";
-        String textoCompleto = extraiTextoDoPDF(caminhoEntrada);
-        String textoSemStopWords = extraiStopWords(textoCompleto, caminhoArquivoStopWords);
-        gravaTextoSemStopWords(caminhoSaidaSemStopWords, textoSemStopWords);
-        String referencias = extraiReferencias(textoSemStopWords);
-        System.out.println("Referencias:\n"+referencias);
-        exibeTermosMaisCitados(textoSemStopWords);
-        identificaInstituicoes(extraiStopWords(leitorDePaginas(caminhoEntrada, 2), caminhoArquivoStopWords));
-        identificaObjetivo(caminhoEntrada, caminhoArquivoStopWords);
+        MenuPrincipal menuPrincipal = new MenuPrincipal();
+        menuPrincipal.setVisible(true);
     }
 
     public static String extraiTextoDoPDF(String caminho) throws IOException {
@@ -52,11 +43,6 @@ public class AnaliseArtigosIA {
         pdfDocument = PDDocument.load(caminho);
         PDFTextStripper stripper = new PDFTextStripper();
         String texto = stripper.getText(pdfDocument);
-//        PrintStream saidaPadrao = System.out;
-//        PrintStream saida = new PrintStream(new FileOutputStream(new File("saidas/texto" + 19 + ".txt")));
-//        System.setOut(saida);
-//        System.out.println(texto);
-//        System.setOut(saidaPadrao);
         pdfDocument.close();
         return texto;
     }
@@ -73,6 +59,7 @@ public class AnaliseArtigosIA {
         textoCompletoMin = textoCompletoMin.replace(":", " : ");
         textoCompletoMin = textoCompletoMin.replace(",", " , ");
         textoCompletoMin = textoCompletoMin.replace(";", " ; ");
+        textoCompletoMin = textoCompletoMin.replace("/", " / ");
         textoCompletoMin = textoCompletoMin.replace("   ", " ");
         textoCompletoMin = textoCompletoMin.replace("  ", " ");
         for (String stopWord : listaStopWords) {
@@ -87,16 +74,15 @@ public class AnaliseArtigosIA {
         System.setOut(saida);
         System.out.println(textoSemStopWords);
         System.setOut(saidaPadrao);
-        System.out.println("Arquivo do texto sem stop words gerado com sucesso. Veja a saida em " + caminhoArquivoStopWords);
     }
 
-    public static void exibeTermosMaisCitados(String textoSemStopWords) {
+    public static String processaTermosMaisCitados(String textoSemStopWords) {
         int indexReferencia = textoSemStopWords.lastIndexOf(" reference ") != -1 ? textoSemStopWords.lastIndexOf(" reference ") : textoSemStopWords.lastIndexOf(" references ");
         String textoSemReferencias = textoSemStopWords.substring(0, indexReferencia);
         String todosTermos[] = textoSemReferencias.split(" ");
         Map<String, Integer> termos = new HashMap();
         for (String termo : todosTermos) {
-            if (termos.get(termo) == null) {        
+            if (termos.get(termo) == null) {
                 termos.put(termo, 1);
             } else {
                 int valor = termos.get(termo);
@@ -108,27 +94,27 @@ public class AnaliseArtigosIA {
         for (String chave : chaves) {
             termosOrdenados.add(new Termo(termos.get(chave), chave));
         }
-        System.out.println("--- Listando os 10 termos mais utilizados ---");
         int i = 0;
+        String termosString = "";
         while (i < 10) {
             Termo t = termosOrdenados.poll();
             if (t.getTermo().length() > 2) {
-                System.out.println("Termo: " + t.getTermo() + " - Frequencia: " + t.getFrequencia());
+                termosString += "Termo: " + t.getTermo() + " - Frequencia: " + t.getFrequencia() + "\n";
                 i++;
             }
         }
+        return termosString;
     }
 
-    private static void identificaInstituicoes(String textoSemStopWords) throws IOException {
+    public static String identificaInstituicoes(String textoSemStopWords, String caminhoArquivoInstituicoes) throws IOException {
         String textoPrimeirasPaginas = textoSemStopWords;
 //        PrintStream saidaPadrao = System.out;
 //        PrintStream saida = new PrintStream(new FileOutputStream(new File("saidas/texto2pg" + 12 + ".txt")));
 //        System.setOut(saida);
 //        System.out.println(textoPrimeirasPaginas);
 //        System.setOut(saidaPadrao);
-        String caminhoArquivoInstuicoes = "stop_words/instituicoes.txt";
         String instituicoes = "";
-        ArrayList<String> listaInstiuicoes = preencheLista(caminhoArquivoInstuicoes);
+        ArrayList<String> listaInstiuicoes = preencheLista(caminhoArquivoInstituicoes);
         for (String inst : listaInstiuicoes) {
             String textoBusca = textoPrimeirasPaginas;
             int posicaoAbs = textoPrimeirasPaginas.toLowerCase().lastIndexOf("abstract");
@@ -151,8 +137,7 @@ public class AnaliseArtigosIA {
                 posicao = textoBusca.indexOf(inst);
             }
         }
-        System.out.println("\n--- Listando as instituições dos autores ---");
-        System.out.println(instituicoes);
+        return instituicoes;
     }
 
     private static int buscaFimParagrafo(String textoBusca, int posicao, String operador) {
@@ -199,7 +184,7 @@ public class AnaliseArtigosIA {
         return lista;
     }
 
-    private static String leitorDePaginas(String caminho, int quantidadePaginas) throws IOException {
+    public static String leitorDePaginas(String caminho, int quantidadePaginas) throws IOException {
         PDDocument pdfDocument = null;
         pdfDocument = PDDocument.load(caminho);
         PDFTextStripper stripper = new PDFTextStripper();
@@ -209,66 +194,66 @@ public class AnaliseArtigosIA {
         return textoPrimeirasPaginas;
     }
 
-    private static void identificaObjetivo(String caminho, String caminhoArquivoSemStopWords) throws IOException {
-        String textoPrimeirasPaginas = leitorDePaginas(caminho, 5);
-        String textoSemStopWords = extraiStopWords(textoPrimeirasPaginas, caminhoArquivoSemStopWords);
-        textoPrimeirasPaginas = textoSemStopWords.toLowerCase();
-        String caminhoArquivoObjetivo = "stop_words/objetivo.txt";
-        ArrayList<String> listaObjetivo = preencheListaEDivide(caminhoArquivoObjetivo);
-        ArrayList<String> naoReptir = new ArrayList<>();
+    public static String identificaPropriedade(String caminho, String caminhoArquivoSemStopWords, String caminhoArquivoPropriedade, int qtdePaginas) throws IOException {
+        String textoPaginas = "";
+        if (qtdePaginas != 0) {
+            textoPaginas = leitorDePaginas(caminho, qtdePaginas);
+        } else {
+            textoPaginas = extraiTextoDoPDF(caminho);
+        }
+        String textoSemStopWords = extraiStopWords(textoPaginas, caminhoArquivoSemStopWords);
+        textoPaginas = textoSemStopWords.toLowerCase();
+        ArrayList<String> listaMetaDadosPropriedade = preencheListaEDivide(caminhoArquivoPropriedade);
+        ArrayList<String> naoRepetir = new ArrayList<>();
 
         String resultado = "";
-        for (String obj : listaObjetivo) {
+        for (String obj : listaMetaDadosPropriedade) {
             int posicao = textoSemStopWords.indexOf(obj);
             if (posicao != -1) {
-                posicao = retornaPosicaoMenor(textoSemStopWords,posicao);
+                posicao = retornaPosicaoMenor(textoSemStopWords, posicao);
                 int posInicio = posicao;
                 posicao = buscaFimParagrafo(textoSemStopWords, posicao, ".");
                 resultado = textoSemStopWords.substring(posInicio, posicao);
-                if (!naoReptir.contains(resultado)) {
-                    naoReptir.add(resultado);
+                if (!naoRepetir.contains(resultado)) {
+                    naoRepetir.add(resultado);
                 }
             }
         }
-        System.out.println("\n--- Listando o objetivo do artigo ---");
-        for (String s : naoReptir) {
-            System.out.println(s);
-            System.out.println("");
+        String objetivoPropriedade = "";
+        for (String s : naoRepetir) {
+            objetivoPropriedade += s + "\n";
         }
+        return objetivoPropriedade;
 
     }
 
-    private static String extraiReferencias(String textoSemStopWords) {
-        int indexReferences = textoSemStopWords.lastIndexOf(" references ");
-        if (indexReferences == -1){
-            indexReferences = textoSemStopWords.lastIndexOf(" reference ");
+    public static String extraiReferencias(String texto, String caminhoReferencias) throws FileNotFoundException {
+        String textoReferencias = texto.replace("\r", "");
+        int indexReferences = textoReferencias.lastIndexOf("References\n");
+        if (indexReferences == -1) {
+            indexReferences = textoReferencias.lastIndexOf("Reference\n");
         }
-        String textoPartindoReferencias = textoSemStopWords.substring(indexReferences, textoSemStopWords.length());
-        String buscaReferencias = textoPartindoReferencias.substring(textoPartindoReferencias.indexOf("\n ")+2);
-        String referencias = "";        
-        boolean encontrouFimReferencias = false;
-        while (!encontrouFimReferencias){
-            String alfabeticoReferencia = buscaReferencias.substring(0,buscaReferencias.indexOf(" "));
-            int indexQuebraLinhaComPonto = buscaReferencias.indexOf(". \n")+4;
-            referencias+= buscaReferencias.substring(0, indexQuebraLinhaComPonto);
-            buscaReferencias = buscaReferencias.substring(indexQuebraLinhaComPonto, buscaReferencias.length());
-            if(buscaReferencias.length() < 3 || 
-                    alfabeticoReferencia.compareTo(buscaReferencias.substring(0,alfabeticoReferencia.length())) > 0){
-                encontrouFimReferencias = true;
+        textoReferencias = textoReferencias.substring(indexReferences, textoReferencias.length());
+        ArrayList<String> listaMetaDadosFimReferencia = preencheListaEDivide(caminhoReferencias);        
+        for (String metaDado : listaMetaDadosFimReferencia) {
+            int indexMetaDado = textoReferencias.lastIndexOf(metaDado);
+            if (indexMetaDado != -1) {
+                textoReferencias = textoReferencias.substring(0, indexMetaDado);
+                break;
             }
         }
-        return referencias;
+        return textoReferencias;
     }
 
     private static int retornaPosicaoMenor(String textoSemStopWords, int posicao) {
         int pos1, pos2;
-         pos1 = buscaInicioParagrafo(textoSemStopWords, posicao, ".");
-         pos2 = buscaInicioParagrafo(textoSemStopWords, posicao, "\n");
-         if (pos2 > pos1){
-             return pos2;
-         }
-         return pos1;
-         
+        pos1 = buscaInicioParagrafo(textoSemStopWords, posicao, ".");
+        pos2 = buscaInicioParagrafo(textoSemStopWords, posicao, "\n");
+        if (pos2 > pos1) {
+            return pos2;
+        }
+        return pos1;
+
     }
 
 }
