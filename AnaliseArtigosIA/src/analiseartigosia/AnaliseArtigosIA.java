@@ -28,7 +28,7 @@ public class AnaliseArtigosIA {
      */
     public static void main(String[] args) throws IOException {
         MenuPrincipal menuPrincipal = new MenuPrincipal();
-        menuPrincipal.setExtendedState(JFrame.MAXIMIZED_BOTH);  
+        menuPrincipal.setExtendedState(JFrame.MAXIMIZED_BOTH);
         menuPrincipal.setVisible(true);
     }
 
@@ -93,7 +93,7 @@ public class AnaliseArtigosIA {
         while (i < 10) {
             Termo t = termosOrdenados.poll();
             if (t.getTermo().length() > 2) {
-                termosString += "Termo: " + t.getTermo() + " - Frequencia: " + t.getFrequencia() + "\n";
+                termosString += i+1 + ") " + t.getTermo() + " - freq.: " + t.getFrequencia() + " \n";
                 i++;
             }
         }
@@ -105,6 +105,7 @@ public class AnaliseArtigosIA {
         String instituicoes = "";
         textoPrimeirasPaginas = textoPrimeirasPaginas.replace("\r", "");
         ArrayList<String> listaInstiuicoes = preencheLista(caminhoArquivoInstituicoes);
+        ArrayList<String> naoRepetir = new ArrayList<>();
         for (String inst : listaInstiuicoes) {
             String textoBusca = textoPrimeirasPaginas;
             int posicaoAbs = textoPrimeirasPaginas.lastIndexOf("Abstract\n");
@@ -122,15 +123,22 @@ public class AnaliseArtigosIA {
                 posicao = retornaPosicaoMenor(textoBusca, posicao);
                 int posInicio = posicao;
                 posicao = buscaFimParagrafo(textoBusca, posicao, "\n");
-                instituicoes = instituicoes + textoBusca.substring(posInicio, posicao) + "\n ";
+                instituicoes = textoBusca.substring(posInicio, posicao);
+                if (!naoRepetir.contains(instituicoes)) {
+                    naoRepetir.add(instituicoes);
+                }
                 textoBusca = textoBusca.substring(posicao, textoBusca.length());
                 posicao = textoBusca.indexOf(inst);
             }
         }
+        instituicoes = "";
+        for (String s : naoRepetir) {
+            instituicoes += s + "\n";
+        }
         String autores = textoPrimeirasPaginas.substring(0, textoPrimeirasPaginas.indexOf(instituicoes.substring(0, instituicoes.indexOf("\n"))));
-        autores = autores.substring(0,autores.lastIndexOf("\n"));
-        autores = autores.substring(autores.lastIndexOf("\n"),autores.length());
-        return autores+" / "+instituicoes;
+        autores = autores.substring(0, autores.lastIndexOf("\n"));
+        autores = autores.substring(autores.lastIndexOf("\n"), autores.length());
+        return autores + " / " + instituicoes;
     }
 
     private static int buscaFimParagrafo(String textoBusca, int posicao, String operador) {
@@ -226,7 +234,7 @@ public class AnaliseArtigosIA {
             indexReferences = textoReferencias.lastIndexOf("Reference\n");
         }
         textoReferencias = textoReferencias.substring(indexReferences, textoReferencias.length());
-        ArrayList<String> listaMetaDadosFimReferencia = preencheListaEDivide(caminhoReferencias);        
+        ArrayList<String> listaMetaDadosFimReferencia = preencheListaEDivide(caminhoReferencias);
         for (String metaDado : listaMetaDadosFimReferencia) {
             int indexMetaDado = textoReferencias.lastIndexOf(metaDado);
             if (indexMetaDado != -1) {
@@ -237,10 +245,18 @@ public class AnaliseArtigosIA {
         return textoReferencias;
     }
 
-    private static int retornaPosicaoMenor(String textoSemStopWords, int posicao) {
+    private static int retornaPosicaoMenor(String texto, int posicao) {
         int pos1, pos2;
-        pos1 = buscaInicioParagrafo(textoSemStopWords, posicao, ".");
-        pos2 = buscaInicioParagrafo(textoSemStopWords, posicao, "\n");
+        try {
+            pos1 = buscaInicioParagrafo(texto, posicao, ".");
+        } catch (Exception e) {
+            pos1 = -1;
+        }
+        try {
+            pos2 = buscaInicioParagrafo(texto, posicao, "\n");
+        } catch (Exception e) {
+            pos2 = -1;
+        }
         if (pos2 > pos1) {
             return pos2;
         }

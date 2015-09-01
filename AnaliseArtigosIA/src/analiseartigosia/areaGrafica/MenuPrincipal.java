@@ -5,12 +5,9 @@
  */
 package analiseartigosia.areaGrafica;
 
-import analiseartigosia.AnaliseArtigosIA;
 import static analiseartigosia.AnaliseArtigosIA.*;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.util.logging.Level;
+import java.io.*;
+import java.util.*;
 import java.util.logging.Logger;
 import javax.swing.JFileChooser;
 import javax.swing.JFrame;
@@ -37,11 +34,11 @@ public class MenuPrincipal extends javax.swing.JFrame {
     String textoSemStopWords;
     String referencias;
     String termos;
-    String instituicoes;
+    String autoresEinstituicoes;
     String autores;
     String objetivos;
     String contribuicao;
-    String metodo;
+    String metodologia;
     String problema;
 
     /**
@@ -95,6 +92,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
         jButtonVisualizarContribuicao = new javax.swing.JButton();
         jButtonSelecionarTodos = new javax.swing.JButton();
         jButtonDesmarcarTodos = new javax.swing.JButton();
+        jLabelInfoSaida = new javax.swing.JLabel();
         jPanel3 = new javax.swing.JPanel();
         jScrollPane2 = new javax.swing.JScrollPane();
         jTextPaneLog = new javax.swing.JTextPane();
@@ -292,6 +290,10 @@ public class MenuPrincipal extends javax.swing.JFrame {
             }
         });
 
+        jLabelInfoSaida.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
+        jLabelInfoSaida.setForeground(new java.awt.Color(0, 153, 0));
+        jLabelInfoSaida.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
@@ -342,6 +344,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jButtonDesmarcarTodos, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+            .addComponent(jLabelInfoSaida, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -384,7 +387,8 @@ public class MenuPrincipal extends javax.swing.JFrame {
                     .addComponent(jButtonVisualizarContribuicao, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGap(18, 18, 18)
                 .addComponent(jButtonAnalisarArtigo, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(44, 44, 44))
+                .addGap(18, 18, 18)
+                .addComponent(jLabelInfoSaida, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
         jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder("Log do Sistema"));
@@ -468,6 +472,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
             ativaCamposDeAnalise();
             jTextPaneLog.setText(jTextPaneLog.getText() + "\n"
                     + "Arquivo do caminho " + jTextFieldSelecaoArquivo.getText() + " selecionado.\n");
+            jLabelInfoSaida.setText("");
             
         }
     }//GEN-LAST:event_jButtonSelecionarActionPerformed
@@ -480,7 +485,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
 
     private void jButtonVisualizarMetodologiaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonVisualizarMetodologiaActionPerformed
         PopupExibicaoDados popup = new PopupExibicaoDados();
-        popup.carregaDados("Metodologia", metodo);
+        popup.carregaDados("Metodologia", metodologia);
         popup.setVisible(true);
     }//GEN-LAST:event_jButtonVisualizarMetodologiaActionPerformed
 
@@ -498,7 +503,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
 
     private void jButtonVisualizarInstituicoesAutoresActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonVisualizarInstituicoesAutoresActionPerformed
         PopupExibicaoDados popup = new PopupExibicaoDados();
-        popup.carregaDados("Autores e instituições", instituicoes);
+        popup.carregaDados("Autores e instituições", autoresEinstituicoes);
         popup.setVisible(true);
     }//GEN-LAST:event_jButtonVisualizarInstituicoesAutoresActionPerformed
 
@@ -559,6 +564,8 @@ public class MenuPrincipal extends javax.swing.JFrame {
             jTextPaneLog.setText(jTextPaneLog.getText() + "\nErro ao realizar a conversão do arquivo!\n");
         } finally {
             try {
+                String cabecalho = "";
+                String informacoes = "";
                 if (jCheckBoxStopWords.isSelected()) {
                     textoSemStopWords = extraiStopWords(textoCompleto, CAMINHO_ARQUIVO_STOP_WORDS);
                     //gravaTextoSemStopWords(caminhoSaidaSemStopWords, textoSemStopWords);
@@ -572,6 +579,8 @@ public class MenuPrincipal extends javax.swing.JFrame {
                     referencias = extraiReferencias(textoCompleto, CAMINHO_REFERENCIAS);
                     jTextPaneLog.setText(jTextPaneLog.getText() + "Referencias extraídas com sucesso.\n");
                     jButtonVisualizarReferencias.setVisible(true);
+                    cabecalho += "Referencias;;";
+                    informacoes += referencias.replace("\n", "/")+";;";
                 } else {
                     jButtonVisualizarReferencias.setVisible(false);
                 }
@@ -580,14 +589,18 @@ public class MenuPrincipal extends javax.swing.JFrame {
                     termos = processaTermosMaisCitados(textoSemStopWords);
                     jTextPaneLog.setText(jTextPaneLog.getText() + "Termos mais utilizados gerados com sucesso.\n");
                     jButtonVisualizarTermos.setVisible(true);
+                    cabecalho += "Termos Mais Citados;;";
+                    informacoes += termos.replace("\n", "/")+";;";
                 } else {
                     jButtonVisualizarTermos.setVisible(false);
                 }
                 
                 if (jCheckBoxInstituicoesAutores.isSelected()) {
-                    instituicoes = identificaInstituicoesEAutores(leitorDePaginas(caminhoEntrada, 2), CAMINHO_INSTITUICOES_AUTORES);
+                    autoresEinstituicoes = identificaInstituicoesEAutores(leitorDePaginas(caminhoEntrada, 2), CAMINHO_INSTITUICOES_AUTORES);
                     jTextPaneLog.setText(jTextPaneLog.getText() + "Instituições e autoures gerados com sucesso.\n");
                     jButtonVisualizarInstituicoesAutores.setVisible(true);
+                    cabecalho += "Autores/Instituições;;";
+                    informacoes += autoresEinstituicoes.replace("\n", "/")+";;";
                 } else {
                     jButtonVisualizarInstituicoesAutores.setVisible(false);
                 }
@@ -596,14 +609,18 @@ public class MenuPrincipal extends javax.swing.JFrame {
                     objetivos = identificaPropriedade(caminhoEntrada, CAMINHO_OBJETIVOS, 5);
                     jTextPaneLog.setText(jTextPaneLog.getText() + "Objetivos extraídos com sucesso.\n");
                     jButtonVisualizarObjetivos.setVisible(true);
+                    cabecalho += "Objetivos;;";
+                    informacoes += objetivos.replace("\n", "/")+";;";
                 } else {
                     jButtonVisualizarObjetivos.setVisible(false);
                 }
                 
                 if (jCheckBoxMetodologia.isSelected()) {
-                    metodo = identificaPropriedade(caminhoEntrada, CAMINHO_METODO, 0);
+                    metodologia = identificaPropriedade(caminhoEntrada, CAMINHO_METODO, 0);
                     jTextPaneLog.setText(jTextPaneLog.getText() + "Metodologia extraída com sucesso.\n");
                     jButtonVisualizarMetodologia.setVisible(true);
+                    cabecalho += "Metodologia;;";
+                    informacoes += metodologia.replace("\n", "/")+";;";
                 } else {
                     jButtonVisualizarMetodologia.setVisible(false);                    
                 }
@@ -612,6 +629,8 @@ public class MenuPrincipal extends javax.swing.JFrame {
                     problema = identificaPropriedade(caminhoEntrada, CAMINHO_PROBLEMA, 5);
                     jTextPaneLog.setText(jTextPaneLog.getText() + "Problema extraído com sucesso.\n");
                     jButtonVisualizarProblema.setVisible(true);                    
+                    cabecalho += "Problema;;";
+                    informacoes += problema.replace("\n", "/")+";;";
                 } else {
                     jButtonVisualizarProblema.setVisible(false);                    
                 }
@@ -620,9 +639,16 @@ public class MenuPrincipal extends javax.swing.JFrame {
                     contribuicao = identificaPropriedade(caminhoEntrada, CAMINHO_CONTRIBUICAO, 5);
                     jTextPaneLog.setText(jTextPaneLog.getText() + "Contribuição extraída com sucesso.\n");
                     jButtonVisualizarContribuicao.setVisible(true);                    
+                    cabecalho += "Contribuição;;";
+                    informacoes += contribuicao.replace("\n", "/")+";;";
                 } else {
                     jButtonVisualizarContribuicao.setVisible(false);                    
                 }
+                cabecalho+="\n";
+                informacoes+="\n";
+                String caminhoSaida = "saidas/"+identificador+".csv";
+                gravaTexto(caminhoSaida,cabecalho+informacoes);
+                jLabelInfoSaida.setText("Foi gerado um arquivo de saída! Visualize-o no diretório: "+caminhoSaida);
                 
             } catch (Exception ex) {
                 jTextPaneLog.setText(jTextPaneLog.getText() + "Erro encontrado ao realizar as operações!\n");
@@ -709,6 +735,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
     private javax.swing.JCheckBox jCheckBoxStopWords;
     private javax.swing.JCheckBox jCheckBoxTermos;
     private javax.swing.JLabel jLabelCriadores;
+    private javax.swing.JLabel jLabelInfoSaida;
     private javax.swing.JLabel jLabelSelecaoArquivo;
     private javax.swing.JLabel jLabelTitulo;
     private javax.swing.JPanel jPanel1;
@@ -758,5 +785,13 @@ public class MenuPrincipal extends javax.swing.JFrame {
         jCheckBoxTermos.setSelected(false);
         jButtonAnalisarArtigo.setEnabled(false);
         jButtonAnalisarArtigo.setSelected(false);
+    }
+
+    private void gravaTexto(String caminhoDeSaida, String texto) throws Exception{
+        PrintStream saidaPadrao = System.out;
+        PrintStream saida = new PrintStream(new FileOutputStream(new File(caminhoDeSaida)));
+        System.setOut(saida);
+        System.out.println(texto);
+        System.setOut(saidaPadrao);
     }
 }
