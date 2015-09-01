@@ -6,23 +6,16 @@
 package analiseartigosia;
 
 import analiseartigosia.areaGrafica.MenuPrincipal;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.FileReader;
-import java.io.IOException;
-import java.io.PrintStream;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.PriorityQueue;
 import java.util.Scanner;
 import java.util.Set;
+import javax.swing.JFrame;
 import org.apache.pdfbox.pdmodel.PDDocument;
-import org.apache.pdfbox.pdmodel.PDPage;
 import org.apache.pdfbox.util.PDFTextStripper;
-import org.apache.pdfbox.util.TextPosition;
-import sun.awt.FontDescriptor;
 
 /**
  *
@@ -35,6 +28,7 @@ public class AnaliseArtigosIA {
      */
     public static void main(String[] args) throws IOException {
         MenuPrincipal menuPrincipal = new MenuPrincipal();
+        menuPrincipal.setExtendedState(JFrame.MAXIMIZED_BOTH);  
         menuPrincipal.setVisible(true);
     }
 
@@ -106,20 +100,16 @@ public class AnaliseArtigosIA {
         return termosString;
     }
 
-    public static String identificaInstituicoes(String textoSemStopWords, String caminhoArquivoInstituicoes) throws IOException {
-        String textoPrimeirasPaginas = textoSemStopWords;
-//        PrintStream saidaPadrao = System.out;
-//        PrintStream saida = new PrintStream(new FileOutputStream(new File("saidas/texto2pg" + 12 + ".txt")));
-//        System.setOut(saida);
-//        System.out.println(textoPrimeirasPaginas);
-//        System.setOut(saidaPadrao);
+    public static String identificaInstituicoesEAutores(String texto, String caminhoArquivoInstituicoes) throws IOException {
+        String textoPrimeirasPaginas = texto;
         String instituicoes = "";
+        textoPrimeirasPaginas = textoPrimeirasPaginas.replace("\r", "");
         ArrayList<String> listaInstiuicoes = preencheLista(caminhoArquivoInstituicoes);
         for (String inst : listaInstiuicoes) {
             String textoBusca = textoPrimeirasPaginas;
-            int posicaoAbs = textoPrimeirasPaginas.toLowerCase().lastIndexOf("abstract");
+            int posicaoAbs = textoPrimeirasPaginas.lastIndexOf("Abstract\n");
             if (posicaoAbs != -1) {
-                textoBusca = textoPrimeirasPaginas.substring(0, textoPrimeirasPaginas.lastIndexOf("abstract"));
+                textoBusca = textoPrimeirasPaginas.substring(0, textoPrimeirasPaginas.lastIndexOf("Abstract\n"));
             }
             int posicao = textoBusca.indexOf(inst);
             if (posicao == -1) {
@@ -137,7 +127,10 @@ public class AnaliseArtigosIA {
                 posicao = textoBusca.indexOf(inst);
             }
         }
-        return instituicoes;
+        String autores = textoPrimeirasPaginas.substring(0, textoPrimeirasPaginas.indexOf(instituicoes.substring(0, instituicoes.indexOf("\n"))));
+        autores = autores.substring(0,autores.lastIndexOf("\n"));
+        autores = autores.substring(autores.lastIndexOf("\n"),autores.length());
+        return autores+" / "+instituicoes;
     }
 
     private static int buscaFimParagrafo(String textoBusca, int posicao, String operador) {
@@ -194,26 +187,25 @@ public class AnaliseArtigosIA {
         return textoPrimeirasPaginas;
     }
 
-    public static String identificaPropriedade(String caminho, String caminhoArquivoSemStopWords, String caminhoArquivoPropriedade, int qtdePaginas) throws IOException {
+    public static String identificaPropriedade(String caminho, String caminhoArquivoPropriedade, int qtdePaginas) throws IOException {
         String textoPaginas = "";
         if (qtdePaginas != 0) {
             textoPaginas = leitorDePaginas(caminho, qtdePaginas);
         } else {
             textoPaginas = extraiTextoDoPDF(caminho);
         }
-        String textoSemStopWords = extraiStopWords(textoPaginas, caminhoArquivoSemStopWords);
-        textoPaginas = textoSemStopWords.toLowerCase();
+        textoPaginas = textoPaginas.toLowerCase().replace("\r", "");
         ArrayList<String> listaMetaDadosPropriedade = preencheListaEDivide(caminhoArquivoPropriedade);
         ArrayList<String> naoRepetir = new ArrayList<>();
 
         String resultado = "";
         for (String obj : listaMetaDadosPropriedade) {
-            int posicao = textoSemStopWords.indexOf(obj);
+            int posicao = textoPaginas.indexOf(obj);
             if (posicao != -1) {
-                posicao = retornaPosicaoMenor(textoSemStopWords, posicao);
+                posicao = retornaPosicaoMenor(textoPaginas, posicao);
                 int posInicio = posicao;
-                posicao = buscaFimParagrafo(textoSemStopWords, posicao, ".");
-                resultado = textoSemStopWords.substring(posInicio, posicao);
+                posicao = buscaFimParagrafo(textoPaginas, posicao, ".");
+                resultado = textoPaginas.substring(posInicio, posicao);
                 if (!naoRepetir.contains(resultado)) {
                     naoRepetir.add(resultado);
                 }

@@ -21,10 +21,10 @@ import javax.swing.JTextPane;
  * @author 'Alisson
  */
 public class MenuPrincipal extends javax.swing.JFrame {
-
+    
     final static String CAMINHO_ARQUIVO_STOP_WORDS = "stop_words/lista_stop_words.txt";
     final static String CAMINHO_OBJETIVOS = "metadados/objetivo.txt";
-    final static String CAMINHO_INSTITUICOES = "metadados/instituicoes.txt";
+    final static String CAMINHO_INSTITUICOES_AUTORES = "metadados/instituicoes.txt";
     final static String CAMINHO_CONTRIBUICAO = "metadados/contribuicao.txt";
     final static String CAMINHO_METODO = "metadados/metodo.txt";
     final static String CAMINHO_PROBLEMA = "metadados/problema.txt";
@@ -57,7 +57,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
         jButtonVisualizarReferencias.setVisible(false);
         jButtonVisualizarStopWords.setVisible(false);
         jButtonVisualizarTermos.setVisible(false);
-
+        
     }
 
     /**
@@ -93,13 +93,16 @@ public class MenuPrincipal extends javax.swing.JFrame {
         jButtonVisualizarObjetivos = new javax.swing.JButton();
         jButtonVisualizarMetodologia = new javax.swing.JButton();
         jButtonVisualizarContribuicao = new javax.swing.JButton();
+        jButtonSelecionarTodos = new javax.swing.JButton();
+        jButtonDesmarcarTodos = new javax.swing.JButton();
         jPanel3 = new javax.swing.JPanel();
         jScrollPane2 = new javax.swing.JScrollPane();
         jTextPaneLog = new javax.swing.JTextPane();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Processamento de Linguagem Natural - Inteligencia Artificial");
-        setMinimumSize(new java.awt.Dimension(800, 600));
+        setMinimumSize(new java.awt.Dimension(1000, 700));
+        setPreferredSize(new java.awt.Dimension(1000, 700));
 
         jLabelTitulo.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jLabelTitulo.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -134,7 +137,6 @@ public class MenuPrincipal extends javax.swing.JFrame {
         jPanel2.setEnabled(false);
 
         jCheckBoxStopWords.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jCheckBoxStopWords.setSelected(true);
         jCheckBoxStopWords.setText("Retirar Stop Words");
         jCheckBoxStopWords.setEnabled(false);
         jCheckBoxStopWords.setName(""); // NOI18N
@@ -163,7 +165,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
         });
 
         jCheckBoxInstituicoesAutores.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jCheckBoxInstituicoesAutores.setText("Identificar Instituições / Autores");
+        jCheckBoxInstituicoesAutores.setText("Identificar Autores / Instituições");
         jCheckBoxInstituicoesAutores.setEnabled(false);
         jCheckBoxInstituicoesAutores.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -272,6 +274,24 @@ public class MenuPrincipal extends javax.swing.JFrame {
             }
         });
 
+        jButtonSelecionarTodos.setIcon(new javax.swing.ImageIcon("C:\\Users\\'Alisson\\Documents\\NetBeansProjects\\AnaliseArtigosIA\\AnaliseArtigosIA\\src\\analiseartigosia\\icones\\check.png")); // NOI18N
+        jButtonSelecionarTodos.setText("Selecionar Todos");
+        jButtonSelecionarTodos.setEnabled(false);
+        jButtonSelecionarTodos.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButtonSelecionarTodosActionPerformed(evt);
+            }
+        });
+
+        jButtonDesmarcarTodos.setIcon(new javax.swing.ImageIcon("C:\\Users\\'Alisson\\Documents\\NetBeansProjects\\AnaliseArtigosIA\\AnaliseArtigosIA\\src\\analiseartigosia\\icones\\unchecked.png")); // NOI18N
+        jButtonDesmarcarTodos.setText("Desmarcar Todos");
+        jButtonDesmarcarTodos.setEnabled(false);
+        jButtonDesmarcarTodos.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButtonDesmarcarTodosActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
@@ -280,46 +300,57 @@ public class MenuPrincipal extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addComponent(jCheckBoxStopWords, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jButtonVisualizarStopWords, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addComponent(jCheckBoxStopWords, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jButtonVisualizarStopWords, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addComponent(jCheckBoxTermos, javax.swing.GroupLayout.DEFAULT_SIZE, 288, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jButtonVisualizarTermos, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addComponent(jCheckBoxReferencias, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jButtonVisualizarReferencias, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addComponent(jCheckBoxInstituicoesAutores, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jButtonVisualizarInstituicoesAutores, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addComponent(jCheckBoxObjetivos, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jButtonVisualizarObjetivos, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addComponent(jCheckBoxProblema, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jButtonVisualizarProblema, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addComponent(jCheckBoxMetodologia, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jButtonVisualizarMetodologia, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addComponent(jCheckBoxContribuicao, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jButtonVisualizarContribuicao, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addComponent(jButtonAnalisarArtigo, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(0, 0, Short.MAX_VALUE)))
+                        .addGap(22, 22, 22))
                     .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addComponent(jCheckBoxTermos, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jButtonSelecionarTodos, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jButtonVisualizarTermos, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addComponent(jCheckBoxReferencias, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jButtonVisualizarReferencias, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addComponent(jCheckBoxInstituicoesAutores, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jButtonVisualizarInstituicoesAutores, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addComponent(jCheckBoxObjetivos, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jButtonVisualizarObjetivos, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addComponent(jCheckBoxProblema, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jButtonVisualizarProblema, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addComponent(jCheckBoxMetodologia, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jButtonVisualizarMetodologia, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addComponent(jCheckBoxContribuicao, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jButtonVisualizarContribuicao, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addComponent(jButtonAnalisarArtigo, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 0, Short.MAX_VALUE)))
-                .addGap(14, 14, 14))
+                        .addComponent(jButtonDesmarcarTodos, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
-                .addContainerGap()
+                .addGap(30, 30, 30)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jButtonSelecionarTodos)
+                    .addComponent(jButtonDesmarcarTodos))
+                .addGap(36, 36, 36)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jCheckBoxStopWords)
                     .addComponent(jButtonVisualizarStopWords, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
@@ -353,7 +384,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
                     .addComponent(jButtonVisualizarContribuicao, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGap(18, 18, 18)
                 .addComponent(jButtonAnalisarArtigo, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap())
+                .addGap(44, 44, 44))
         );
 
         jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder("Log do Sistema"));
@@ -367,11 +398,15 @@ public class MenuPrincipal extends javax.swing.JFrame {
         jPanel3.setLayout(jPanel3Layout);
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 251, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 441, Short.MAX_VALUE))
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane2)
+            .addGroup(jPanel3Layout.createSequentialGroup()
+                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 524, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -405,12 +440,12 @@ public class MenuPrincipal extends javax.swing.JFrame {
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap(36, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         getContentPane().add(jPanel1, java.awt.BorderLayout.CENTER);
 
-        setSize(new java.awt.Dimension(816, 639));
+        setSize(new java.awt.Dimension(1016, 739));
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
@@ -423,6 +458,8 @@ public class MenuPrincipal extends javax.swing.JFrame {
         int userSelection = fileChooser.showSaveDialog(this);
         if (userSelection == JFileChooser.APPROVE_OPTION) {
             resetarTela();
+            jButtonSelecionarTodos.setEnabled(true);
+            jButtonDesmarcarTodos.setEnabled(true);
             jTextFieldSelecaoArquivo.setText(fileChooser.getSelectedFile().getPath());
             caminhoEntrada = jTextFieldSelecaoArquivo.getText();
             jPanel2.setEnabled(true);
@@ -431,7 +468,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
             ativaCamposDeAnalise();
             jTextPaneLog.setText(jTextPaneLog.getText() + "\n"
                     + "Arquivo do caminho " + jTextFieldSelecaoArquivo.getText() + " selecionado.\n");
-
+            
         }
     }//GEN-LAST:event_jButtonSelecionarActionPerformed
 
@@ -461,7 +498,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
 
     private void jButtonVisualizarInstituicoesAutoresActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonVisualizarInstituicoesAutoresActionPerformed
         PopupExibicaoDados popup = new PopupExibicaoDados();
-        popup.carregaDados("Instituições e autores principais", instituicoes);
+        popup.carregaDados("Autores e instituições", instituicoes);
         popup.setVisible(true);
     }//GEN-LAST:event_jButtonVisualizarInstituicoesAutoresActionPerformed
 
@@ -508,11 +545,11 @@ public class MenuPrincipal extends javax.swing.JFrame {
     }//GEN-LAST:event_jCheckBoxReferenciasActionPerformed
 
     private void jCheckBoxTermosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBoxTermosActionPerformed
-        // TODO add your handling code here:
+        jCheckBoxStopWords.setSelected(jCheckBoxTermos.isSelected());
     }//GEN-LAST:event_jCheckBoxTermosActionPerformed
 
     private void jCheckBoxStopWordsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBoxStopWordsActionPerformed
-        // TODO add your handling code here:
+        jCheckBoxTermos.setSelected(jCheckBoxStopWords.isSelected());
     }//GEN-LAST:event_jCheckBoxStopWordsActionPerformed
 
     private void jButtonAnalisarArtigoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonAnalisarArtigoActionPerformed
@@ -524,21 +561,21 @@ public class MenuPrincipal extends javax.swing.JFrame {
             try {
                 if (jCheckBoxStopWords.isSelected()) {
                     textoSemStopWords = extraiStopWords(textoCompleto, CAMINHO_ARQUIVO_STOP_WORDS);
-                    gravaTextoSemStopWords(caminhoSaidaSemStopWords, textoSemStopWords);
+                    //gravaTextoSemStopWords(caminhoSaidaSemStopWords, textoSemStopWords);
                     jTextPaneLog.setText(jTextPaneLog.getText() + "\nTexto sem stop words gerado com sucesso.\n");
                     jButtonVisualizarStopWords.setVisible(true);
-                } else{
+                } else {
                     jButtonVisualizarStopWords.setVisible(false);
                 }
-
+                
                 if (jCheckBoxReferencias.isSelected()) {
                     referencias = extraiReferencias(textoCompleto, CAMINHO_REFERENCIAS);
                     jTextPaneLog.setText(jTextPaneLog.getText() + "Referencias extraídas com sucesso.\n");
                     jButtonVisualizarReferencias.setVisible(true);
-                } else{
+                } else {
                     jButtonVisualizarReferencias.setVisible(false);
                 }
-
+                
                 if (jCheckBoxTermos.isSelected()) {
                     termos = processaTermosMaisCitados(textoSemStopWords);
                     jTextPaneLog.setText(jTextPaneLog.getText() + "Termos mais utilizados gerados com sucesso.\n");
@@ -546,45 +583,45 @@ public class MenuPrincipal extends javax.swing.JFrame {
                 } else {
                     jButtonVisualizarTermos.setVisible(false);
                 }
-
+                
                 if (jCheckBoxInstituicoesAutores.isSelected()) {
-                    instituicoes = identificaInstituicoes(extraiStopWords(leitorDePaginas(caminhoEntrada, 2), CAMINHO_ARQUIVO_STOP_WORDS), CAMINHO_INSTITUICOES);
+                    instituicoes = identificaInstituicoesEAutores(leitorDePaginas(caminhoEntrada, 2), CAMINHO_INSTITUICOES_AUTORES);
                     jTextPaneLog.setText(jTextPaneLog.getText() + "Instituições e autoures gerados com sucesso.\n");
                     jButtonVisualizarInstituicoesAutores.setVisible(true);
                 } else {
                     jButtonVisualizarInstituicoesAutores.setVisible(false);
                 }
                 
-                if(jCheckBoxObjetivos.isSelected()){
-                    objetivos = identificaPropriedade(caminhoEntrada, CAMINHO_ARQUIVO_STOP_WORDS, CAMINHO_OBJETIVOS,5);
+                if (jCheckBoxObjetivos.isSelected()) {
+                    objetivos = identificaPropriedade(caminhoEntrada, CAMINHO_OBJETIVOS, 5);
                     jTextPaneLog.setText(jTextPaneLog.getText() + "Objetivos extraídos com sucesso.\n");
                     jButtonVisualizarObjetivos.setVisible(true);
                 } else {
                     jButtonVisualizarObjetivos.setVisible(false);
                 }
                 
-                if(jCheckBoxMetodologia.isSelected()){
-                    metodo = identificaPropriedade(caminhoEntrada, CAMINHO_ARQUIVO_STOP_WORDS, CAMINHO_METODO,0);
-                    jTextPaneLog.setText(jTextPaneLog.getText()+"Metodologia extraída com sucesso.\n");
+                if (jCheckBoxMetodologia.isSelected()) {
+                    metodo = identificaPropriedade(caminhoEntrada, CAMINHO_METODO, 0);
+                    jTextPaneLog.setText(jTextPaneLog.getText() + "Metodologia extraída com sucesso.\n");
                     jButtonVisualizarMetodologia.setVisible(true);
                 } else {
                     jButtonVisualizarMetodologia.setVisible(false);                    
                 }
                 
-                if(jCheckBoxProblema.isSelected()){
-                    problema = identificaPropriedade(caminhoEntrada, CAMINHO_ARQUIVO_STOP_WORDS, CAMINHO_PROBLEMA,5);
-                    jTextPaneLog.setText(jTextPaneLog.getText()+"Problema extraído com sucesso.\n");
+                if (jCheckBoxProblema.isSelected()) {
+                    problema = identificaPropriedade(caminhoEntrada, CAMINHO_PROBLEMA, 5);
+                    jTextPaneLog.setText(jTextPaneLog.getText() + "Problema extraído com sucesso.\n");
                     jButtonVisualizarProblema.setVisible(true);                    
                 } else {
-                    jButtonVisualizarProblema.setVisible(false);                                        
+                    jButtonVisualizarProblema.setVisible(false);                    
                 }
                 
-                if(jCheckBoxContribuicao.isSelected()){
-                    contribuicao = identificaPropriedade(caminhoEntrada, CAMINHO_ARQUIVO_STOP_WORDS, CAMINHO_CONTRIBUICAO,5);
-                    jTextPaneLog.setText(jTextPaneLog.getText()+"Contribuição extraída com sucesso.\n");
+                if (jCheckBoxContribuicao.isSelected()) {
+                    contribuicao = identificaPropriedade(caminhoEntrada, CAMINHO_CONTRIBUICAO, 5);
+                    jTextPaneLog.setText(jTextPaneLog.getText() + "Contribuição extraída com sucesso.\n");
                     jButtonVisualizarContribuicao.setVisible(true);                    
                 } else {
-                    jButtonVisualizarContribuicao.setVisible(false);                                        
+                    jButtonVisualizarContribuicao.setVisible(false);                    
                 }
                 
             } catch (Exception ex) {
@@ -592,6 +629,28 @@ public class MenuPrincipal extends javax.swing.JFrame {
             }
         }
     }//GEN-LAST:event_jButtonAnalisarArtigoActionPerformed
+
+    private void jButtonSelecionarTodosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonSelecionarTodosActionPerformed
+        jCheckBoxStopWords.setSelected(true);
+        jCheckBoxContribuicao.setSelected(true);
+        jCheckBoxInstituicoesAutores.setSelected(true);
+        jCheckBoxMetodologia.setSelected(true);
+        jCheckBoxObjetivos.setSelected(true);
+        jCheckBoxProblema.setSelected(true);
+        jCheckBoxReferencias.setSelected(true);
+        jCheckBoxTermos.setSelected(true);
+    }//GEN-LAST:event_jButtonSelecionarTodosActionPerformed
+
+    private void jButtonDesmarcarTodosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonDesmarcarTodosActionPerformed
+        jCheckBoxStopWords.setSelected(false);
+        jCheckBoxContribuicao.setSelected(false);
+        jCheckBoxInstituicoesAutores.setSelected(false);
+        jCheckBoxMetodologia.setSelected(false);
+        jCheckBoxObjetivos.setSelected(false);
+        jCheckBoxProblema.setSelected(false);
+        jCheckBoxReferencias.setSelected(false);
+        jCheckBoxTermos.setSelected(false);
+    }//GEN-LAST:event_jButtonDesmarcarTodosActionPerformed
 
     /**
      * @param args the command line arguments
@@ -630,7 +689,9 @@ public class MenuPrincipal extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButtonAnalisarArtigo;
+    private javax.swing.JButton jButtonDesmarcarTodos;
     private javax.swing.JButton jButtonSelecionar;
+    private javax.swing.JButton jButtonSelecionarTodos;
     private javax.swing.JButton jButtonVisualizarContribuicao;
     private javax.swing.JButton jButtonVisualizarInstituicoesAutores;
     private javax.swing.JButton jButtonVisualizarMetodologia;
@@ -659,6 +720,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
     // End of variables declaration//GEN-END:variables
 
     private void ativaCamposDeAnalise() {
+        jCheckBoxStopWords.setEnabled(true);
         jCheckBoxContribuicao.setEnabled(true);
         jCheckBoxInstituicoesAutores.setEnabled(true);
         jCheckBoxMetodologia.setEnabled(true);
@@ -668,7 +730,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
         jCheckBoxTermos.setEnabled(true);
         jButtonAnalisarArtigo.setEnabled(true);
     }
-
+    
     private void resetarTela() {
         jButtonVisualizarContribuicao.setVisible(false);
         jButtonVisualizarInstituicoesAutores.setVisible(false);
@@ -678,6 +740,8 @@ public class MenuPrincipal extends javax.swing.JFrame {
         jButtonVisualizarReferencias.setVisible(false);
         jButtonVisualizarStopWords.setVisible(false);
         jButtonVisualizarTermos.setVisible(false);
+        jCheckBoxStopWords.setEnabled(false);
+        jCheckBoxStopWords.setSelected(false);
         jCheckBoxContribuicao.setEnabled(false);
         jCheckBoxContribuicao.setSelected(false);
         jCheckBoxInstituicoesAutores.setEnabled(false);
